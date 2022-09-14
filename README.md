@@ -1,6 +1,6 @@
 # Website for the programming club!
 
-[programmingclub.com.au](programmingclub.com.au)
+programmingclub.com.au
 
 Rules for contributing:
 
