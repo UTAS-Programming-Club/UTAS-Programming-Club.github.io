@@ -1,4 +1,4 @@
-# Website for the programming club!
+# Website for the Programming Club!
 
 programmingclub.com.au
 
