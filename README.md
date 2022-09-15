@@ -11,4 +11,4 @@ Rules for contributing:
 * Good programming practices should be used (ie. good variable names and comments)
 * Code added to this repo is intellectual property of the programming club and is not open source however open source components that are used in the site are not owned by the club.
 
-Contributions are reviewed by committee members and changes will be live instantly once approved.
+Contributions are reviewed by committee members and changes will be live a couple minutes after approval.
