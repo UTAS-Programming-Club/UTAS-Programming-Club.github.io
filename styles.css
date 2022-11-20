@@ -13,13 +13,53 @@
 body {
     margin: 0
 }
+/* NavBar Styling */
+.navlink:hover {
+    background-color: rgb(169, 182, 214);
+}
 
+.navlink {
+    transition-duration: .2s;
+}
+
+.navlink>a {
+    color: #0f2d61;
+    text-decoration: none;
+    font-family: arial;
+}
+
+#navbar>div {
+    padding: 14px 3%;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky+.content {
+    padding-top: 60px;
+}
+
+#navbar {
+    background-color: rgb(147, 166, 207);
+    height: 50px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+}
+
+
+/* Background */
 #animated-background {
     position: absolute;
     width: 100%;
     height: 100%;
     background-size: 400% 400%;
-    background-image: linear-gradient(45deg, red, blue);
+    background-image: linear-gradient(45deg, rgb(149, 156, 231), rgb(225, 225, 240));
     z-index: -1;
     animation: change 10s infinite;
 }
