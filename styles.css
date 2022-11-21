@@ -108,3 +108,7 @@ h1 {
     /* Add a shadow effect with a hard shadow*/
     text-shadow: 0.2rem 0.2rem 0rem var(--secondary-color);
 }
+
+.tiles {
+    display: inline-block;
+}
