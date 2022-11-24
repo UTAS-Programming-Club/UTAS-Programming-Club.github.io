@@ -22,6 +22,13 @@ body {
     transition-duration: .2s;
 }
 
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .navlink>a {
     color: #0f2d61;
     text-decoration: none;
@@ -63,7 +70,7 @@ body {
     width: 100%;
     height: 100%;
     background-size: 400% 400%;
-    background-image: linear-gradient(45deg, rgb(149, 156, 231), rgb(225, 225, 240));
+    background-image: linear-gradient(45deg, rgb(149, 156, 231), rgb(183, 189, 190));
     z-index: -1;
     animation: change 10s infinite;
 }
