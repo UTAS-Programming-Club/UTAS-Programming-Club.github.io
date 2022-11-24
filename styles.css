@@ -20,6 +20,8 @@ body {
 
 .navlink {
     transition-duration: .2s;
+    display: flex;
+
 }
 
 .center {
@@ -33,10 +35,14 @@ body {
     color: #0f2d61;
     text-decoration: none;
     font-family: arial;
+
+    flex: 1;
+
+    padding: 1rem 3rem;
 }
 
 #navbar>div {
-    padding: 14px 3%;
+    /* padding: 14px 3%; */
 }
 
 .sticky {
