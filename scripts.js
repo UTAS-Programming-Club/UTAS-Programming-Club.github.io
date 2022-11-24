@@ -22,9 +22,11 @@ nav.innerHTML = `
         <div id="navbar">
             <div class="navlink"><a href="../">Home</a></div>
             <div class="navlink"><a href="about.html">About Us</a></div>
-            <div class="navlink"><a href="projects.html">Current Projects</a></div>
-            <div class="navlink"><a href="calendar.html">Calendar</a></div>
-            <div class="navlink"><a href="newsletter.html">Newsletter</a></div>
+            <!-- <div class="navlink"><a href="projects.html">Current Projects</a></div>  Work in progress-->
+
+            <!-- <div class="navlink"><a href="calendar.html">Calendar</a></div>  Work in progress-->
+
+            <!-- <div class="navlink"><a href="newsletter.html">Newsletter</a></div>  Work in progress-->
             <div class="navlink"><a href="membership.html">Membership</a></div>
             <div class="navlink"><a href="contact.html">Contact Us</a></div>  
             
