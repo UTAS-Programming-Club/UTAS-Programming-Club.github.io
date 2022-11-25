@@ -25,10 +25,7 @@ nav.innerHTML = `
             <!-- <div class="navlink"><a href="projects.html">Current Projects</a></div>  Work in progress-->
 
             <!-- <div class="navlink"><a href="calendar.html">Calendar</a></div>  Work in progress-->
-
-            <!-- <div class="navlink"><a href="newsletter.html">Newsletter</a></div>  Work in progress-->
-            <div class="navlink"><a href="minecraft.html">Minecraft</a></div>
-
+            
             <div class="navlink"><a href="membership.html">Membership</a></div>
             <div class="navlink"><a href="contact.html">Contact Us</a></div>  
             
