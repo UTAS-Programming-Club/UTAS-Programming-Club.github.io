@@ -5,12 +5,12 @@ var nav = document.getElementById('nav');
 nav.innerHTML = `
 
 <header>
-    <div style="margin: 1rem; display: flex; justify-content: left;">
+    <div id = "logoEtc" style="margin: 0; display: flex; justify-content: left;">
         <!-- Round logo with a link back home-->
         <a href="../"><img style="border-radius: 50%;" src="../logo.png" alt="programming club logo" height="100rem"></a>
 
         <!-- Title -->
-        <h1 style="margin-left: 1rem;">PROGRAMMING CLUB</h1>
+        <h1 style="margin-left: 1rem; ">PROGRAMMING CLUB</h1>
     </div>
     
     

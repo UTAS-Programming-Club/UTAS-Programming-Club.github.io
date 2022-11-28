@@ -1,9 +1,10 @@
 /* Dark mode :) */
 :root {
     color-scheme: light dark;
-    --primary-color: rgb(255, 255, 255);
-    --secondary-color: #115d6c;
+    --primary-color: #255863;
+    --secondary-color: #a9a9a9;
     --secondary-color-accent: #094552;
+    color: #10353d;
 }
 
 * {
@@ -15,7 +16,7 @@ body {
 }
 /* NavBar Styling */
 .navlink:hover {
-    background-color: rgb(169, 182, 214);
+    background-color: #366975;
 }
 
 .navlink {
@@ -32,7 +33,7 @@ body {
 }
 
 .navlink>a {
-    color: #0f2d61;
+    color: #ffffff;
     text-decoration: none;
     font-family: arial;
 
@@ -56,7 +57,7 @@ body {
 }
 
 #navbar {
-    background-color: rgb(147, 166, 207);
+    background-color: #255863;
     /* height: 50px; */
     margin: 0;
     display: flex;
@@ -76,9 +77,14 @@ body {
     width: 100%;
     height: 100vh;
     background-size: 400% 400%;
-    background-image: linear-gradient(45deg, rgb(59, 65, 129), rgb(183, 189, 190));
+    background-image: linear-gradient(45deg, #7e867e, #ffffff);
     z-index: -1;
-    animation: change 10s infinite;
+    animation: change 5s infinite;
+}
+
+#logoEtc {
+background-color: #D9DCD6;
+padding:1rem;
 }
 
 @keyframes change {
@@ -102,8 +108,7 @@ a.button {
     padding: 0.5em 1em;
     text-decoration: none;
     color: #fff;
-    background-color: var(--secondary-color);
-    border-bottom: solid 4px var(--secondary-color-accent);
+    background-color: var(--primary-color);
     border-radius: 3px;
 
     /* transition */
@@ -111,16 +116,15 @@ a.button {
 }
 
 a.button:hover {
-    background-color: #888;
+    background-color: #366975;
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 2.2em;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    color: #194a54;
 
-    /* Add a shadow effect with a hard shadow*/
-    text-shadow: 0.2rem 0.2rem 0rem var(--secondary-color);
 
     /* keep on same line */
     display: inline-block;
