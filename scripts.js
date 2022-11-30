@@ -36,12 +36,23 @@ nav.innerHTML = `
 <div id="animated-background"></div>
 
 
+<div id="xray-cursor">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink= "http://www.w3.org/1999/xlink">
+  <defs>
+      <clipPath id="mask">
+          <circle id="mask-circle" cx="50%" cy="50%" r="8%"/>
+        </clipPath>
+  </defs>
+  <g clip-path>
+  <circle id="circle-shadow" cx="50%" cy="50%" r="8%" style="stroke: rgb(0, 234, 255); fill: rgb(255, 255, 255); stroke-width: 5;" />
+</svg>
+</div>
 `
 
-//xray cpde starts here (not sure if it should be above or below the innerhtml stuff; i figured js is the last to load anyway so id put it below)
+//xray cpde above and below
 
 /*
- * Noel Delgado | @pixelia_me
+ * BASED ON CODE FROM Noel Delgado | @pixelia_me
  *
 */
 

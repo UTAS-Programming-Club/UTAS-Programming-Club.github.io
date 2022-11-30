@@ -14,6 +14,7 @@
 body {
     margin: 0
 }
+
 /* NavBar Styling */
 .navlink:hover {
     background-color: #366975;
@@ -40,10 +41,6 @@ body {
     flex: 1;
 
     padding: 1rem 3rem;
-}
-
-#navbar>div {
-    /* padding: 14px 3%; */
 }
 
 .sticky {
@@ -135,13 +132,6 @@ h1 {
 }
 
 /*xray code*/
-/*maybe still useful but unsure:
-html,
-body {
-  height: 100%;
-  margin: 0;
-}*/
-
 svg {
   position: fixed;
   mix-blend-mode: difference;
@@ -154,7 +144,3 @@ svg {
   width: 100%;
   height: 100%;
 }
-
-/*span {
-  color: rgba(0,0,0,.4);
-}*/
