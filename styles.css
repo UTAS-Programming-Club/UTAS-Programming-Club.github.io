@@ -152,3 +152,74 @@ a.site-link {
 a.site-link:visited {
 color: rgb(139, 20, 9);
 }
+
+/*three way toggle*/
+#cursor-switch {
+    /* background: #95A5A6; */
+    display: inline-block;
+    padding: 2px 3px;
+    border-radius: 20px;
+    position:fixed;
+    border: 2px solid var(--primary-color);
+    bottom:0;
+    right:0;
+    margin: 10px;
+  }
+  
+  #cursor-switch label {
+    text-align: center;
+    font-family: sans-serif;
+    display: inline-block;
+    color: var(--primary-color);
+    position:relative;
+    z-index:2;
+    margin: 0;
+    text-align: center;
+    padding: 2px 3px;
+    font-size: 15px;
+    /* cursor: pointer; */
+  }
+  
+  #cursor-switch input {
+    /* display: none; */
+    position: absolute;
+    z-index: 3;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  #cursor-switch span {
+    height: 21px;
+    width: 21px;
+    line-height: 21px;
+    border-radius: 50%;
+    background:#fff;
+    display:block;
+    position:absolute;
+    left: 22px;
+    top: 2px;
+    transition:all 0.3s ease-in-out;
+  }
+  
+  #cursor-switch input[value="false"]:checked ~ span{
+    background:var(--primary-color);
+    left:2px;
+    color:#fff;
+  }
+  
+  #cursor-switch input[value="true"]:checked ~ span{
+    background:var(--primary-color);
+    left: 46px;
+  }
+  #cursor-switch input[value="-1"]:checked ~ span{
+    background:var(--primary-color);
+    left: 23px;
+  }
+  
+  #cursor-switch input[value="false"]:checked + label,#cursor-switch input[value="true"]:checked + label{
+    color:#fff;
+  }
+  #cursor-switch input[value="-1"]:checked + label{
+    color:#fff;
+  }
+  

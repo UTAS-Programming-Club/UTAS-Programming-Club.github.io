@@ -47,8 +47,10 @@ nav.innerHTML = `
   <circle id="circle-shadow" cx="50%" cy="50%" r="8%" style="stroke: rgb(0, 234, 255); fill: rgb(255, 255, 255); stroke-width: 5;" />
 </svg>
 </div>
+
 `
 
+//switch button code above: based on code from https://codepen.io/magnus16/pen/grzqMz
 //xray cpde above and below
 
 /*
@@ -85,3 +87,5 @@ document.addEventListener('touchmove', function(e) {
         update(cursorPoint(touch, svgElement));
     }
 }, false);
+
+/*code for switch button (turn off/on the xray effect) to go here*/
