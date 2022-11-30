@@ -60,5 +60,22 @@
         </div>
 
     </div>
+     <!--xray code (from https://codepen.io/noeldelgado/pen/ByxQjL)-->
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink= "http://www.w3.org/1999/xlink">
+        <rect width="100%" height="100%" />
+      
+      </svg> -->
+      
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink= "http://www.w3.org/1999/xlink">
+        <defs>
+          <!--tells the circle to move-->
+            <clipPath id="mask">
+                <circle id="mask-circle" cx="50%" cy="50%" r="8%"/>
+              </clipPath>
+        </defs>
+        <!--defines the circle's colours and filters-->
+        <g clip-path>
+        <circle id="circle-shadow" cx="50%" cy="50%" r="8%" style="stroke: rgb(0, 234, 255); fill: rgb(255, 255, 255); stroke-width: 5;" />
+      </svg>
 </body>
 </html>
