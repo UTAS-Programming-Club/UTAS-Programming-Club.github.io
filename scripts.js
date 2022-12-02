@@ -5,7 +5,7 @@ var nav = document.getElementById('nav');
 nav.innerHTML = `
 
 <header>
-    <div id = "logoEtc" style="margin: 0; display: flex; justify-content: left;">
+    <div id = "logoEtc">
         <!-- Round logo with a link back home-->
         <a href="../"><img style="border-radius: 50%;" src="../logo.png" alt="programming club logo" height="100rem"></a>
 

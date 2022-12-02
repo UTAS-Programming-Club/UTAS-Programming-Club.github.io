@@ -26,6 +26,13 @@ body {
     text-align: center;
 }
 
+#logoEtc {
+    margin: 0; 
+    display: flex; 
+    justify-content: left;
+}
+
+
 
 /* NavBar Styling */
 .navlink:hover {
@@ -271,4 +278,29 @@ a.site-link:visited {
     left: -100px;
     width: 100vw;
     height: 100vh;
+}
+
+
+/* on mobile */
+@media screen and (max-width: 600px) {
+    .content {
+        width: 100%;
+    }
+    #logoEtc {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* Make sure any text doesn't get too close to the edge of the screen */
+    p {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
 }
