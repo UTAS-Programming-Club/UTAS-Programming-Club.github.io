@@ -32,7 +32,10 @@ body {
     justify-content: left;
     padding: 1rem;
     width: 100%;
-    max-width: 75rem;
+
+
+    /* Good idea below but looks bad */
+    /* max-width: 75rem; */
 }
 
 #logoEtcWrapper {
