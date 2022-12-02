@@ -23,15 +23,37 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: justify;
 }
 
 #logoEtc {
     margin: 0; 
     display: flex; 
     justify-content: left;
+    padding: 1rem;
+    width: 100%;
+    max-width: 75rem;
 }
 
+#logoEtcWrapper {
+    
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.PROGRAMMING_CLUB{
+    margin-left: 1rem; 
+    margin-right: 1rem;
+    /* Align the text in the center vertically */
+    display: flex;
+    align-items: center;
+
+}
+
+header {
+    background-color: #D9DCD6;
+}
 
 
 /* NavBar Styling */
@@ -96,11 +118,6 @@ body {
     background-image: linear-gradient(45deg, #7e867e, #ffffff);
     z-index: -1;
     animation: change 5s infinite;
-}
-
-#logoEtc {
-    background-color: #D9DCD6;
-    padding: 1rem;
 }
 
 @keyframes change {
@@ -278,6 +295,11 @@ a.site-link:visited {
     left: -100px;
     width: 100vw;
     height: 100vh;
+}
+
+p {
+    /* limit the width of paragraph lines to make more readable */
+    max-width: 64ch;
 }
 
 
