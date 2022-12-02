@@ -153,6 +153,7 @@ h6 {
 
 /*xray code*/
 svg {
+    opacity: 0; /* hide this for now */
     position: fixed;
     mix-blend-mode: difference;
     pointer-events: none;
@@ -244,4 +245,30 @@ a.site-link:visited {
 
 #cursor-switch input[value="-1"]:checked+label {
     color: #fff;
+}
+
+
+
+.portal-wrapper {
+    display: block;
+    overflow: hidden;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    transform: translateZ(0px);
+    border: 0px solid #eee;
+
+    /* Cannot interact with this element */
+    pointer-events: none;
+  }
+
+.portal {
+    position: fixed;
+    top: -100px;
+    left: -100px;
+    width: 100vw;
+    height: 100vh;
 }

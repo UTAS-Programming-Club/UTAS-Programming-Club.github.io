@@ -63,9 +63,24 @@ var maskedElement = document.querySelector('#mask-circle');
 var circleFeedback = document.querySelector('#circle-shadow');
 var svgPoint = svgElement.createSVGPoint();
 
+//get the portal wrapper and the portal
+var portalContainer = document.getElementById('portalWrapper');
+var portal = document.getElementById('portal');
+
 function cursorPoint(e, svg) {
     svgPoint.x = e.clientX;
     svgPoint.y = e.clientY;
+    
+
+    //update the portal position
+    x = e.clientX - 75; //75 is half the width of the portal
+    y = e.clientY - 75; //75 is half the height of the portal
+    portal.style.left =  (-x) + 'px';
+    portal.style.top = (-y) + 'px';
+
+    portalContainer.style.left = x + 'px';
+    portalContainer.style.top = y + 'px';
+
     return svgPoint.matrixTransform(svg.getScreenCTM().inverse());
 }
 
@@ -74,6 +89,8 @@ function update(svgCoords) {
     maskedElement.setAttribute('cy', svgCoords.y);
     circleFeedback.setAttribute('cx', svgCoords.x);
     circleFeedback.setAttribute('cy', svgCoords.y);
+
+    
 }
 
 window.addEventListener('mousemove', function(e) {

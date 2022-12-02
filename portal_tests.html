@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- include scripts.js and only run when ready -->
+    <script src="../scripts.js" defer></script>
+    <link rel='stylesheet' type='text/css' href='./styles.css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <style>
+        /* Change the style to make it obvious */
+
+        /* Background */
+        #animated-background {
+            background-image: linear-gradient(45deg, #000000, #775d5d);
+            
+        }
+
+        :root {
+                color-scheme: light;
+                --primary-color: #b2c02f;
+                --secondary-color: #12ccad;
+                --secondary-color-accent: #6f45b3;
+                color: #b9338c;
+                --hover: #a749be;
+            }
+    </style>
+    <title>Programming Club: Home</title>
+</head>
+
+<body>
+    <div id="nav"></div>
+
+    
+
+    <!-- Center everything -->
+    <div style="text-align: center;">
+
+        <h2>The Programming Club at UTAS!</h2>
+
+        <!-- links to socials as a list -->
+
+    </div>
+    <div class="content">
+        <p>Whether you're an absolute beginner or a seasoned professional; ICT student, faculty member, or just an interested person; the Programming Club will facilitate the pursuit of programming and project management proficiency at any level! </p>    
+           <p> Join us for social events, weekly club meet-ups, professional development and networking opportunities, ongoing club projects, a thriving Discord community, club Minecraft-server access, ROBOTS(!!!!), and more! </p>
+           <br>
+    <h3>You dream it; we help you do it</h3>
+    
+</div>
+
+    <div id="xray-cursor"></div>
+    <div id="cursor-switch">
+        <input type="radio" name="toggle" value="false">
+        <label class="toggle toggle-yes"><i class="fa fa-times"></i></label>
+        <input checked type="radio" name="toggle" value="-1">
+        <label class="toggle toggle-yes"><i class="fa fa-minus"></i></label>
+        <input type="radio" name="toggle" value="true">
+        <label class="toggle toggle-yes"><i class="fa fa-check"></i></label>
+        <span></span> 
+    </div>
+
+    <div id="portalWrapper" class="portal-wrapper">
+        <iframe id="portal" class="portal" src="http://www.programmingclub.com.au/" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+
+</body>
+
+</html>
