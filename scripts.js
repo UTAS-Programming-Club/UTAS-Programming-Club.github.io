@@ -10,7 +10,7 @@ nav.innerHTML = `
         <a href="../"><img style="border-radius: 50%;" src="../logo.png" alt="programming club logo" height="100rem"></a>
 
         <!-- Title -->
-        <h1 style="margin-left: 1rem; ">PROGRAMMING CLUB</h1>
+        <h1 class="PROGRAMMING_CLUB" style="margin-left: 1rem; margin-right: 1rem;">PROGRAMMING CLUB</h1>
     </div>
     
     
