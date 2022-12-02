@@ -5,12 +5,15 @@ var nav = document.getElementById('nav');
 nav.innerHTML = `
 
 <header>
-    <div id = "logoEtc">
-        <!-- Round logo with a link back home-->
-        <a href="../"><img style="border-radius: 50%;" src="../logo.png" alt="programming club logo" height="100rem"></a>
 
-        <!-- Title -->
-        <h1 class="PROGRAMMING_CLUB" style="margin-left: 1rem; margin-right: 1rem;">PROGRAMMING CLUB</h1>
+    <div id = "logoEtcWrapper">
+        <div id = "logoEtc">
+            <!-- Round logo with a link back home-->
+            <a href="../"><img style="border-radius: 50%;" src="../logo.png" alt="programming club logo" height="100rem"></a>
+
+            <!-- Title -->
+            <h1 class="PROGRAMMING_CLUB">PROGRAMMING CLUB</h1>
+        </div>
     </div>
     
     
