@@ -16,6 +16,17 @@ body {
     margin: 0
 }
 
+.content {
+    display: flex;
+    width: 60%;
+    margin: 0 auto 3% auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
 /* NavBar Styling */
 .navlink:hover {
     background-color: var(--hover);
@@ -81,8 +92,8 @@ body {
 }
 
 #logoEtc {
-background-color: #D9DCD6;
-padding:1rem;
+    background-color: #D9DCD6;
+    padding: 1rem;
 }
 
 @keyframes change {
@@ -108,6 +119,7 @@ a.button {
     color: #fff;
     background-color: var(--primary-color);
     border-radius: 3px;
+    margin: 1em;
 
     /* transition */
     transition: .4s;
@@ -119,8 +131,14 @@ a.button:hover {
 
 h1 {
     font-size: 2.2em;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: #194a54;
 
 
@@ -128,29 +146,31 @@ h1 {
     display: inline-block;
 }
 
+
 .tiles {
     display: inline-block;
 }
 
 /*xray code*/
 svg {
-  position: fixed;
-  mix-blend-mode: difference;
-  pointer-events: none;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: block;
-  width: 100%;
-  height: 100%;
+    position: fixed;
+    mix-blend-mode: difference;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 
 a.site-link {
-    color:rgb(250, 75, 0);
+    color: rgb(250, 75, 0);
 }
+
 a.site-link:visited {
-color: rgb(139, 20, 9);
+    color: rgb(139, 20, 9);
 }
 
 /*three way toggle*/
@@ -159,67 +179,69 @@ color: rgb(139, 20, 9);
     display: inline-block;
     padding: 2px 3px;
     border-radius: 20px;
-    position:fixed;
+    position: fixed;
     border: 2px solid var(--primary-color);
-    bottom:0;
-    right:0;
+    bottom: 0;
+    right: 0;
     margin: 10px;
-  }
-  
-  #cursor-switch label {
+}
+
+#cursor-switch label {
     text-align: center;
     font-family: sans-serif;
     display: inline-block;
     color: var(--primary-color);
-    position:relative;
-    z-index:2;
+    position: relative;
+    z-index: 2;
     margin: 0;
     text-align: center;
     padding: 2px 3px;
     font-size: 15px;
     /* cursor: pointer; */
-  }
-  
-  #cursor-switch input {
+}
+
+#cursor-switch input {
     /* display: none; */
     position: absolute;
     z-index: 3;
     opacity: 0;
     cursor: pointer;
-  }
-  
-  #cursor-switch span {
+}
+
+#cursor-switch span {
     height: 21px;
     width: 21px;
     line-height: 21px;
     border-radius: 50%;
-    background:#fff;
-    display:block;
-    position:absolute;
+    background: #fff;
+    display: block;
+    position: absolute;
     left: 22px;
     top: 2px;
-    transition:all 0.3s ease-in-out;
-  }
-  
-  #cursor-switch input[value="false"]:checked ~ span{
-    background:var(--primary-color);
-    left:2px;
-    color:#fff;
-  }
-  
-  #cursor-switch input[value="true"]:checked ~ span{
-    background:var(--primary-color);
+    transition: all 0.3s ease-in-out;
+}
+
+#cursor-switch input[value="false"]:checked~span {
+    background: var(--primary-color);
+    left: 2px;
+    color: #fff;
+}
+
+#cursor-switch input[value="true"]:checked~span {
+    background: var(--primary-color);
     left: 46px;
-  }
-  #cursor-switch input[value="-1"]:checked ~ span{
-    background:var(--primary-color);
+}
+
+#cursor-switch input[value="-1"]:checked~span {
+    background: var(--primary-color);
     left: 23px;
-  }
-  
-  #cursor-switch input[value="false"]:checked + label,#cursor-switch input[value="true"]:checked + label{
-    color:#fff;
-  }
-  #cursor-switch input[value="-1"]:checked + label{
-    color:#fff;
-  }
-  
+}
+
+#cursor-switch input[value="false"]:checked+label,
+#cursor-switch input[value="true"]:checked+label {
+    color: #fff;
+}
+
+#cursor-switch input[value="-1"]:checked+label {
+    color: #fff;
+}
