@@ -150,6 +150,9 @@ a.button {
 
     /* transition */
     transition: .4s;
+
+    /* Some shadow */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.384); */
 }
 
 a.button:hover {
@@ -306,6 +309,19 @@ p {
 }
 
 
+.photo {
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 40rem;
+
+    /* Some shadow */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.158);
+
+    margin: 1rem;
+
+}
+
+
 /* on mobile */
 @media screen and (max-width: 600px) {
     .content {
@@ -328,4 +344,10 @@ p {
         margin-left: 1rem;
         margin-right: 1rem;
     }
+
+    .photo {
+        max-width: 100%;
+        border-radius: 0;
+    }
 }
+
