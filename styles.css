@@ -351,3 +351,15 @@ p {
     }
 }
 
+#minecraft-list a:link{
+   color: rgb(202, 7, 7);
+}
+
+#minecraft-list a:visited{
+    color: rgb(152, 0, 0);
+}
+
+#minecraft-list a:hover{
+color: rgb(232, 58, 58);
+}
+
