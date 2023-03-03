@@ -318,7 +318,12 @@ p {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.158);
 
     margin: 1rem;
+	transition: transform 0.1s;
 
+}
+
+.photo:hover {
+	transform: scale(1.05);
 }
 
 
