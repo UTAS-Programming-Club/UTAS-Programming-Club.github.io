@@ -27,8 +27,8 @@ body {
 }
 
 #logoEtc {
-    margin: 0; 
-    display: flex; 
+    margin: 0;
+    display: flex;
     justify-content: left;
     padding: 1rem;
     width: 100%;
@@ -39,14 +39,14 @@ body {
 }
 
 #logoEtcWrapper {
-    
+
     display: flex;
     justify-content: center;
     width: 100vw;
 }
 
-.PROGRAMMING_CLUB{
-    margin-left: 1rem; 
+.PROGRAMMING_CLUB {
+    margin-left: 1rem;
     margin-right: 1rem;
     /* Align the text in the center vertically */
     display: flex;
@@ -183,7 +183,8 @@ h6 {
 
 /*xray code*/
 svg {
-    opacity: 0; /* hide this for now */
+    opacity: 0;
+    /* hide this for now */
     position: fixed;
     mix-blend-mode: difference;
     pointer-events: none;
@@ -293,7 +294,7 @@ a.site-link:visited {
 
     /* Cannot interact with this element */
     pointer-events: none;
-  }
+}
 
 .portal {
     position: fixed;
@@ -318,12 +319,12 @@ p {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.158);
 
     margin: 1rem;
-	transition: transform 0.1s;
+    transition: transform 0.1s;
 
 }
 
 .photo:hover {
-	transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 
@@ -332,6 +333,7 @@ p {
     .content {
         width: 100%;
     }
+
     #logoEtc {
         flex-direction: column;
         align-items: center;
@@ -354,22 +356,35 @@ p {
         max-width: 100%;
         border-radius: 0;
     }
+
+    #calendar-iframe {
+        width: 60%;
+        height: 100%;
+    }
+
+
 }
 
-#minecraft-list a:link{
-   color: rgb(202, 7, 7);
+#minecraft-list a:link {
+    color: rgb(202, 7, 7);
 }
 
-#minecraft-list a:visited{
+#minecraft-list a:visited {
     color: rgb(152, 0, 0);
 }
 
-#minecraft-list a:hover{
-color: rgb(232, 58, 58);
+#minecraft-list a:hover {
+    color: rgb(232, 58, 58);
 }
-
 
 #calendar {
-    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 2%;
 }
 
+#calendar-iframe {
+    width: 700px;
+    height: 400px;
+}
