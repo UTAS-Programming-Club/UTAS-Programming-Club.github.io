@@ -171,6 +171,7 @@ h5,
 h6 {
     color: #194a54;
 
+    padding: 1rem;
 
     /* keep on same line */
     display: inline-block;
