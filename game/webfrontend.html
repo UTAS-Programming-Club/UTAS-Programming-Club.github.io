@@ -57,8 +57,21 @@
             function action_click(index) {
                 let actions = runner.game.currentScreen.GetActions(runner.game);
                 let type = runner.GetActionType(actions[index]);
-                runner.game.HandleGameInput(type);
-                update_output();
+
+                let outcome = runner.game.HandleGameInput(type).toString();
+                switch(outcome) {
+                    case runner.backend_ScreenActionOutcome.GetNextOutput.toString():
+                        update_output();
+                        break;
+                    case runner.backend_ScreenActionOutcome.QuitGame.toString():
+                        output = document.getElementById("game-output");
+                        output.textContent = "Game is over";
+                        break;
+                    default:
+                        output = document.getElementById("game-output");
+                        output.textContent = "Unable to process selected action";
+                        break;
+                }
             }
         </script>
 

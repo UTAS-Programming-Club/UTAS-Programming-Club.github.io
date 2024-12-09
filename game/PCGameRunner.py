@@ -1,4 +1,4 @@
-from PCGame import backend_GameState, backend_ScreenAction, backend_ScreenActionType
+from PCGame import backend_GameState, backend_ScreenAction, backend_ScreenActionType, backend_ScreenActionOutcome
 
 game = backend_GameState()
 
