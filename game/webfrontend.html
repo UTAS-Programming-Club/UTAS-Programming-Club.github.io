@@ -43,7 +43,7 @@
       
             function update_output() {
                 output = document.getElementById("game-output");
-                output.textContent = runner.game.currentScreen.body;
+                output.textContent = runner.game.currentScreen.GetBody(runner.game);
                 output.insertAdjacentHTML("beforeend", "<br /><br /><br /><br />");
 
                 let actions = runner.game.currentScreen.GetActions(runner.game);
