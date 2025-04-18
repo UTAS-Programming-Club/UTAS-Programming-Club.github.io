@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- include scripts.js and only run when ready -->
+    <script src="scripts.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/pyodide/v0.26.4/full/pyodide.js" onload="start_pcgame()" defer></script>
+    <link rel='stylesheet' type='text/css' href='styles.css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <title>Programming Club: Home</title>
+</head>
+
+<body>
+    <div id="nav"></div>
+
+    <!-- Center everything -->
+    <div class="content">
+
+        <h1>Untitled Text Adventure Demo</h1>
+
+        <p id="game-output" style="white-space: pre; font-family: monospace; font-size: xx-large;">Loading Game</p>
+        <script type="text/javascript" defer>
+            var runner;
+
+            async function start_pcgame() {
+                let pyodide = await loadPyodide();
+                await pyodide.runPythonAsync(`
+                  from pyodide.http import pyfetch
+                  game = await pyfetch("PCGame.py")
+                  with open("PCGame.py", "wb") as file:
+                      file.write(await game.bytes())
+                  runner = await pyfetch('PCGameRunner.py')
+                  with open("PCGameRunner.py", "wb") as file:
+                      file.write(await runner.bytes())
+                `);
+
+                runner = pyodide.pyimport("PCGameRunner");      
+                update_output();
+            }
+      
+            function update_output() {
+                output = document.getElementById("game-output");
+                output.textContent = runner.game.currentScreen.GetBody(runner.game);
+                output.insertAdjacentHTML("beforeend", "<br /><br /><br /><br />");
+
+                let actions = runner.game.currentScreen.GetActions(runner.game);
+                actions.forEach(function (action, index) {
+                    output.insertAdjacentHTML("beforeend", 
+                      '<button type="button" style="margin-right: 10px" onclick="action_click(' + index + ')">' + action.title + "</button>"
+                    )
+                })
+            }
+      
+            function action_click(index) {
+                let actions = runner.game.currentScreen.GetActions(runner.game);
+                let type = runner.GetActionType(actions[index]);
+
+                let outcome = runner.game.HandleGameInput(type).toString();
+                switch(outcome) {
+                    case runner.backend_ScreenActionOutcome.GetNextOutput.toString():
+                        update_output();
+                        break;
+                    case runner.backend_ScreenActionOutcome.QuitGame.toString():
+                        output = document.getElementById("game-output");
+                        output.textContent = "Game is over";
+                        break;
+                    default:
+                        output = document.getElementById("game-output");
+                        output.textContent = "Unable to process selected action";
+                        break;
+                }
+            }
+        </script>
+
+    </div>
+    <div id="xray-cursor"></div>
+</body>
+</html>
