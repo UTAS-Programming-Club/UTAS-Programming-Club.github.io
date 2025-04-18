@@ -9,9 +9,9 @@ To focus our learning and efforts, the Club runs various projects which members 
 If anyone has any questions for the Club, please send us a message via either Discord or [Email](mailto: contact@programmingclub.com.au).
 
 <picture>
-  <source srcset="assets/2023-2024/meetup-2-cropped.avif" type="image/avif">
-  <source srcset="assets/2023-2024/meetup-2-cropped.webp" type="image/webp">
-  ![Club members in a large room with a big screen at a weekly meetup](assets/2023-2024/meetup-2-cropped.jpg "A weekly meetup at the Sandy Bay Campus"){class="img-fluid"}
+  <source srcset="assets/2022-2023/meetup-2-cropped.avif" type="image/avif">
+  <source srcset="assets/2022-2023/meetup-2-cropped.webp" type="image/webp">
+  ![Club members in a large room with a big screen at a weekly meetup](assets/2022-2023/meetup-2-cropped.jpg "A weekly meetup at the Sandy Bay Campus"){class="img-fluid"}
 </picture>
 
 
