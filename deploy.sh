@@ -19,6 +19,7 @@ git"$GITEXT" worktree add -fq output/ pages
 git"$GITEXT" -C output/ rm -rq .
 
 touch output/.nojekyll
+printf "programmingclub.com.au" > output/CNAME
 . ./build.sh
 git"$GITEXT" -C output/ add .
 
