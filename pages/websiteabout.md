@@ -29,7 +29,7 @@ Website info:
 * Git commit author(s): %BUILD_COMMIT_AUTHOR%
 <!-- TODO: Parse to local time with js? -->
 * Git commit time: %BUILD_COMMIT_TIME%
-* Git commit branch: [%BUILD_COMMIT_BRANCH%](hhttps://github.com/UTAS-Programming-Club/UTAS-Programming-Club.github.io/tree/%BUILD_COMMIT_BRANCH%)
+* Git commit branch: [%BUILD_COMMIT_BRANCH%](https://github.com/UTAS-Programming-Club/UTAS-Programming-Club.github.io/tree/%BUILD_COMMIT_BRANCH%)
 
 [None: Using a js based dark mode system with full persistance between pages and browser level support. Try without js to see the differences!]{class="js-only" hidden="hidden"}
 <noscript>
