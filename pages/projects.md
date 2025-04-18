@@ -130,7 +130,7 @@ Use the numbers below to make a selection.
  * [Some ideas and a partial development history](https://github.com/UTAS-Programming-Club/UntitledTextAdventure/wiki)
  * [Discord bot plugin to use original game](https://github.com/UTAS-Programming-Club/DiscordBot/blob/main/PCBot/plugins/textadventure.py)
  * [Discord bot plugin to use haxe rewrite](https://github.com/UTAS-Programming-Club/DiscordBot/blob/main/PCBot/plugins/textadventurenew.py)
- * [Web build for haxe rewrite](https://programmingclub.com.au/game/webfrontend.html), note that this is on our old website
+ * [Web build for haxe rewrite](game/webfrontend.html), note that this is on our old website which has some broken links
 
 ### Discord Bot
 Developed for our Discord server, the Club's own Discord bot comes with a variety of minigames supporting both singleplayer and multiplayer including tictactoe and minesweeper.
