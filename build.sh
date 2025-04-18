@@ -90,6 +90,7 @@ done
 cp assets/script.js output/assets/script.js
 cp assets/style.css output/assets/style.css
 cp assets/"Programming Club Constitution.pdf" output/assets/"Programming Club Constitution.pdf"
+cp -r game/ output/game/
 
 # From https://stackoverflow.com/a/63869938
 # Replaces ${1%.*} which somehow causes a seg fault with cosmo dash when assigned to a var
