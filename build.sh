@@ -140,6 +140,7 @@ wait
 process_image assets/2021-2022/first_meetup.jpg     "-resize  960x502 -density  960x502" &
 process_image assets/2022-2023/holiday-meetup-1.jpg "-resize  720x540 -density  720x540" &
 process_image assets/2022-2023/meetup-2.jpg         "-resize  921x691 -density  921x691" &
+process_image assets/2022-2023/meetup-2-cropped.jpg "-resize 2304x679 -density 2304x679" &
 process_image assets/2023-2024/meetup.jpg           "-resize 1008x567 -density 1008x567"
 wait
 
