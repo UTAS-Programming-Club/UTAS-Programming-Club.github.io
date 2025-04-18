@@ -258,5 +258,5 @@ Let us know what you would like to see!
 
 [Links:]{class="list-heading"}
 
- * [Our updated website's source code](https://github.com/UTAS-Programming-Club/testwebsite)
- * [Our legacy website's source code](https://github.com/UTAS-Programming-Club/UTAS-Programming-Club.github.io), while it still exists
+ * [Our updated website's source code](https://github.com/UTAS-Programming-Club/UTAS-Programming-Club.github.io/)
+ * [Our legacy website's source code](https://github.com/UTAS-Programming-Club/UTAS-Programming-Club.github.io/tree/legacy), which is still used for the game currently
