@@ -6,7 +6,6 @@ css-late: assets/style.css
 
 author-meta: Programming Club
 description-meta: Join us for weekly club meet-ups, professional development and networking opportunities, ongoing club projects, a thriving Discord community, and more!
-robots-meta: noindex
 
 # TODO: Allow setting url and image per page, also add og:site_name
 url-og: programmingclub.com.au/
