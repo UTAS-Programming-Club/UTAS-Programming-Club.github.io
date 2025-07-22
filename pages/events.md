@@ -65,10 +65,10 @@ In 2025, our meetups run from 2:30 PM to 4:30 PM on Thursdays in [Centenary 140]
 
 ### Game Jams
 We are proud to send Club members to various game jam events across the past few years including the [UTas School of ICT Jam](https://itch.io/jam/utas-jam) in 2022, [Tas Game Makers' TasJam](https://itch.io/jam/tasjam-2024) in 2024 and [Apple Box Studio's Game Jam Tas](https://globalgamejam.org/jam-sites/2025/global-game-jam-tasmania)(part of the Global Game Jam) in early 2025.
+Most recently we ran our own [PCJam25](https://itch.io/jam/utas-pcjam-2025) which had some great submissions.
 Hopefully these will continue into 2025 and beyond!
 
-We also have our own jam coming up in few weeks, see our [itch.io](https://itch.io/jam/utas-pcjam-2025) page for more info.
-
+<!-- TODO: Add pictures of PCJam25 -->
 [Toggle TasJam pictures](#industryPictures){role="button" data-bs-toggle="collapse" data-bs-target="#tasJamPictures" aria-expanded="true" aria-controls="tasJamPictures"}
 
 ::: {id="tasJamPictures" class="carousel slide multi-collapse show"}
