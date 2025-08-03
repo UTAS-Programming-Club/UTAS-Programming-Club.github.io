@@ -94,6 +94,7 @@ General Members have no specific responsibilies but are required to assist with 
 
 * Tran (Luke), Hau Duc, elected at 2024 AGM on 11/10/2024
 * Md Ashiquzzaman, elected at a Committee Meeting on 21/03/2025
+* Md Rifat Bin Yusuf, elected at a Committee Meeting on 3/08/2025
 * Oliver Kulinski, elected at 2024 SGM on 18/03/2024
 
 #### Unfilled positions
@@ -105,7 +106,6 @@ General Members have no specific responsibilies but are required to assist with 
   The Event Officers(s) would plan and help run the Club's events.
 * Northern Marketing Officer  
   The Northern Marketing Officer would prepare and distribute advertising material, and try to get members to attend the Club's events, focusing on northern Tasmania.
-* One General Member position
 
 Members are encouraged to contact us if they are at all interested in running for these positions as we would love some assistance.
 
