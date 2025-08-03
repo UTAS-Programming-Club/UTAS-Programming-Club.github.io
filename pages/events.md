@@ -66,18 +66,27 @@ In 2025, our meetups run from 2:30 PM to 4:30 PM on Thursdays in [Centenary 140]
 ### Game Jams
 We are proud to send Club members to various game jam events across the past few years including the [UTas School of ICT Jam](https://itch.io/jam/utas-jam) in 2022, [Tas Game Makers' TasJam](https://itch.io/jam/tasjam-2024) in 2024 and [Apple Box Studio's Game Jam Tas](https://globalgamejam.org/jam-sites/2025/global-game-jam-tasmania)(part of the Global Game Jam) in early 2025.
 Most recently we ran our own [PCJam25](https://itch.io/jam/utas-pcjam-2025) which had some great submissions.
-Hopefully these will continue into 2025 and beyond!
+Hopefully these will continue for the rest of 2025 and beyond!
 
 <!-- TODO: Add pictures of PCJam25 -->
-[Toggle TasJam pictures](#industryPictures){role="button" data-bs-toggle="collapse" data-bs-target="#tasJamPictures" aria-expanded="true" aria-controls="tasJamPictures"}
+[Toggle game jam pictures](#industryPictures){role="button" data-bs-toggle="collapse" data-bs-target="#tasJamPictures" aria-expanded="true" aria-controls="tasJamPictures"}
 
 ::: {id="tasJamPictures" class="carousel slide multi-collapse show"}
 :::: carousel-indicators
 <button type="button" data-bs-target="#tasJamPictures" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
 <button type="button" data-bs-target="#tasJamPictures" data-bs-slide-to="1" aria-label="Slide 2"></button>
+<button type="button" data-bs-target="#tasJamPictures" data-bs-slide-to="2" aria-label="Slide 3"></button>
+<button type="button" data-bs-target="#tasJamPictures" data-bs-slide-to="3" aria-label="Slide 4"></button>
 ::::
 :::: {class="carousel-inner pb-4"}
 ::::: {class="carousel-item active"}
+<picture>
+  <source srcset="assets/2024-2025/pcjam25-1.avif" type="image/avif">
+  <source srcset="assets/2024-2025/pcjam25-1.webp" type="image/webp">
+  ![Some participants talking during PCJam25](assets/2024-2025/pcjam25-1.png){class="d-block m-auto w-auto"}
+</picture>
+:::::
+::::: carousel-item
 <picture>
   <source srcset="assets/2023-2024/tasjam-2.avif" type="image/avif">
   <source srcset="assets/2023-2024/tasjam-2.webp" type="image/webp">
@@ -89,6 +98,13 @@ Hopefully these will continue into 2025 and beyond!
   <source srcset="assets/2023-2024/tasjam-1.avif" type="image/avif">
   <source srcset="assets/2023-2024/tasjam-1.webp" type="image/webp">
   ![Some participants of the 2024 TasJam working on their games](assets/2023-2024/tasjam-1.png){class="d-block m-auto w-auto"}
+</picture>
+:::::
+::::: carousel-item
+<picture>
+  <source srcset="assets/2024-2025/pcjam25-2.avif" type="image/avif">
+  <source srcset="assets/2024-2025/pcjam25-2.webp" type="image/webp">
+  ![Some participants of the PCJam25 after the event](assets/2024-2025/pcjam25-2.png){class="d-block m-auto w-auto"}
 </picture>
 :::::
 ::::

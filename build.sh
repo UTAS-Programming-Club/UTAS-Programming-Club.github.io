@@ -146,8 +146,10 @@ process_image assets/2022-2023/meetup-2-cropped.jpg "-resize 2304x679 -density 2
 process_image assets/2023-2024/meetup.jpg           "-resize 1008x567 -density 1008x567"
 wait
 
-process_image assets/2023-2024/tasjam-1.jpg "-resize 806x604 -density 806x604" &
-process_image assets/2023-2024/tasjam-2.jpg "-resize 806x604 -density 806x604"
+process_image assets/2023-2024/tasjam-1.jpg "-resize 805x604 -density 805x604" &
+process_image assets/2023-2024/tasjam-2.jpg "-resize 805x604 -density 805x604" &
+process_image assets/2024-2025/pcjam25-1.png "-resize 805x453 -density 805x453" &
+process_image assets/2024-2025/pcjam25-2.jpg "-resize 805x604 -density 805x604"
 wait
 
 process_image assets/2022-2023/industry-night-1.jpg "-resize 1008x496 -density 1008x496" &
