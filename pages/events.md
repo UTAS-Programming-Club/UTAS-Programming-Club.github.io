@@ -129,7 +129,7 @@ The next one is planned for the 15th of April in Week 8, hopefully we well see y
 The Programming Club has helped organise the annual STEM ball and many of our members have attended ever since the inaugural ball in 2023.
 The STEM Ball is run by the UTAS clubs in the STEM fields (minus engineering), and is their social highlight of the year.
 
-The next STEM ball will be on 20 September 2025. Tickets will be $80 for members of any of the associated clubs and $90 otherwise. We should have the Rubric ticket sale page up soon with some more details.
+The next STEM ball will be on 20 September 2025. Tickets will be $80 for members of any of the associated clubs and $90 otherwise. see the [Rubric page](https://campus.hellorubric.com/?eid=35210) for more info.
 
 <!-- TODO: Link to Stem BBQ Rubric sign up page once up -->
 ### BBQs
