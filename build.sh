@@ -83,6 +83,7 @@ for output_page in $PAGES; do
              -e "s/%BUILD_COMMIT%/$BUILD_COMMIT/g" -e "s/%BUILD_COMMIT_AUTHOR%/$BUILD_COMMIT_AUTHORS/"\
              -e "s/%BUILD_COMMIT_TIME%/$BUILD_COMMIT_TIME/" -e "s/%BUILD_COMMIT_BRANCH%/$BUILD_COMMIT_BRANCH/g"\
              -e 's#%ALERT(\(.*\))%#<div class="alert alert-info alert-dismissible fade show mx-2 mx-sm-3" role="alert">\n          \1\n          <button type="button" class="btn-close vertical-centre-button" data-bs-dismiss="alert" aria-label="Close"></button>\n        </div>#'\
+             -e '/<!-- TODO: .*-->/d'\
              -e 's#^<h\([123456]\)\(.*\)id="\([^"]*\)"\(.*\)</h\1>#<h\1\2id="\3"><span\4</span><a class="ms-2" href="\#\3"><svg class="heading-anchor-icon"><title>Link icon</title></svg></a></h\1>#'\
              "output/$output_page.html"
   rm "output/$output_page.html.tmp"
