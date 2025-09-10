@@ -206,6 +206,10 @@ p:has(> .list-heading) {
   #dark-mode-toggle:not(:checked) ~ #background .carousel > button {
     filter: invert(1) grayscale(100);
   }
+
+  #dark-mode-toggle:checked ~ #background .btn-close {
+    filter: invert(1) grayscale(100%) brightness(200%);
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -272,5 +276,9 @@ p:has(> .list-heading) {
 
   #dark-mode-toggle:checked ~ #background .carousel > button {
     filter: invert(1) grayscale(100);
+  }
+
+  #dark-mode-toggle:not(:checked) ~ #background .btn-close {
+    filter: invert(1) grayscale(100%) brightness(200%);
   }
 }
