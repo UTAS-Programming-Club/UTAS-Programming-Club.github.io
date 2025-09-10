@@ -88,6 +88,11 @@ h6:hover .heading-anchor-icon
   }
 }
 
+/* Keep 1.25rem in-sync with vertical padding on .alert-dismissible .btn-close in bootstrap */
+.btn-close .vertical-centre-button {
+  top: calc(50% - 1em/2 - 1.25rem) !important;
+}
+
 /* Pandoc created in all pages */
 #title-block-header {
   margin-top: 1em;
