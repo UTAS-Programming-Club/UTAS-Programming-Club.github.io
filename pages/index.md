@@ -21,4 +21,4 @@ With a Programming Club membership, you will be invited to attend our weekly mee
 
 Sign up through our Rubric page today.
 
-### You dream it; we can help you build it{class="text-center"}
+### You dream it; we can help you build it{class="text-center no-anchor"}
