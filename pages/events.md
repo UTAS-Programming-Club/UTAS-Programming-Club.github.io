@@ -12,7 +12,7 @@ Here are some examples from the last few years that we hope to continue into 202
 Every week during semester we run a meetup at the Sandy Bay campus as well as online on Discord where members can chill out after a busy week, discuss goings-on and work together of various club and personal projects. Snacks included!
 We hope to have Launceston meetups in the future, please let us know if you would like to attend or even help out with that!
 
-In 2025, our meetups run from 2:30 PM to 4:30 PM on Thursdays in [Centenary 140](https://maps.utas.edu.au/d/poi/1000554240) and remotely via [Discord Voice Chat](https://discord.com/channels/810048533603680307/816975438332035102).
+In 2025, our meetups run from 2:15 PM to 4:30 PM on Tuesdays in [Centenary 140](https://maps.utas.edu.au/d/poi/1000554240) and remotely via [Discord Voice Chat](https://discord.com/channels/810048533603680307/816975438332035102).
 
 [Toggle meetup pictures](#meetupPictures){role="button" data-bs-toggle="collapse" data-bs-target="#meetupPictures" aria-expanded="true" aria-controls="meetupPictures"}
 
@@ -68,7 +68,6 @@ We are proud to send Club members to various game jam events across the past few
 Most recently we ran our own [PCJam25](https://itch.io/jam/utas-pcjam-2025) which had some great submissions.
 Hopefully these will continue for the rest of 2025 and beyond!
 
-<!-- TODO: Add pictures of PCJam25 -->
 [Toggle game jam pictures](#industryPictures){role="button" data-bs-toggle="collapse" data-bs-target="#tasJamPictures" aria-expanded="true" aria-controls="tasJamPictures"}
 
 ::: {id="tasJamPictures" class="carousel slide multi-collapse show"}
@@ -128,10 +127,8 @@ The next one is planned for the 15th of April in Week 8, hopefully we well see y
 ### STEM Balls
 The Programming Club has helped organise the annual STEM ball and many of our members have attended ever since the inaugural ball in 2023.
 The STEM Ball is run by the UTAS clubs in the STEM fields (minus engineering), and is their social highlight of the year.
+We most recently ran one on the 20th of September 2025 and should have pictures available soon.
 
-The next STEM ball will be on 20 September 2025. Tickets will be $80 for members of any of the associated clubs and $90 otherwise. see the [Rubric page](https://campus.hellorubric.com/?eid=35210) for more info.
-
-<!-- TODO: Link to Stem BBQ Rubric sign up page once up -->
 ### BBQs
 We have held public barbeques on the Sandy Bay campus since 2023 with cheap food available and even discounts for members.
 We cater to as many people as possible by offering both meat and vegan options as well as soft drinks.\
