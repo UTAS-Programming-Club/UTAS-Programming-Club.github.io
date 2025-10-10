@@ -185,7 +185,8 @@ We hope to run another night later in 2025 in collaboration with the School of I
 
 ### Movie Nights
 In 2024, the Programming Club hosted a movie night after our AGM where we watched The Terminator.\
-We hope to repeat this again at the 2025 AGM, send us your movie suggestions via Discord!
+This year, the night will be on the 14th of October at around 6:30 PM in Centenary 140 where we are watching the original Ghostbusters!
+Attendance will be free and we will have free pizza, soft drinks and alcohol available.
 
 ### UTAS Clubs and Societies Days
 The Programming Club has run stalls at the University's Clubs and Societies days since 2022 and the new Mini Clubs and Societies day since it began in 2024.
@@ -248,7 +249,14 @@ All Club members are invited to attend and may vote in proceedings.
 There are two types of general meeting: our annual general meeting which has run every year since 2021;
 and special general meetings, which run whenever there is important business including most recently in both April 2023 and March 2024.
 
-Our next general meeting should be in October 2025 and will hopefully be followed by a movie night!
+Our next general meeting will be on the 14th of October 2025 and will be followed by a movie night where we will watch Ghostbusters!
+Attendance is free and recommended for all members but a membership is not required and there will be free snacks and soft drinks available.
+
+We are looking for new people to join our committee. We are specifically interested in people with business or legal experience or even just passionate about these areas.
+So if you or someone you know is completing a relevant course let us know, no programming experience is required!
+We are always interested in new people so still come along.
+
+Check out the announcement on [Discord](https://discord.gg/fQmkjhmd) for more details.
 
 ## Calendar {class="pt-2 pb-4"}
 
