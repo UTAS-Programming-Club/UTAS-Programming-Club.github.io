@@ -16,7 +16,7 @@ if [ ! -f bin/pandoc ] || [ ! -f bin/magick ] || ! command -v cp           >/dev
   exit 1
 fi
 
-PAGES="index projects events about websiteabout"
+PAGES="index projects events about tools websiteabout"
 
 PANDOC_VERSION=$(bin/pandoc -v | sed -n 's/^pandoc //p' | sed "s/$(printf '\r')//")
 MAGICK_VERSION=$(bin/magick --version | sed -n 's/^Version: ImageMagick \([[:digit:]]\{1,\}\.[[:digit:]]\{1,\}\.[[:digit:]]\{1,\}-[[:digit:]]\{1,\}\).*/\1/p')
@@ -90,7 +90,10 @@ for output_page in $PAGES; do
 done
 
 cp assets/script.js output/assets/script.js
+cp assets/tools.js output/assets/tools.js
 cp assets/style.css output/assets/style.css
+cp assets/minutestemplate1.typ output/assets/minutestemplate1.typ
+cp assets/minutestemplate2.typ output/assets/minutestemplate2.typ
 cp assets/"Programming Club Constitution.pdf" output/assets/"Programming Club Constitution.pdf"
 rm -r output/game/ 2>/dev/null || true
 cp -R pages/game/ output/game/
