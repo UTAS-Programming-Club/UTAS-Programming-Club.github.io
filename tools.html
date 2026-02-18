@@ -6,14 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Programming Club">
   <meta name="description" content="Join us for weekly club meet-ups, professional development and networking opportunities, ongoing club projects, a thriving Discord community, and more!">
-  <meta name="og:title" property="og:title" content="Programming Club – About Website">
+  <meta name="og:title" property="og:title" content="Programming Club – Tools">
   <meta name="og:type" property="og:type" content="website">
   <meta name="og:url" property="og:url" content="programmingclub.com.au/">
   <meta name="og:image" property="og:image" content="https://programmingclub.com.au/assets/photos/first_meetup.png">
   <meta name="og:description" property="og:description" content="Join us for weekly club meet-ups, professional development and networking opportunities, ongoing club projects, a thriving Discord community, and more!">
   <meta name="og:locale" property="og:locale" content="en_AU">
   <meta name="twitter:card" content="summary_large_image">
-  <title>Programming Club – About Website</title>
+  <title>Programming Club – Tools</title>
+  <script src="assets/tools.js" defer></script>
   <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -75,37 +76,16 @@
       </header>
       <div class="container">
 <header id="title-block-header">
-<h2 class="title">About this Website</h2>
+<h2 class="title">Some useful tools</h2>
 </header>
-<p>This is a preview of the Programming Club’s redesigned website.<br>
-Designed by Kentaro Watts.<br>
-Implemented by Joshua Wierenga and Kentaro Watts.</p>
-<p>Built using <a href="https://pandoc.org/">Pandoc</a>’s Markdown to HTML converter as a static site generator with images prepared with <a href="https://imagemagick.org/">ImageMagick</a>.<br>
-The website is <a href="https://github.com/UTAS-Programming-Club/UTAS-Programming-Club.github.io/tree/pages">hosted</a> on <a href="https://pages.github.com/">Github Pages</a>, with the original source <a href="https://github.com/UTAS-Programming-Club/UTAS-Programming-Club.github.io">stored</a> on <a href="https://github.com/">Github</a> as well.<br>
-This website relies on <a href="https://getbootstrap.com/">Bootstrap 5</a>, licensed under <a href="https://github.com/twbs/bootstrap/blob/v5.3.3/LICENSE">MIT</a>
-and various icons from <a href="https://icons.getbootstrap.com/">Bootstrap Icons</a>, also licensed under <a href="https://github.com/twbs/icons/blob/v1.11.3/LICENSE">MIT</a>.<br>
-Special thanks to Nathaniel for their css only dark mode toggle <a href="https://endtimes.dev/no-javascript-dark-mode-toggle/">code</a>.<br>
-Using <a href="https://github.com/ai-robots-txt/ai.robots.txt/blob/ff9fc26/robots.txt">this AI preventing robots.txt</a>(hopefully it works) by ai.robots.txt on Github under <a href="https://github.com/ai-robots-txt/ai.robots.txt/blob/ff9fc26/LICENSE">MIT</a>.<br>
-<!-- Using [this placeholder image](https://commons.wikimedia.org/wiki/File:No-Image-Placeholder.svg) by Ranjithsiji under CC-BY-SA-4.0. --></p>
-<p>Website info:</p>
-<ul>
-<li>Version: v2.0.0-preview</li>
-<li>Pandoc version: 3.6.2</li>
-<li>ImageMagick version: 7.1.1-47
-<li>Bootstrap version: v5.3.3</li>
-<li>Bootstrap Icons version: v1.13.3
-<li>Last built: 2026-02-18T13:34:44+11:00</li>
-<li>Git commit: <a href="https://github.com/UTAS-Programming-Club/UTAS-Programming-Club.github.io/commit/70904608c6979dfa3ad6b153c8f714fe57274e2f">70904608c6979dfa3ad6b153c8f714fe57274e2f</a></li>
-<li>Git commit author(s): Joshua Wierenga (joshuagit@joshuawierenga.tech)
-<li>Git commit time: 2026-02-18T13:34:00+11:00</li>
-<li>Git commit branch: <a href="https://github.com/UTAS-Programming-Club/UTAS-Programming-Club.github.io/tree/main">main</a></li>
-</ul>
-<p><span class="js-only" hidden="hidden">None: Using a js based dark mode system with full persistance between pages and browser level support. Try without js to see the differences!</span>
-<noscript>
-Note: Using a css only dark mode system without persistance between pages and limited browser level suppport.
-</noscript></p>
-<p><a href="https://validator.w3.org/nu/?showoutline=yes&amp;showimagereport=yes&amp;doc=https%3A%2F%2Fprogrammingclub.com.au%2Fwebsiteabout.html"><img src="https://raw.githubusercontent.com/bradleytaunt/html5-valid-badge/68b012b/html5-validator-badge.png" title="Valid HTML5!" class="w3cvalid" alt="Unoffical W3C valid HTML5 logo"></a>
-<a href="https://jigsaw.w3.org/css-validator/validator?lang=en&amp;profile=css3svg&amp;uri=https%3A%2F%2Fprogrammingclub.com.au%2Fassets%2Fstyle.css&amp;usermedium=all&amp;vextwarning=true&amp;warning=2"><img src="https://jigsaw.w3.org/css-validator/images/vcss" title="Valid CSS!" class="w3cvalid" alt="W3C valid CSS logo"></a></p>
+<h3 id="typst-minutes-template-creator"><span>Typst Minutes Template Creator</span><a class="ms-2" href="#typst-minutes-template-creator"><svg class="heading-anchor-icon"><title>Link icon</title></svg></a></h3>
+<p>This is mostly of use to the committee since it relies on our agenda and template structure.</p>
+<div class="mb-3">
+<p><label for="agenda" class="form-label">Upload a typst agenda</label>
+<input type="file" id="agenda" class="form-control" name="agenda" accept=".typ" oninput="checkAgendaUpload(this)" autocomplete="off"></p>
+</div>
+<p><a id="generate" class="btn btn-primary disabled" target="_blank" role="button" aria-disabled="true" onclick="createMinutesTemplate()">Create minutes template</a>
+<a id="download" class="btn btn-primary disabled" target="_blank" role="button" aria-disabled="true">Download minutes template</a></p>
       </div>
       <hr>
       <aside>
