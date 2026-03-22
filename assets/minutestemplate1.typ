@@ -57,7 +57,7 @@ Nil.
 
 = Minutes and Matters Arising
 
-== Amendments for Last #meeting_type Meeting
+== Amendments for Last #simple_meeting_type(meeting_type) Meeting
 /* TODO: Use this motion if any amendments in minutes
 #motion[that the listed amendments were made in discussion with other committee members and in fact reflect the decisions made during the #get_formatted_date(last_meeting_date) #meeting_type Meeting]*/
 Nil.
