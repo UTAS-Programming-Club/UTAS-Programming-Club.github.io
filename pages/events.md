@@ -249,7 +249,7 @@ All Club members are invited to attend and may vote in proceedings.
 There are two types of general meeting: our annual general meeting which has run every year since 2021;
 and special general meetings, which run whenever there is important business including most recently in both April 2023 and March 2024.
 
-We will be running a special general meeting on the 29th of Feburary at 7 PM on [Discord](https://discord.gg/TcbPnJVv5J?event=1484702048552358069).\
+We will be running a special general meeting on the 29th of March at 7 PM on [Discord](https://discord.gg/TcbPnJVv5J?event=1484702048552358069).\
 Attendance is free and recommended for all members but a membership is not required. So please come along and invite anyone else you know who might
 be interested as general meetings are a great way to have an impact on how the club is run!\
 No worries if you can't make it, we will send a copy of the minutes after the meeting.
