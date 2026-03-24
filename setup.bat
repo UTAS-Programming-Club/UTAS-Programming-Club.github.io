@@ -2,19 +2,21 @@
 
 :: TODO: Support AARCH64?
 
+SET PANDOC_VERSION=3.9.0.2
+
 IF NOT EXIST bin\ (
   MKDIR bin\
 )
 
 IF NOT EXIST bin\pandoc (
-  CALL curl -L https://github.com/jgm/pandoc/releases/download/3.6.2/pandoc-3.6.2-windows-x86_64.zip -o pandoc.zip
-  CALL tar -xf pandoc.zip -C bin\ --strip-components=1 pandoc-3.6.2/pandoc.exe
+  CALL curl -L https://github.com/jgm/pandoc/releases/download/%PANDOC_VERSION%/pandoc-%PANDOC_VERSION%-windows-x86_64.zip -o bin\pandoc.zip
+  CALL tar -xf bin\pandoc.zip -C bin\ --strip-components=1 pandoc-%PANDOC_VERSION%/pandoc.exe
   MOVE bin\pandoc.exe bin\pandoc >nul
-  DEL pandoc.zip
+  DEL bin\pandoc.zip
 )
 
 IF NOT EXIST bin\magick (
-  CALL curl -L https://github.com/ImageMagick/ImageMagick/releases/download/7.1.1-47/ImageMagick.Q16-HDRI.msixbundle -o bin\magick.msixbundle
+  CALL curl -L https://github.com/ImageMagick/ImageMagick/releases/download/7.1.2-18/ImageMagick.Q16-HDRI.msixbundle -o bin\magick.msixbundle
   CALL tar -xf .\bin\magick.msixbundle -C bin assets.appx main-x64.appx
   CALL tar -xf .\bin\assets.appx -C bin colors.xml
   CALL tar -xf .\bin\main-x64.appx -C bin magick.exe
