@@ -89,6 +89,7 @@ for output_page in $PAGES; do
   rm "output/$output_page.html.tmp"
 done
 
+cp assets/logo.svg output/assets/logo.svg
 cp assets/script.js output/assets/script.js
 cp assets/tools.js output/assets/tools.js
 cp assets/style.css output/assets/style.css
@@ -124,8 +125,7 @@ process_image() {
   [ -f "output/$FILE.webp" ] || bin/magick "$1" -strip -background none $2 "output/$FILE.webp"
 }
 
-process_image assets/logo.webp "-compress lossless -resize 250x250 -density 250x250" &
-[ -f output/assets/favicon.ico ] || bin/magick assets/logo.webp -strip -background none -resize 48x48 -density 48x48 output/assets/favicon.ico
+[ -f output/assets/favicon.ico ] || bin/magick assets/logo.png -strip -background none -resize 48x48 -density 48x48 output/assets/favicon.ico
 wait
 
 for image in assets/2023-2024/committee-*.jpg assets/2024-2025/committee-*.*; do
