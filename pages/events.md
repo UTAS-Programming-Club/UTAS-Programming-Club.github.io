@@ -242,26 +242,35 @@ We should be at the Mini C&S day during Semester 2 in 2025 so hopefully we will 
 </button>
 :::
 
-<!-- TODO: Release SGM and AGM minutes -->
+<!-- TODO: Release 2026 SGM minutes, and 2025 AGM and 2026 SGM videos -->
 ### General Meetings
 Our general meetings are held to discuss broader club matters such as significant club decisions and the election of officers.
 All Club members are invited to attend and may vote in proceedings.
 There are two types of general meeting: our annual general meeting which has run every year since 2021;
-and special general meetings, which run whenever there is important business including most recently in both April 2023 and March 2024.
+and special general meetings, which run whenever there is important business including most recently in both March 2024 and March 2026.
 
-We will be running a special general meeting on the 29th of March at 7 PM on [Discord](https://discord.gg/TcbPnJVv5J?event=1484702048552358069).\
-Attendance is free and recommended for all members but a membership is not required. So please come along and invite anyone else you know who might
-be interested as general meetings are a great way to have an impact on how the club is run!\
-No worries if you can't make it, we will send a copy of the minutes after the meeting.
+Or next general meeting should be our AGM sometime in October 2026 but we may schedule an SGM before then if there is any important business to discuss.
 
-We are looking for new people to join our committee. We are specifically interested in people with business or legal experience or even just passionate about these areas.
+We are looking for new people to join our committee. We are specifically interested in people with programming and/or business experience or even just passionate about these areas.
 So if you or someone you know is completing a relevant course let us know, no programming experience is required!
 We are always interested in new people so still come along.
 
-Check out the announcement on [Discord](https://discord.gg/fQmkjhmd) for more details.
+Below are some records from previous general meetings:
+
+| Event          | Agenda/Info   | Minutes                  | Recording                    |
+|----------------|---------------|--------------------------|------------------------------|
+| AGM 03/03/2021 | Not available                                     | [Minutes](assets/meetings/20210303-AGM-Minutes.pdf) | Not available                         |
+| AGM 09/09/2022 | [Info](assets/meetings/20220909-AGM-Info.pdf)     | [Minutes](assets/meetings/20220909-AGM-Minutes.pdf) | Not available                         |
+| SGM 28/04/2023 | [Info](assets/meetings/20230428-SGM-Info.pdf)     | Not available                                       | Not available                         |
+| AGM 04/10/2023 | [Info](assets/meetings/20231004-AGM-Info.pdf)     | [Minutes](assets/meetings/20231004-AGM-Minutes.pdf) | Not available                         |
+| SGM 18/03/2024 | [Info](assets/meetings/20240318-SGM-Info.pdf)     | [Minutes](assets/meetings/20240318-SGM-Minutes.pdf) | Not available                         |
+| AGM 13/10/2024 | [Agenda](assets/meetings/20241013-AGM-Agenda.pdf) | [Minutes](assets/meetings/20241013-AGM-Minutes.pdf) | [Video](https://youtu.be/neCrnwfPbjY) |
+| AGM 14/10/2025 | [Agenda](assets/meetings/20251014-AGM-Agenda.pdf) | [Minutes](assets/meetings/20251014-AGM-Minutes.pdf) | Should be available soon              |
+| SGM 29/03/2026 | [Agenda](assets/meetings/20260329-SGM-Agenda.pdf) | Should be available soon                            | Should be available soon              |
 
 ## Calendar {class="pt-2 pb-4"}
 
+<!-- TODO: Use updated calendar with TasGM events in it as well -->
 <iframe style="border-width:0; width: 100%; height: 400px; border: 0;"
         src="https://calendar.google.com/calendar/embed?height=400&wkst=1&ctz=Australia%2FHobart&showCalendars=0&title=Programming%20Club%20Calendar&src=NjkxYmM0OWYyZjQ1ODU2OGM0YjUzMGZlMDY2NjczMTdjZjE5NGEzYjJmMmM2MDEwMTFkYzNjYzg5ZGVjYzU2NEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=OGI3OGYyYzY2OTNhOWI5NjE4MzBhMTAzN2MwMmIyMmE0YWZiMzUxM2VhYjg2YTIxNGVmMDRjYjg0ODNiNGRkMEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23B39DDB&color=%23039BE5" 
         scrolling="no"></iframe>

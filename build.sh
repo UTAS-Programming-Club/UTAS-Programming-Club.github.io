@@ -96,6 +96,8 @@ cp assets/style.css output/assets/style.css
 cp assets/minutestemplate1.typ output/assets/minutestemplate1.typ
 cp assets/minutestemplate2.typ output/assets/minutestemplate2.typ
 cp assets/"Programming Club Constitution.pdf" output/assets/"Programming Club Constitution.pdf"
+rm -r output/meetings/ 2>/dev/null | true
+cp -R assets/meetings/ output/assets/meetings/
 rm -r output/game/ 2>/dev/null || true
 cp -R pages/game/ output/game/
 
