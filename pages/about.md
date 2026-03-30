@@ -18,25 +18,22 @@ If anyone has any questions for the Club, please send us a message via either Di
 ### Committee
 The Club's affairs are managed by the Committee.
 
-If you wish to contact a committee member via Discord, please do it via our server unless they give permission to do so privately. We would prefer if sensitive matters were handled via email.
+If you wish to contact a committee member via Discord, please do it via our server unless they give permission to do so privately. However, we would prefer if sensitive matters were handled via email.
 
-For the 2024-2025 Club year, the Committee is made up by the following people (preferred names, if any, are in brackets):
+For the 2025-2026 Club year, the Committee is made up by the following people:
 
+<!-- TODO: Get photo of Mars -->
 #### President
 The president is to act as the chairperson at meetings, and act as a spokesperson for the Club.  
-**Officeholder:** Kentaro Watts  
-Elected at 2024 AGM on 11/10/2024  
+**Officeholder:** Amari Hanson  
+Elected at 2025 AGM on 14/10/2025  
 Email: <president@programmingclub.com.au>  
-<picture>
-  <source srcset="assets/2023-2024/committee-kentaro.avif" type="image/avif">
-  <source srcset="assets/2023-2024/committee-kentaro.webp" type="image/webp">
-  ![Portrait of Kentaro Watts](assets/2023-2024/committee-kentaro.jpg){height="200"}
-</picture>
+![Placeholder image for portrait](https://upload.wikimedia.org/wikipedia/commons/6/65/No-Image-Placeholder.svg){height="200"}
 
 #### Treasurer
  The Treasurer is responsible for overseeing the Club's financial activities, keeping accurate records of funds and assets, and preparing and presenting budgets for new or ongoing projects.  
 **Officeholder**: Lachlan McKay  
-Elected at 2024 AGM on 11/10/2024  
+Elected at 2024 AGM on 11/10/2024.  
 Email: <treasurer@programmingclub.com.au>  
 <picture>
   <source srcset="assets/2024-2025/committee-lachlan.avif" type="image/avif">
@@ -47,7 +44,7 @@ Email: <treasurer@programmingclub.com.au>
 #### Secretary
 The Secretary ensures meetings are effectively organised and minuted, maintains effective membership records, and documents the Club's communication and correspondence.  
 **Officeholder**: Cameron Munro  
-Elected to Education Officer at 2024 SGM on 18/03/2024 and to Secretary at 2024 AGM on 11/10/2024  
+Elected to Education Officer at 2024 SGM on 18/03/2024 and to Secretary at 2024 AGM on 11/10/2024.  
 Email: <secretary@programmingclub.com.au>  
 <picture>
   <source srcset="assets/2023-2024/committee-cameron.avif" type="image/avif">
@@ -55,10 +52,10 @@ Email: <secretary@programmingclub.com.au>
   ![Portrait of Cameron Munro](assets/2023-2024/committee-cameron.jpg){height="200"}
 </picture>
 
-#### Southern Technical Support Officer
-The Southern Technical Support Officer runs the Club's projects and meetups, and help members with programming issues and learning to code, focusing on southern Tasmania.  
+#### Technical Support Officer
+The Technical Support Officer runs the Club's projects and meetups, and help members with programming issues and learning to code.  
 **Officeholder**: Joshua Wierenga  
-Elected to Technical Support Officer at 2023 AGM on 4/10/2023 and to Southern Technical Support Officer at 2024 AGM on 11/10/2024  
+Elected to Technical Support Officer at 2023 AGM on 4/10/2023, to Southern Technical Support Officer at 2024 AGM on 11/10/2024 and back to Technical Support Officer at 2025 AGM on 14/10/2025.  
 Email: <tech@programmingclub.com.au>, this is subject to change  
 <picture>
   <source srcset="assets/2023-2024/committee-joshua.avif" type="image/avif">
@@ -66,49 +63,34 @@ Email: <tech@programmingclub.com.au>, this is subject to change
   ![Portrait of Joshua Wierenga](assets/2023-2024/committee-joshua.jpg){height="200"}
 </picture>
 
-#### Marketing Officer
-The Marketing Officer prepares and distributes advertising material, and tries to get members to attend the Club's events.  
-**Officeholder**: Kat Carolan  
-Elected to President at 2024 SGM on 18/03/2024 and to Marketing Officer at 2024 AGM on 11/10/2024  
-Email: <marketing@programmingclub.com.au>  
-<picture>
-  <source srcset="assets/2023-2024/committee-kat.avif" type="image/avif">
-  <source srcset="assets/2023-2024/committee-kat.webp" type="image/webp">
-  ![Portrait of Kat Carolan](assets/2023-2024/committee-kat.jpg){height="200"}
-</picture>
-
-#### Northern Technical Support Officer
-The Northern Technical Support Officer runs the Club's projects and meetups, and help members with programming issues and learning to code, focusing on northern Tasmania.  
-**Officeholder**: Michael Dacey  
-Elected at 2024 AGM on 11/10/2024  
-Email: <northerntech@programmingclub.com.au>  
-<picture>
-  <source srcset="assets/2024-2025/committee-michael.avif" type="image/avif">
-  <source srcset="assets/2024-2025/committee-michael.webp" type="image/webp">
-  ![Portrait of Michael Dacey](assets/2024-2025/committee-michael.jpg){height="200"}
-</picture>
+<!-- TODO: Get photo of Luke -->
+#### Education Officer
+The Marketing Officer coördinates club events with UTAS and acts as the primary contact for staff.  
+**Officeholder**: Luke, Hau Duc  
+Elected as a General Member Officer at 2024 AGM on 11/10/2024 and to Education Officer at 2025 AGM on 14/10/2025.  
+Email: <education@programmingclub.com.au>  
+![Placeholder image for portrait](https://upload.wikimedia.org/wikipedia/commons/6/65/No-Image-Placeholder.svg){height="200"}
 
 <!-- TODO: Get general member photos? -->
-#### General Members
+#### General Member Officers
 General Members have no specific responsibilies but are required to assist with the Club's activities whenever necessary.  
 
-* Tran (Luke), Hau Duc, elected at 2024 AGM on 11/10/2024
-* Md Ashiquzzaman, elected at a Committee Meeting on 21/03/2025
-* Md Rifat Bin Yusuf, elected at a Committee Meeting on 3/08/2025
-* Oliver Kulinski, elected at 2024 SGM on 18/03/2024
+* Liam Kearney, elected at 2026 SGM on 29/03/2026
 
 #### Unfilled positions
 [In addition to the positions listed above, we also have some that are currently unfilled:]{class="list-heading"}
 
-* Northern and Southern Education Officers  
-  The Education Officer(s) would coördinate the Club's events with UTAS and act as the primary contact(s) for staff.
+* Northern Education Officers  
+  The Northern Education Officer would coördinate the Club's events with UTAS and act as the primary contact(s) for staff, focusing on northern tasmania.
 * Northern and Southern Events Officers  
   The Event Officers(s) would plan and help run the Club's events.
-* Northern Marketing Officer  
-  The Northern Marketing Officer would prepare and distribute advertising material, and try to get members to attend the Club's events, focusing on northern Tasmania.
+* Northern and Southern Marketing Officers  
+  The Northern Marketing Officer would prepare and distribute advertising material, and try to get members to attend the Club's events.
+* Three General Member Officers
 
 Members are encouraged to contact us if they are at all interested in running for these positions as we would love some assistance.
 
+<!-- TODO: Add new 2026 Constitution -->
 ### Constitution
 The Club is governed by a constitution which is included below:  
 [Link to fullsize copy](assets/Programming Club Constitution.pdf)

@@ -14,7 +14,7 @@ This website relies on [Bootstrap 5](https://getbootstrap.com/), licensed under 
 and various icons from [Bootstrap Icons](https://icons.getbootstrap.com/), also licensed under [MIT](https://github.com/twbs/icons/blob/v1.11.3/LICENSE).  
 Special thanks to Nathaniel for their css only dark mode toggle [code](https://endtimes.dev/no-javascript-dark-mode-toggle/).  
 Using [this AI preventing robots.txt](https://github.com/ai-robots-txt/ai.robots.txt/blob/86d582b/robots.txt)(hopefully it works) by ai.robots.txt on Github under [MIT](https://github.com/ai-robots-txt/ai.robots.txt/blob/86d582b/LICENSE).  
-<!-- Using [this placeholder image](https://commons.wikimedia.org/wiki/File:No-Image-Placeholder.svg) by Ranjithsiji under CC-BY-SA-4.0. -->
+Using [this placeholder image](https://commons.wikimedia.org/wiki/File:No-Image-Placeholder.svg) by Ranjithsiji under CC-BY-SA-4.0.
 
 Website info:
 
