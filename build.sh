@@ -63,7 +63,7 @@ for output_page in $PAGES; do
     fi
 
     navbar="$navbar                <li class=\"nav-item mb-2 px-2\">\n"
-    navbar="$navbar                  <a class=\"nav-link pt-1\""
+    navbar="$navbar                  <a class=\"nav-link pt-1 button\""
     if [ "$output_page" = "$navbar_page" ]; then
       navbar="$navbar aria-current=\"page\" href=\"#"
     else
@@ -94,11 +94,14 @@ cp assets/logo.svg output/assets/logo.svg
 cp assets/script.js output/assets/script.js
 cp assets/tools.js output/assets/tools.js
 cp assets/style.css output/assets/style.css
+cp assets/style-winxp.css output/assets/style-winxp.css
 cp assets/minutestemplate1.typ output/assets/minutestemplate1.typ
 cp assets/minutestemplate2.typ output/assets/minutestemplate2.typ
 cp assets/"Programming Club Constitution.pdf" output/assets/"Programming Club Constitution.pdf"
 rm -r output/meetings/ 2>/dev/null | true
 cp -R assets/meetings/ output/assets/meetings/
+rm -r output/assets/winxp/ 2>/dev/null || true
+cp -R assets/winxp/ output/assets/winxp/
 rm -r output/game/ 2>/dev/null || true
 cp -R pages/game/ output/game/
 

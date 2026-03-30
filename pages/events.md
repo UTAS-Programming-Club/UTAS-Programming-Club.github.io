@@ -6,7 +6,7 @@ Here are some examples from the last few years that we hope to continue into 202
 
 <!-- TODO: Fix or hide dropdowns with no js -->
 <!-- TODO: Support carousels with no js? -->
-[Toggle all picture dropdowns](#){role="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="true" aria-controls="meetupPictures tasJamPictures candsPictures industryPictures"}
+[Toggle all picture dropdowns](#){role="button" class="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="true" aria-controls="meetupPictures tasJamPictures candsPictures industryPictures"}
 
 ### Weekly Meetups
 Every week during semester we run a meetup at the Sandy Bay campus as well as online on Discord where members can chill out after a busy week, discuss goings-on and work together of various club and personal projects. Snacks included!
@@ -16,7 +16,7 @@ In 2026, our meetups run from 1 PM to 3:30 PM on Thursdays and currently move be
 We will send an annoucement on Discord each week with the room.\
 Our meetups can also be joined remotely via [Discord Voice Chat](https://discord.com/channels/810048533603680307/816975438332035102).
 
-[Toggle meetup pictures](#meetupPictures){role="button" data-bs-toggle="collapse" data-bs-target="#meetupPictures" aria-expanded="true" aria-controls="meetupPictures"}
+[Toggle meetup pictures](#meetupPictures){role="button" class="button" data-bs-toggle="collapse" data-bs-target="#meetupPictures" aria-expanded="true" aria-controls="meetupPictures"}
 
 ::: {id="meetupPictures" class="carousel slide multi-collapse show"}
 :::: carousel-indicators
@@ -70,7 +70,7 @@ We are proud to have sent Club members to various game jam events including the 
 In mid 2025 we ran our own [PCJam25](https://itch.io/jam/utas-pcjam-2025) which had some great submissions.\
 Hopefully these will continue for the rest of 2026 and beyond!
 
-[Toggle game jam pictures](#industryPictures){role="button" data-bs-toggle="collapse" data-bs-target="#tasJamPictures" aria-expanded="true" aria-controls="tasJamPictures"}
+[Toggle game jam pictures](#industryPictures){role="button" class="button" data-bs-toggle="collapse" data-bs-target="#tasJamPictures" aria-expanded="true" aria-controls="tasJamPictures"}
 
 ::: {id="tasJamPictures" class="carousel slide multi-collapse show"}
 :::: carousel-indicators
@@ -145,7 +145,7 @@ The next state Industry Day will be on the 19th of April, after the 2 day public
 
 We hope to run another night in 2026 in collaboration with the School of ICT.
 
-[Toggle industry night pictures](#industryPictures){role="button" data-bs-toggle="collapse" data-bs-target="#industryPictures" aria-expanded="true" aria-controls="industryPictures"}
+[Toggle industry night pictures](#industryPictures){role="button" class="button" data-bs-toggle="collapse" data-bs-target="#industryPictures" aria-expanded="true" aria-controls="industryPictures"}
 
 ::: {id="industryPictures" class="carousel slide multi-collapse show"}
 :::: carousel-indicators
@@ -196,7 +196,7 @@ The Programming Club has run stalls at the Semester 1 C&S days since 2022, the S
 We use these events to talk to students about our events and show off the projects that members have worked on in years prior.\
 We should be at Mini C&S during Semester 2 this year and hopefully future Connect & Collaborate Expos, hope to see you there!
 
-[Toggle C&S pictures](#meetupPictures){role="button" data-bs-toggle="collapse" data-bs-target="#candsPictures" aria-expanded="true" aria-controls="candsPictures"}
+[Toggle C&S pictures](#meetupPictures){role="button" class="button" data-bs-toggle="collapse" data-bs-target="#candsPictures" aria-expanded="true" aria-controls="candsPictures"}
 
 ::: {id="candsPictures" class="carousel slide multi-collapse show"}
 :::: carousel-indicators

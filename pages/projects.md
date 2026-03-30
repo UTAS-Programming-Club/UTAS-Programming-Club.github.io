@@ -12,7 +12,7 @@ Additionally, any contributions made to our projects must include a copyright as
 
 <!-- TODO: Fix or hide dropdowns with no js -->
 <!-- TODO: Support carousels with no js? -->
-[Toggle all example dropdowns](#){role="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="true" aria-controls="textAdventureExamples discordBotExamples minecraftExamples"}
+[Toggle all example dropdowns](#){role="button" class="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="true" aria-controls="textAdventureExamples discordBotExamples minecraftExamples"}
 
 ### Untitled Text Adventure
 A yet unnamed classic text adventure that started development in early 2024 in C but is currently being rewritten in [Haxe](https://haxe.org/), a blend of Java and Python used mostly for game development which we hope will make the game more approachable to work on.
@@ -22,9 +22,9 @@ A key focus of this project is having it be compatible with a wide variety of un
 We started in C for it's near universal adoption on both new and old devices going back decades, but it turns out that Haxe fits this niche even better as it can be converted into a number of other languages including C++, JavaScript and Python making it easy to use almost anywhere.
 Once the rewrite is done, we have plans to develop a map editor and possibly make use on other Tassie made projects like [Yarn Spinner](https://www.yarnspinner.dev/) for narrative and progression management since a partial [Haxe port](https://github.com/cxsquared/hxyarn) already exists.
 
-[Toggle game example screens](#textAdventureExamples){role="button" data-bs-toggle="collapse" data-bs-target="#textAdventureExamples" aria-expanded="true" aria-controls="textAdventureExamples"}
+[Toggle game example screens](#textAdventureExamples){role="button" class="button" data-bs-toggle="collapse" data-bs-target="#textAdventureExamples" aria-expanded="true" aria-controls="textAdventureExamples"}
 
-::: {id="textAdventureExamples" class="carousel slide multi-collapse show"}
+::: {id="textAdventureExamples" class="carousel slide multi-collapse show input readonly"}
 :::: carousel-indicators
 <button type="button" data-bs-target="#textAdventureExamples" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
 <button type="button" data-bs-target="#textAdventureExamples" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -141,7 +141,7 @@ We have previously included partial support for hangman and classic DECtalk base
 If anyone is interested in these features and would like to help finish support for them or for anything else, then please let us know.
 Recently, we used the bot to list scores from our private Advent of Code 2024 leaderboard to make it easy to compare scores with other members.
 
-[Toggle bot example commands](#discordBotExamples){role="button" data-bs-toggle="collapse" data-bs-target="#discordBotExamples" aria-expanded="true" aria-controls="discordBotExamples"}
+[Toggle bot example commands](#discordBotExamples){role="button" class="button" data-bs-toggle="collapse" data-bs-target="#discordBotExamples" aria-expanded="true" aria-controls="discordBotExamples"}
 
 ::: {id="discordBotExamples" class="carousel slide multi-collapse show"}
 :::: carousel-indicators
@@ -193,7 +193,7 @@ Currently, our mod just adds explosion proof glass but we welcome suggestions fo
 
 If there is interest, we plan to get back into playing during the holidays before semester 1 starts.
 
-[Toggle server example screenshots](#minecraftExamples){role="button" data-bs-toggle="collapse" data-bs-target="#minecraftExamples" aria-expanded="true" aria-controls="minecraftExamples"}
+[Toggle server example screenshots](#minecraftExamples){role="button" class="button" data-bs-toggle="collapse" data-bs-target="#minecraftExamples" aria-expanded="true" aria-controls="minecraftExamples"}
 
 ::: {id="minecraftExamples" class="carousel slide multi-collapse show"}
 :::: carousel-indicators
