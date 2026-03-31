@@ -50,7 +50,7 @@ Once the rewrite is done, we have plans to develop a map editor and possibly mak
 
     Physical enemy 1 health: ██████████ :  95%
     Physical enemy 2 health: ████       :  33%
-    Magical enemy 3 health: ██████████ : 100%
+     Magical enemy 3 health: ██████████ : 100%
 
     Combat log:
     ⬤ Enemy 3 did 0 magic damage to you
