@@ -260,6 +260,7 @@ We are always interested in new people so still come along.
 
 Below are some records from previous general meetings:
 
+::: {.table-responsive}
 | Event          | Agenda/Info   | Minutes                  | Recording                    |
 |----------------|---------------|--------------------------|------------------------------|
 | AGM 03/03/2021 | Not available                                     | [Minutes](assets/meetings/20210303-AGM-Minutes.pdf) | Not available                         |
@@ -270,6 +271,7 @@ Below are some records from previous general meetings:
 | AGM 13/10/2024 | [Agenda](assets/meetings/20241013-AGM-Agenda.pdf) | [Minutes](assets/meetings/20241013-AGM-Minutes.pdf) | [Video](https://youtu.be/neCrnwfPbjY) |
 | AGM 14/10/2025 | [Agenda](assets/meetings/20251014-AGM-Agenda.pdf) | [Minutes](assets/meetings/20251014-AGM-Minutes.pdf) | Should be available soon              |
 | SGM 29/03/2026 | [Agenda](assets/meetings/20260329-SGM-Agenda.pdf) | Should be available soon                            | Should be available soon              |
+:::
 
 ## Calendar {class="pt-2 pb-4"}
 
