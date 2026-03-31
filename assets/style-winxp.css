@@ -26,6 +26,15 @@ body {
   --bs-tertiary-bg: 000;
 }
 
-.carousel > button {
-  box-shadow: none;
+.page-link {
+  --bs-btn-color: initial;
+  --bs-pagination-color: initial;
+  --bs-pagination-focus-color: initial;
+  --bs-pagination-hover-color: initial;
+  border-radius: 3px 3px 0px 0px !important;
+  margin-top: 10px !important;
+}
+
+.tabs > div {
+  --bs-border-color: #919b9c;
 }

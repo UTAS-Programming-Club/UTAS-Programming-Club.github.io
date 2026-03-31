@@ -10,8 +10,6 @@ We aim to design projects that are accessible for people of varying skill levels
 We only accept contributions to our projects from members so if you are interested but are not one yet, then please visit our Rubric page to become one.
 Additionally, any contributions made to our projects must include a copyright assignment to the Club. We plan to formalise this project in future to make it easy to do for first time contributors.
 
-<!-- TODO: Fix or hide dropdowns with no js -->
-<!-- TODO: Support carousels with no js? -->
 [Toggle all example dropdowns](#){role="button" class="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="true" aria-controls="textAdventureExamples discordBotExamples minecraftExamples"}
 
 ### Untitled Text Adventure
@@ -22,106 +20,87 @@ A key focus of this project is having it be compatible with a wide variety of un
 We started in C for it's near universal adoption on both new and old devices going back decades, but it turns out that Haxe fits this niche even better as it can be converted into a number of other languages including C++, JavaScript and Python making it easy to use almost anywhere.
 Once the rewrite is done, we have plans to develop a map editor and possibly make use on other Tassie made projects like [Yarn Spinner](https://www.yarnspinner.dev/) for narrative and progression management since a partial [Haxe port](https://github.com/cxsquared/hxyarn) already exists.
 
-[Toggle game example screens](#textAdventureExamples){role="button" class="button" data-bs-toggle="collapse" data-bs-target="#textAdventureExamples" aria-expanded="true" aria-controls="textAdventureExamples"}
+%CAROUSELSTART(Game Example Screens, textAdventureExamples)%
+  %CAROUSELBUTTON(Image 1, textAdventureExamples1, aria-selected="true")%
+  %CAROUSELBUTTON(Image 2, textAdventureExamples2)%
+  %CAROUSELBUTTON(Image 3, textAdventureExamples3)%
+%CAROUSELMIDDLE%
+  <div role="tabpanel" id="textAdventureExamples1" class="border p-2">
+    Untitled text adventure game
+    ----------------------------
+    By the UTAS Programming Club
 
-::: {id="textAdventureExamples" class="carousel slide multi-collapse show input readonly"}
-:::: carousel-indicators
-<button type="button" data-bs-target="#textAdventureExamples" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-<button type="button" data-bs-target="#textAdventureExamples" data-bs-slide-to="1" aria-label="Slide 2"></button>
-<button type="button" data-bs-target="#textAdventureExamples" data-bs-slide-to="2" aria-label="Slide 3"></button>
-::::
-:::: carousel-inner
-::::: {class="carousel-item active"}
-```
-Untitled text adventure game
-----------------------------
-By the UTAS Programming Club
+    Currently unimplemented :(
 
-Currently unimplemented :(
+    Use the numbers below to make a selection.
+    1. Start Game
+    2. Load Game
+    3. Quit Game
+  </div>
+  <div role="tabpanel" id="textAdventureExamples2" class="border p-2" hidden>
+    You find yourself surrounded.
 
-Use the numbers below to make a selection.
-1. Start Game
-2. Load Game
-3. Quit Game
-```
-:::::
-::::: carousel-item
-```
-You find yourself surrounded.
+    You attacked enemy 2 with your sword.
+    Enemy 1 attacked you with their sword but your armour absorbed the impact.
+    Enemy 2 attacked you with their sword but your armour absorbed the impact.
+    Enemy 3 launched a fireball at you but your armour absorbed the impact.
 
-You attacked enemy 2 with your sword.
-Enemy 1 attacked you with their sword but your armour absorbed the impact.
-Enemy 2 attacked you with their sword but your armour absorbed the impact.
-Enemy 3 launched a fireball at you but your armour absorbed the impact.
+    Your Health:  ███████    :  64%
+    Your Stamina: ██████████ : 100%
 
-Your Health:  ███████    :  64%
-Your Stamina: ██████████ : 100%
+    Physical enemy 1 health: ██████████ :  95%
+    Physical enemy 2 health: ████       :  33%
+    Magical enemy 3 health: ██████████ : 100%
 
-Physical enemy 1 health: ██████████ :  95%
-Physical enemy 2 health: ████       :  33%
- Magical enemy 3 health: ██████████ : 100%
+    Combat log:
+    ⬤ Enemy 3 did 0 magic damage to you
+    ⬤ Enemy 2 did 0 physical damage to you
+    ⬤ Enemy 1 did 0 physical damage to you
+    ⬤ You did 67 physical damage to enemy 2
+    ⬤ Enemy 3 did 10 magic damage to you
+    ⬤ Enemy 2 did 13 physical damage to you
+    ⬤ Enemy 1 did 13 physical damage to you
+    ⬤ You did 5 physical damage to enemy 1
 
-Combat log:
-⬤ Enemy 3 did 0 magic damage to you
-⬤ Enemy 2 did 0 physical damage to you
-⬤ Enemy 1 did 0 physical damage to you
-⬤ You did 67 physical damage to enemy 2
-⬤ Enemy 3 did 10 magic damage to you
-⬤ Enemy 2 did 13 physical damage to you
-⬤ Enemy 1 did 13 physical damage to you
-⬤ You did 5 physical damage to enemy 1
+    Use the numbers below to make a selection.
+    1. Attack Enemy 1
+    2. Attack Enemy 2
+    3. Attack Enemy 3
+    4. Check Player Stats
+    5. Flee
+  </div>
+  <div role="tabpanel" id="textAdventureExamples3" class="border p-2" hidden>
+    Player Equipment
 
-Use the numbers below to make a selection.
-1. Attack Enemy 1
-2. Attack Enemy 2
-3. Attack Enemy 3
-4. Check Player Stats
-5. Flee
-```
-:::::
-::::: carousel-item
-```
-Player Equipment
+    Health:                    ██████████ : 100
+    Stamina:                   ██████████ : 100
+    Primary Physical Attack:   ███        :  25
+    Primary Magic Attack:      █          :   4
+    Secondary Physical Attack: ███        :  25
+    Secondary Magic Attack:    █          :   4
+    Physical Defence:          █████████  :  90
+    Magic Defence:             █          :  10
 
-Health:                    ██████████ : 100
-Stamina:                   ██████████ : 100
-Primary Physical Attack:   ███        :  25
-Primary Magic Attack:      █          :   4
-Secondary Physical Attack: ███        :  25
-Secondary Magic Attack:    █          :   4
-Physical Defence:          █████████  :  90
-Magic Defence:             █          :  10
-
-Helmet: Leather Helmet
-Chest: Rags
-Gloves: Spiked Gloves
-Pants: Rags
-Boots: Old Leather Boots
-Primary Weapon: Fist
-Secondary Weapon: Fist
+    Helmet: Leather Helmet
+    Chest: Rags
+    Gloves: Spiked Gloves
+    Pants: Rags
+    Boots: Old Leather Boots
+    Primary Weapon: Fist
+    Secondary Weapon: Fist
 
 
-Use the numbers below to make a selection.
-1. Swap Equipment 1
-2. Swap Equipment 2
-3. Swap Equipment 3
-4. Swap Equipment 4
-5. Swap Equipment 5
-6. Swap Equipment 6
-7. Swap Equipment 7
-8. Return to Game
-```
-:::::
-::::
-<button class="carousel-control-prev" type="button" data-bs-target="#textAdventureExamples" data-bs-slide="prev">
-  []{class="carousel-control-prev-icon" aria-hidden="true"}
-  [Previous]{class="visually-hidden"}
-</button>
-<button class="carousel-control-next" type="button" data-bs-target="#textAdventureExamples" data-bs-slide="next">
-  []{class="carousel-control-next-icon" aria-hidden="true"}
-  [Next]{class="visually-hidden"}
-</button>
-:::
+    Use the numbers below to make a selection.
+    1. Swap Equipment 1
+    2. Swap Equipment 2
+    3. Swap Equipment 3
+    4. Swap Equipment 4
+    5. Swap Equipment 5
+    6. Swap Equipment 6
+    7. Swap Equipment 7
+    8. Return to Game
+  </div>
+%CAROUSELEND%
 
 [Links:]{class="list-heading"}
 
@@ -141,46 +120,15 @@ We have previously included partial support for hangman and classic DECtalk base
 If anyone is interested in these features and would like to help finish support for them or for anything else, then please let us know.
 Recently, we used the bot to list scores from our private Advent of Code 2024 leaderboard to make it easy to compare scores with other members.
 
-[Toggle bot example commands](#discordBotExamples){role="button" class="button" data-bs-toggle="collapse" data-bs-target="#discordBotExamples" aria-expanded="true" aria-controls="discordBotExamples"}
-
-::: {id="discordBotExamples" class="carousel slide multi-collapse show"}
-:::: carousel-indicators
-<button type="button" data-bs-target="#discordBotExamples" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-<button type="button" data-bs-target="#discordBotExamples" data-bs-slide-to="1" aria-label="Slide 2"></button>
-<button type="button" data-bs-target="#discordBotExamples" data-bs-slide-to="2" aria-label="Slide 3"></button>
-::::
-:::: {class="carousel-inner pb-4"}
-::::: {class="carousel-item active"}
-<picture>
-  <source srcset="assets/2023-2024/discord-minesweeper.avif" type="image/avif">
-  <source srcset="assets/2023-2024/discord-minesweeper.webp" type="image/webp">
-  ![Example of minesweeper commmand](assets/2023-2024/discord-minesweeper.png){class="d-block m-auto w-auto"}
-</picture>
-:::::
-::::: carousel-item
-<picture>
-  <source srcset="assets/2023-2024/discord-hangman.avif" type="image/avif">
-  <source srcset="assets/2023-2024/discord-hangman.webp" type="image/webp">
-  ![Example of hangman commmand](assets/2023-2024/discord-hangman.png){class="d-block m-auto w-auto"}
-</picture>
-:::::
-::::: carousel-item
-<picture>
-  <source srcset="assets/2024-2025/discord-aoc.avif" type="image/avif">
-  <source srcset="assets/2024-2025/discord-aoc.webp" type="image/webp">
-  ![Example of advent of code leaderboard commmand](assets/2024-2025/discord-aoc.png){class="d-block m-auto w-auto"}
-</picture>
-:::::
-::::
-<button class="carousel-control-prev" type="button" data-bs-target="#discordBotExamples" data-bs-slide="prev">
-  []{class="carousel-control-prev-icon" aria-hidden="true"}
-  [Previous]{class="visually-hidden"}
-</button>
-<button class="carousel-control-next" type="button" data-bs-target="#discordBotExamples" data-bs-slide="next">
-  []{class="carousel-control-next-icon" aria-hidden="true"}
-  [Next]{class="visually-hidden"}
-</button>
-:::
+%CAROUSELSTART(Bot Examples, discordBotExamples)%
+  %CAROUSELBUTTON(Image 1, discordBotExamples1, aria-selected="true")%
+  %CAROUSELBUTTON(Image 2, discordBotExamples2)%
+  %CAROUSELBUTTON(Image 3, discordBotExamples3)%
+%CAROUSELMIDDLE%
+  %CAROUSELIMAGE(Example of minesweeper commmand, discordBotExamples1, 2023-2024/discord-minesweeper)%
+  %CAROUSELIMAGE(Example of hangman commmand, discordBotExamples2, 2023-2024/discord-hangman, hidden)%
+  %CAROUSELIMAGE(Example of advent of code leaderboard commmand, discordBotExamples3, 2024-2025/discord-aoc, hidden)%
+%CAROUSELEND%
 
 [Links:]{class="list-heading"}
 
@@ -193,54 +141,18 @@ Currently, our mod just adds explosion proof glass but we welcome suggestions fo
 
 If there is interest, we plan to get back into playing during the holidays before semester 1 starts.
 
-[Toggle server example screenshots](#minecraftExamples){role="button" class="button" data-bs-toggle="collapse" data-bs-target="#minecraftExamples" aria-expanded="true" aria-controls="minecraftExamples"}
-
-::: {id="minecraftExamples" class="carousel slide multi-collapse show"}
-:::: carousel-indicators
-<button type="button" data-bs-target="#minecraftExamples" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-<button type="button" data-bs-target="#minecraftExamples" data-bs-slide-to="1" aria-label="Slide 2"></button>
-<button type="button" data-bs-target="#minecraftExamples" data-bs-slide-to="2" aria-label="Slide 3"></button>
-<button type="button" data-bs-target="#minecraftExamples" data-bs-slide-to="3" aria-label="Slide 4"></button>
-::::
-:::: {class="carousel-inner pb-4"}
-::::: {class="carousel-item active"}
-<picture>
-  <source srcset="assets/2023-2024/minecraft-1.avif" type="image/avif">
-  <source srcset="assets/2023-2024/minecraft-1.webp" type="image/webp">
-  ![Example of Terralith terrain on our Minecraft Server](assets/2023-2024/minecraft-1.png){class="d-block m-auto w-auto"}
-</picture>
-:::::
-::::: carousel-item
-<picture>
-  <source srcset="assets/2023-2024/minecraft-2.avif" type="image/avif">
-  <source srcset="assets/2023-2024/minecraft-2.webp" type="image/webp">
-  ![Example of player bases on our Minecraft Server](assets/2023-2024/minecraft-2.png){class="d-block m-auto w-auto"}
-</picture>
-:::::
-::::: carousel-item
-<picture>
-  <source srcset="assets/2023-2024/minecraft-3.avif" type="image/avif">
-  <source srcset="assets/2023-2024/minecraft-3.webp" type="image/webp">
-  ![Example of development work on our mod for our Minecraft Server](assets/2023-2024/minecraft-3.png){class="d-block m-auto w-auto"}
-</picture>
-:::::
-::::: carousel-item
-<picture>
-  <source srcset="assets/2024-2025/minecraft-highway.avif" type="image/avif">
-  <source srcset="assets/2024-2025/minecraft-highway.webp" type="image/webp">
-  ![Example of modded blocks and player structures on our Minecraft Server](assets/2024-2025/minecraft-highway.png){class="d-block m-auto w-auto"}
-</picture>
-:::::
-::::
-<button class="carousel-control-prev" type="button" data-bs-target="#minecraftExamples" data-bs-slide="prev">
-  []{class="carousel-control-prev-icon" aria-hidden="true"}
-  [Previous]{class="visually-hidden"}
-</button>
-<button class="carousel-control-next" type="button" data-bs-target="#minecraftExamples" data-bs-slide="next">
-  []{class="carousel-control-next-icon" aria-hidden="true"}
-  [Next]{class="visually-hidden"}
-</button>
-:::
+<!-- TODO: Get updated bases picture -->
+%CAROUSELSTART(Minecraft Server Example Pictures, minecraftExamples)%
+  %CAROUSELBUTTON(Image 1, minecraftExamples1, aria-selected="true")%
+  %CAROUSELBUTTON(Image 2, minecraftExamples2)%
+  %CAROUSELBUTTON(Image 3, minecraftExamples3)%
+  %CAROUSELBUTTON(Image 4, minecraftExamples4)%
+%CAROUSELMIDDLE%
+  %CAROUSELIMAGE(Example of Terralith terrain on our Minecraft Server, minecraftExamples1, 2023-2024/minecraft-1)%
+  %CAROUSELIMAGE(Example of player bases on our Minecraft Server, minecraftExamples2, 2023-2024/minecraft-2, hidden)%
+  %CAROUSELIMAGE(Example of development work on our mod for our Minecraft Server, minecraftExamples3, 2023-2024/minecraft-3, hidden)%
+  %CAROUSELIMAGE(Example of modded blocks and player structures on our Minecraft Server, minecraftExamples4, 2024-2025/minecraft-highway, hidden)%
+%CAROUSELEND%
 
 [Links:]{class="list-heading"}
 

@@ -2,11 +2,12 @@
 title: Events
 ---
 We run a number of events each year for the benefit of our members.\
-Here are some examples from the last few years that we hope to continue into 2025:
+Here are some examples from the last few years that we hope to continue in 2026:
 
 <!-- TODO: Fix or hide dropdowns with no js -->
 <!-- TODO: Support carousels with no js? -->
-[Toggle all picture dropdowns](#){role="button" class="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="true" aria-controls="meetupPictures tasJamPictures candsPictures industryPictures"}
+<!-- TODO: Support prev and next buttons for carousels? -->
+[Toggle all picture dropdowns](#){role="button" class="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="true" aria-controls="meetupPictures gameJamPictures candsPictures industryPictures"}
 
 ### Weekly Meetups
 Every week during semester we run a meetup at the Sandy Bay campus as well as online on Discord where members can chill out after a busy week, discuss goings-on and work together of various club and personal projects. Snacks included!
@@ -16,108 +17,36 @@ In 2026, our meetups run from 1 PM to 3:30 PM on Thursdays and currently move be
 We will send an annoucement on Discord each week with the room.\
 Our meetups can also be joined remotely via [Discord Voice Chat](https://discord.com/channels/810048533603680307/816975438332035102).
 
-[Toggle meetup pictures](#meetupPictures){role="button" class="button" data-bs-toggle="collapse" data-bs-target="#meetupPictures" aria-expanded="true" aria-controls="meetupPictures"}
-
-::: {id="meetupPictures" class="carousel slide multi-collapse show"}
-:::: carousel-indicators
-<button type="button" data-bs-target="#meetupPictures" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-<button type="button" data-bs-target="#meetupPictures" data-bs-slide-to="1" aria-label="Slide 2"></button>
-<button type="button" data-bs-target="#meetupPictures" data-bs-slide-to="2" aria-label="Slide 3"></button>
-<button type="button" data-bs-target="#meetupPictures" data-bs-slide-to="3" aria-label="Slide 4"></button>
-::::
-:::: {class="carousel-inner pb-4"}
-::::: {class="carousel-item active"}
-<picture>
-  <source srcset="assets/2023-2024/meetup.avif" type="image/avif">
-  <source srcset="assets/2023-2024/meetup.webp" type="image/webp">
-  ![2024 Meetup](assets/2023-2024/meetup.png){class="d-block m-auto w-auto"}
-</picture>
-:::::
-::::: carousel-item
-<picture>
-  <source srcset="assets/2022-2023/meetup-2.avif" type="image/avif">
-  <source srcset="assets/2022-2023/meetup-2.webp" type="image/webp">
-  ![2023 Meetup](assets/2022-2023/meetup-2.png){class="d-block m-auto w-auto"}
-</picture>
-:::::
-::::: carousel-item
-<picture>
-  <source srcset="assets/2022-2023/holiday-meetup-1.avif" type="image/avif">
-  <source srcset="assets/2022-2023/holiday-meetup-1.webp" type="image/webp">
-  ![2022 Summer Holiday Meetup](assets/2022-2023/holiday-meetup-1.png){class="d-block m-auto w-auto"}
-</picture>
-:::::
-::::: carousel-item
-<picture>
-  <source srcset="assets/2021-2022/first_meetup.avif" type="image/avif">
-  <source srcset="assets/2021-2022/first_meetup.webp" type="image/webp">
-  ![2021 Meetup](assets/2021-2022/first_meetup.png){class="d-block m-auto w-auto"}
-</picture>
-:::::
-::::
-<button class="carousel-control-prev" type="button" data-bs-target="#meetupPictures" data-bs-slide="prev">
-  []{class="carousel-control-prev-icon" aria-hidden="true"}
-  [Previous]{class="visually-hidden"}
-</button>
-<button class="carousel-control-next" type="button" data-bs-target="#meetupPictures" data-bs-slide="next">
-  []{class="carousel-control-next-icon" aria-hidden="true"}
-  [Next]{class="visually-hidden"}
-</button>
-:::
+%CAROUSELSTART(Meetup Pictures, meetupPictures)%
+  <!-- TODO: Add prev button, <button type="button" class="btn" aria-label="Previous"><span aria-hidden="true">&laquo;</span></button>-->
+  %CAROUSELBUTTON(Image 1, meetupPictures1, aria-selected="true")%
+  %CAROUSELBUTTON(Image 2, meetupPictures2)%
+  %CAROUSELBUTTON(Image 3, meetupPictures3)%
+  %CAROUSELBUTTON(Image 4, meetupPictures4)%
+  <!-- TODO: Add next button, <button type="button" class="btn" aria-label="Next"><span aria-hidden="true">&raquo;</span></button>-->
+%CAROUSELMIDDLE%
+  %CAROUSELIMAGE(2024 Meetup, meetupPictures1, 2023-2024/meetup)%
+  %CAROUSELIMAGE(2023 Meetup, meetupPictures2, 2022-2023/meetup-2, hidden)%
+  %CAROUSELIMAGE(2022 Summer Holiday Meetup, meetupPictures3, 2022-2023/holiday-meetup-1, hidden)%
+  %CAROUSELIMAGE(2021 Meetup, meetupPictures4, 2021-2022/first_meetup, hidden)%
+%CAROUSELEND%
 
 ### Game Jams
 We are proud to have sent Club members to various game jam events including the [UTAS School of ICT Jam](https://itch.io/jam/utas-jam) in 2022, Tas Game Makers' TasJam in [2024](https://itch.io/jam/tasjam-2024) and [2025](https://itch.io/jam/tasjam2025), and Apple Box Studio’s Game Jam Tas(part of the Global Game Jam) in early [2025](https://globalgamejam.org/jam-sites/2025/global-game-jam-tasmania) and [2026](https://globalgamejam.org/jam-sites/2026/tasmania-global-game-jam).\
 In mid 2025 we ran our own [PCJam25](https://itch.io/jam/utas-pcjam-2025) which had some great submissions.\
 Hopefully these will continue for the rest of 2026 and beyond!
 
-[Toggle game jam pictures](#industryPictures){role="button" class="button" data-bs-toggle="collapse" data-bs-target="#tasJamPictures" aria-expanded="true" aria-controls="tasJamPictures"}
-
-::: {id="tasJamPictures" class="carousel slide multi-collapse show"}
-:::: carousel-indicators
-<button type="button" data-bs-target="#tasJamPictures" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-<button type="button" data-bs-target="#tasJamPictures" data-bs-slide-to="1" aria-label="Slide 2"></button>
-<button type="button" data-bs-target="#tasJamPictures" data-bs-slide-to="2" aria-label="Slide 3"></button>
-<button type="button" data-bs-target="#tasJamPictures" data-bs-slide-to="3" aria-label="Slide 4"></button>
-::::
-:::: {class="carousel-inner pb-4"}
-::::: {class="carousel-item active"}
-<picture>
-  <source srcset="assets/2024-2025/pcjam25-1.avif" type="image/avif">
-  <source srcset="assets/2024-2025/pcjam25-1.webp" type="image/webp">
-  ![Some participants talking during PCJam25](assets/2024-2025/pcjam25-1.png){class="d-block m-auto w-auto"}
-</picture>
-:::::
-::::: carousel-item
-<picture>
-  <source srcset="assets/2023-2024/tasjam-2.avif" type="image/avif">
-  <source srcset="assets/2023-2024/tasjam-2.webp" type="image/webp">
-  ![A participant explaining a planned game mechanic during the 2024 TasJam](assets/2023-2024/tasjam-2.png){class="d-block m-auto w-auto"}
-</picture>
-:::::
-::::: carousel-item
-<picture>
-  <source srcset="assets/2023-2024/tasjam-1.avif" type="image/avif">
-  <source srcset="assets/2023-2024/tasjam-1.webp" type="image/webp">
-  ![Some participants of the 2024 TasJam working on their games](assets/2023-2024/tasjam-1.png){class="d-block m-auto w-auto"}
-</picture>
-:::::
-::::: carousel-item
-<picture>
-  <source srcset="assets/2024-2025/pcjam25-2.avif" type="image/avif">
-  <source srcset="assets/2024-2025/pcjam25-2.webp" type="image/webp">
-  ![Some participants of the PCJam25 after the event](assets/2024-2025/pcjam25-2.png){class="d-block m-auto w-auto"}
-</picture>
-:::::
-::::
-<button class="carousel-control-prev" type="button" data-bs-target="#tasJamPictures" data-bs-slide="prev">
-  []{class="carousel-control-prev-icon" aria-hidden="true"}
-  [Previous]{class="visually-hidden"}
-</button>
-<button class="carousel-control-next" type="button" data-bs-target="#tasJamPictures" data-bs-slide="next">
-  []{class="carousel-control-next-icon" aria-hidden="true"}
-  [Next]{class="visually-hidden"}
-</button>
-:::
+%CAROUSELSTART(Game Jam Pictures, gameJamPictures)%
+  %CAROUSELBUTTON(Image 1, gameJamPictures1, aria-selected="true")%
+  %CAROUSELBUTTON(Image 2, gameJamPictures2)%
+  %CAROUSELBUTTON(Image 3, gameJamPictures3)%
+  %CAROUSELBUTTON(Image 4, gameJamPictures4)%
+%CAROUSELMIDDLE%
+  %CAROUSELIMAGE(Some participants talking during PCJam25, gameJamPictures1, 2024-2025/pcjam25-1)%
+  %CAROUSELIMAGE(A participant explaining a planned game mechanic during the 2024 TasJam, gameJamPictures2, 2023-2024/tasjam-2, hidden)%
+  %CAROUSELIMAGE(Some participants of the 2024 TasJam working on their games, gameJamPictures3, 2023-2024/tasjam-1, hidden)%
+  %CAROUSELIMAGE(Some participants of the PCJam25 after the event, gameJamPictures4, 2024-2025/pcjam25-2, hidden)%
+%CAROUSELEND%
 
 ### Collaborative Events with MAPS
 We have run combined games and movie nights with the Maths and Physics Society since 2023.\
@@ -145,46 +74,15 @@ The next state Industry Day will be on the 19th of April, after the 2 day public
 
 We hope to run another night in 2026 in collaboration with the School of ICT.
 
-[Toggle industry night pictures](#industryPictures){role="button" class="button" data-bs-toggle="collapse" data-bs-target="#industryPictures" aria-expanded="true" aria-controls="industryPictures"}
-
-::: {id="industryPictures" class="carousel slide multi-collapse show"}
-:::: carousel-indicators
-<button type="button" data-bs-target="#industryPictures" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-<button type="button" data-bs-target="#industryPictures" data-bs-slide-to="1" aria-label="Slide 2"></button>
-<button type="button" data-bs-target="#industryPictures" data-bs-slide-to="2" aria-label="Slide 3"></button>
-::::
-:::: {class="carousel-inner pb-4"}
-::::: {class="carousel-item active"}
-<picture>
-  <source srcset="assets/2022-2023/industry-night-2.avif" type="image/avif">
-  <source srcset="assets/2022-2023/industry-night-2.webp" type="image/webp">
-  ![Close up of presenters at Industry Night 2023](assets/2022-2023/industry-night-2.png){class="d-block m-auto w-auto"}
-</picture>
-:::::
-::::: carousel-item
-<picture>
-  <source srcset="assets/2022-2023/industry-night-1.avif" type="image/avif">
-  <source srcset="assets/2022-2023/industry-night-1.webp" type="image/webp">
-  ![Crowd and presenters at Industry Night 2023](assets/2022-2023/industry-night-1.png){class="d-block m-auto w-auto"}
-</picture>
-:::::
-::::: carousel-item
-<picture>
-  <source srcset="assets/2022-2023/industry-night-4.avif" type="image/avif">
-  <source srcset="assets/2022-2023/industry-night-4.webp" type="image/webp">
-  ![Networking and discussions after Industry Night 2023](assets/2022-2023/industry-night-4.png){class="d-block m-auto w-auto"}
-</picture>
-:::::
-::::
-<button class="carousel-control-prev" type="button" data-bs-target="#industryPictures" data-bs-slide="prev">
-  []{class="carousel-control-prev-icon" aria-hidden="true"}
-  [Previous]{class="visually-hidden"}
-</button>
-<button class="carousel-control-next" type="button" data-bs-target="#industryPictures" data-bs-slide="next">
-  []{class="carousel-control-next-icon" aria-hidden="true"}
-  [Next]{class="visually-hidden"}
-</button>
-:::
+%CAROUSELSTART(Industry Night Pictures, industryPictures)%
+  %CAROUSELBUTTON(Image 1, industryPictures1, aria-selected="true")%
+  %CAROUSELBUTTON(Image 2, industryPictures2)%
+  %CAROUSELBUTTON(Image 3, industryPictures3)%
+%CAROUSELMIDDLE%
+  %CAROUSELIMAGE(Close up of presenters at Industry Night 2023, industryPictures1, 2022-2023/industry-night-2)%
+  %CAROUSELIMAGE(Crowd and presenters at Industry Night 2023, industryPictures2, 2022-2023/industry-night-1, hidden)%
+  %CAROUSELIMAGE(Networking and discussions after Industry Night 2023, industryPictures3, 2022-2023/industry-night-4, hidden)%
+%CAROUSELEND%
 
 ### Movie Nights
 In 2024, the Programming Club hosted a movie night after our AGM where we watched The Terminator.\
@@ -196,54 +94,17 @@ The Programming Club has run stalls at the Semester 1 C&S days since 2022, the S
 We use these events to talk to students about our events and show off the projects that members have worked on in years prior.\
 We should be at Mini C&S during Semester 2 this year and hopefully future Connect & Collaborate Expos, hope to see you there!
 
-[Toggle C&S pictures](#meetupPictures){role="button" class="button" data-bs-toggle="collapse" data-bs-target="#candsPictures" aria-expanded="true" aria-controls="candsPictures"}
-
-::: {id="candsPictures" class="carousel slide multi-collapse show"}
-:::: carousel-indicators
-<button type="button" data-bs-target="#candsPictures" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-<button type="button" data-bs-target="#candsPictures" data-bs-slide-to="1" aria-label="Slide 2"></button>
-<button type="button" data-bs-target="#candsPictures" data-bs-slide-to="2" aria-label="Slide 3"></button>
-<button type="button" data-bs-target="#candsPictures" data-bs-slide-to="3" aria-label="Slide 4"></button>
-::::
-:::: {class="carousel-inner pb-4"}
-::::: {class="carousel-item active"}
-<picture>
-  <source srcset="assets/2024-2025/c&s.avif" type="image/avif">
-  <source srcset="assets/2024-2025/c&s.webp" type="image/webp">
-  ![Some committee members at C&S 2025](assets/2024-2025/c&s.png){class="d-block m-auto w-auto"}
-</picture>
-:::::
-::::: carousel-item
-<picture>
-  <source srcset="assets/2023-2024/mini-c&s.avif" type="image/avif">
-  <source srcset="assets/2023-2024/mini-c&s.webp" type="image/webp">
-  ![Some committee members at Mini C&S 2024](assets/2023-2024/mini-c&s.png){class="d-block m-auto w-auto"}
-</picture>
-:::::
-::::: carousel-item
-<picture>
-  <source srcset="assets/2022-2023/open-day.avif" type="image/avif">
-  <source srcset="assets/2022-2023/open-day.webp" type="image/webp">
-  ![Some committee members of both PC and MAPS at Open Day 2023](assets/2022-2023/open-day.png){class="d-block m-auto w-auto"}
-</picture>
-:::::
-::::: carousel-item
-<picture>
-  <source srcset="assets/2022-2023/c&s-1-cropped.avif" type="image/avif">
-  <source srcset="assets/2022-2023/c&s-1-cropped.webp" type="image/webp">
-  ![Some committee members at C&S 2023](assets/2022-2023/c&s-1-cropped.png){class="d-block m-auto w-auto"}
-</picture>
-:::::
-::::
-<button class="carousel-control-prev" type="button" data-bs-target="#candsPictures" data-bs-slide="prev">
-  []{class="carousel-control-prev-icon" aria-hidden="true"}
-  [Previous]{class="visually-hidden"}
-</button>
-<button class="carousel-control-next" type="button" data-bs-target="#candsPictures" data-bs-slide="next">
-  []{class="carousel-control-next-icon" aria-hidden="true"}
-  [Next]{class="visually-hidden"}
-</button>
-:::
+%CAROUSELSTART(C&S Pictures, candsPictures)%
+  %CAROUSELBUTTON(Image 1, candsPictures1, aria-selected="true")%
+  %CAROUSELBUTTON(Image 2, candsPictures2)%
+  %CAROUSELBUTTON(Image 3, candsPictures3)%
+  %CAROUSELBUTTON(Image 4, candsPictures4)%
+%CAROUSELMIDDLE%
+  %CAROUSELIMAGE(Some committee members at C&S 2025, candsPictures1, 2024-2025/c&s)%
+  %CAROUSELIMAGE(Some committee members at Mini C&S 2024, candsPictures2, 2023-2024/mini-c&s, hidden)%
+  %CAROUSELIMAGE(Some committee members of both PC and MAPS at Open Day 2023, candsPictures3, 2022-2023/open-day, hidden)%
+  %CAROUSELIMAGE(Some committee members at C&S 2023, candsPictures4, 2022-2023/c&s-1-cropped, hidden)%
+%CAROUSELEND%
 
 <!-- TODO: Release 2026 SGM minutes, and 2025 AGM and 2026 SGM videos -->
 ### General Meetings

@@ -76,13 +76,17 @@ for output_page in $PAGES; do
 
   printf "Processing %s\n" "pages/$output_page.md"
   bin/pandoc templates/setup.yaml --eol=lf -s --template templates/template.html\
-             -f markdown-implicit_figures --wrap=preserve -B templates/header.html\
+             -f markdown-implicit_figures-smart --wrap=preserve -B templates/header.html\
              -A templates/footer.html "pages/$output_page.md" -o "output/$output_page.html"
   sed -i.tmp -e "s\`%NAVBAR_ITEMS%\`$navbar\`" -e 's# />#>#' -e "s/%PANDOC_VERSION%/$PANDOC_VERSION/"\
              -e "s/%MAGICK_VERSION%/$MAGICK_VERSION/" -e "s/%BUILD_TIME%/$BUILD_TIME/"\
              -e "s/%BUILD_COMMIT%/$BUILD_COMMIT/g" -e "s/%BUILD_COMMIT_AUTHOR%/$BUILD_COMMIT_AUTHORS/"\
              -e "s/%BUILD_COMMIT_TIME%/$BUILD_COMMIT_TIME/" -e "s/%BUILD_COMMIT_BRANCH%/$BUILD_COMMIT_BRANCH/g"\
              -e 's#%ALERT(\(.*\))%#<div class="alert alert-info alert-dismissible fade show mx-2 mx-sm-3" role="alert">\n          \1\n          <button type="button" class="btn-close vertical-centre-button" data-bs-dismiss="alert" aria-label="Close"></button>\n        </div>#'\
+             -e 's@%CAROUSELSTART(\([^(]*\), \([^,]*\))%@<a href="#\2" class="button" role="button" data-bs-toggle="collapse" data-bs-target="#\2" aria-expanded="true" aria-controls="\2">Toggle \1</a>\n<nav id="\2" class="multi-collapse show slide tabs" aria-label="\1">\n  <menu class="pagination" role="tablist">@'\
+             -e 's@%CAROUSELMIDDLE%@  </menu>@' -e s'@%CAROUSELEND%@</nav>@'\
+             -e 's@%CAROUSELBUTTON(\([^,(]*\), \([^,]*\)\(,\(.*\)\)\?)%@    <button class="page-link btn-primary" type="button" class="btn" role="tab" aria-controls="\2"\4>\1</button>@'\
+             -e 's@%CAROUSELIMAGE(\([^,(]*\), \([^,]*\), \([^,]*\)\(,\(.*\)\)\?)%@  <div role="tabpanel" id="\2" class="border p-2"\5>\n    <picture>\n      <source srcset="assets/\3.avif" type="image/avif">\n      <source srcset="assets/\3.webp" type="image/webp">\n      <img src="assets/\3.png" class="d-block img-fluid m-auto w-auto" alt="\1">\n    </picture>\n  </div>@'\
              -e '/<!-- TODO: .*-->/d'\
              -e '/[ "]no-anchor[ "]/b; s#^<h\([123456]\)\(.*\)id="\([^"]*\)"\(.*\)</h\1>#<h\1\2id="\3"><span\4</span><a class="ms-2" href="\#\3"><svg class="heading-anchor-icon"><title>Link icon</title></svg></a></h\1>#'\
              -e 's/<table>/<table class="table table-striped">/' -e 's/<tbody>/<tbody class="table-group-divider">/'\

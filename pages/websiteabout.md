@@ -12,6 +12,7 @@ Built using [Pandoc](https://pandoc.org/)'s Markdown to HTML converter as a stat
 The website is [hosted](https://github.com/UTAS-Programming-Club/UTAS-Programming-Club.github.io/tree/pages) on [Github Pages](https://pages.github.com/), with the original source [stored](https://github.com/UTAS-Programming-Club/UTAS-Programming-Club.github.io) on [Github](https://github.com/) as well.\
 This website relies on [Bootstrap 5](https://getbootstrap.com/), licensed under [MIT](https://github.com/twbs/bootstrap/blob/v5.3.3/LICENSE)
 and various icons from [Bootstrap Icons](https://icons.getbootstrap.com/), also licensed under [MIT](https://github.com/twbs/icons/blob/v1.11.3/LICENSE).\
+The Windows XP theme uses [Classic Stylesheets](https://github.com/nielssp/classic-stylesheets), licensed under [MIT](https://github.com/nielssp/classic-stylesheets/blob/9ebd2d8/LICENSE).\
 Special thanks to Nathaniel for their css only dark mode toggle [code](https://endtimes.dev/no-javascript-dark-mode-toggle/).\
 Using [this AI preventing robots.txt](https://github.com/ai-robots-txt/ai.robots.txt/blob/86d582b/robots.txt)(hopefully it works) by ai.robots.txt on Github under [MIT](https://github.com/ai-robots-txt/ai.robots.txt/blob/86d582b/LICENSE).\
 Using [this placeholder image](https://commons.wikimedia.org/wiki/File:No-Image-Placeholder.svg) by Ranjithsiji under CC-BY-SA-4.0.
