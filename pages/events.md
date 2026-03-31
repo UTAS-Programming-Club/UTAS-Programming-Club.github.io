@@ -273,7 +273,7 @@ Below are some records from previous general meetings:
 
 ## Calendar {class="pt-2 pb-4"}
 
-<iframe style="border-width:0" width="100%" height="400px; border: 0;" scrolling="no"
+<iframe style="border-width:0; width: 100%; height: 400px; border: 0;" scrolling="no"
         src="https://calendar.google.com/calendar/embed?height=400&wkst=1&ctz=Australia%2FHobart&showTitle=0&src=NjkxYmM0OWYyZjQ1ODU2OGM0YjUzMGZlMDY2NjczMTdjZjE5NGEzYjJmMmM2MDEwMTFkYzNjYzg5ZGVjYzU2NEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=OGI3OGYyYzY2OTNhOWI5NjE4MzBhMTAzN2MwMmIyMmE0YWZiMzUxM2VhYjg2YTIxNGVmMDRjYjg0ODNiNGRkMEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=YmhqbWN2ZzBiYTc1ZWlscW9jZmZpdmxrbzljdjlrcW5AaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23b39ddb&color=%23039be5&color=%23a79b8e">
 </iframe>
 
