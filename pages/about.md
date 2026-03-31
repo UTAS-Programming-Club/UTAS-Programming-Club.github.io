@@ -24,17 +24,17 @@ For the 2025-2026 Club year, the Committee is made up by the following people:
 
 <!-- TODO: Get photo of Mars -->
 #### President
-The president is to act as the chairperson at meetings, and act as a spokesperson for the Club.  
-**Officeholder:** Amari Hanson  
-Elected at the 2025 AGM on 14/10/2025.  
-Email: <president@programmingclub.com.au>  
+The president is to act as the chairperson at meetings, and act as a spokesperson for the Club.\
+**Officeholder:** Amari Hanson\
+Elected at the 2025 AGM on 14/10/2025.\
+Email: <president@programmingclub.com.au>\
 ![Placeholder image for portrait](https://upload.wikimedia.org/wikipedia/commons/6/65/No-Image-Placeholder.svg){height="200"}
 
 #### Treasurer
- The Treasurer is responsible for overseeing the Club's financial activities, keeping accurate records of funds and assets, and preparing and presenting budgets for new or ongoing projects.  
-**Officeholder**: Lachlan McKay  
-Elected at 2024 AGM on 11/10/2024.  
-Email: <treasurer@programmingclub.com.au>  
+ The Treasurer is responsible for overseeing the Club's financial activities, keeping accurate records of funds and assets, and preparing and presenting budgets for new or ongoing projects.\
+**Officeholder**: Lachlan McKay\
+Elected at 2024 AGM on 11/10/2024.\
+Email: <treasurer@programmingclub.com.au>\
 <picture>
   <source srcset="assets/2024-2025/committee-lachlan.avif" type="image/avif">
   <source srcset="assets/2024-2025/committee-lachlan.webp" type="image/webp">
@@ -42,10 +42,10 @@ Email: <treasurer@programmingclub.com.au>
 </picture>
 
 #### Secretary
-The Secretary ensures meetings are effectively organised and minuted, maintains effective membership records, and documents the Club's communication and correspondence.  
-**Officeholder**: Cameron Munro  
-Elected to Education Officer at the 2024 SGM on 18/03/2024 and to Secretary at the 2024 AGM on 11/10/2024.  
-Email: <secretary@programmingclub.com.au>  
+The Secretary ensures meetings are effectively organised and minuted, maintains effective membership records, and documents the Club's communication and correspondence.\
+**Officeholder**: Cameron Munro\
+Elected to Education Officer at the 2024 SGM on 18/03/2024 and to Secretary at the 2024 AGM on 11/10/2024.\
+Email: <secretary@programmingclub.com.au>\
 <picture>
   <source srcset="assets/2023-2024/committee-cameron.avif" type="image/avif">
   <source srcset="assets/2023-2024/committee-cameron.webp" type="image/webp">
@@ -53,10 +53,10 @@ Email: <secretary@programmingclub.com.au>
 </picture>
 
 #### Technical Support Officer
-The Technical Support Officer runs the Club's projects and meetups, and help members with programming issues and learning to code.  
-**Officeholder**: Joshua Wierenga  
-Elected to Technical Support Officer at the 2023 AGM on 4/10/2023, to Southern Technical Support Officer at the 2024 AGM on 11/10/2024 and back to Technical Support Officer at the 2025 AGM on 14/10/2025.  
-Email: <tech@programmingclub.com.au>, this is subject to change  
+The Technical Support Officer runs the Club's projects and meetups, and help members with programming issues and learning to code.\
+**Officeholder**: Joshua Wierenga\
+Elected to Technical Support Officer at the 2023 AGM on 4/10/2023, to Southern Technical Support Officer at the 2024 AGM on 11/10/2024 and back to Technical Support Officer at the 2025 AGM on 14/10/2025.\
+Email: <tech@programmingclub.com.au>\
 <picture>
   <source srcset="assets/2023-2024/committee-joshua.avif" type="image/avif">
   <source srcset="assets/2023-2024/committee-joshua.webp" type="image/webp">
@@ -65,26 +65,26 @@ Email: <tech@programmingclub.com.au>, this is subject to change
 
 <!-- TODO: Get photo of Luke -->
 #### Education Officer
-The Marketing Officer coördinates club events with UTAS and acts as the primary contact for staff.  
-**Officeholder**: Luke, Hau Duc  
-Elected as a General Member Officer at the 2024 AGM on 11/10/2024 and to Education Officer at the 2025 AGM on 14/10/2025.  
-Email: <education@programmingclub.com.au>  
+The Marketing Officer coördinates club events with UTAS and acts as the primary contact for staff.\
+**Officeholder**: Luke, Hau Duc\
+Elected as a General Member Officer at the 2024 AGM on 11/10/2024 and to Education Officer at the 2025 AGM on 14/10/2025.\
+Email: <education@programmingclub.com.au>\
 ![Placeholder image for portrait](https://upload.wikimedia.org/wikipedia/commons/6/65/No-Image-Placeholder.svg){height="200"}
 
 <!-- TODO: Get general member photos? -->
 #### General Member Officers
-General Members have no specific responsibilies but are required to assist with the Club's activities whenever necessary.  
+General Members have no specific responsibilies but are required to assist with the Club's activities whenever necessary.
 
 * Liam Kearney, elected at the 2026 SGM on 29/03/2026
 
 #### Unfilled positions
 [In addition to the positions listed above, we also have some that are currently unfilled:]{class="list-heading"}
 
-* Northern Education Officers  
+* Northern Education Officers\
   The Northern Education Officer would coördinate the Club's events with UTAS and act as the primary contact(s) for staff, focusing on northern Tasmania.
-* Northern and Southern Events Officers  
+* Northern and Southern Events Officers\
   The Event Officers(s) would plan and help run the Club's events.
-* Northern and Southern Marketing Officers  
+* Northern and Southern Marketing Officers\
   The Northern Marketing Officer would prepare and distribute advertising material, and try to get members to attend the Club's events.
 * Three General Member Officers
 
@@ -92,6 +92,6 @@ Members are encouraged to contact us if they are at all interested in running fo
 
 <!-- TODO: Add new 2026 Constitution -->
 ### Constitution
-The Club is governed by a constitution which is included below:  
+The Club is governed by a constitution which is included below:\
 [Link to fullsize copy](assets/Programming Club Constitution.pdf)
 ![Club Constitution PDF](assets/Programming Club Constitution.pdf){class="w-100 constitution" type="application/pdf"}

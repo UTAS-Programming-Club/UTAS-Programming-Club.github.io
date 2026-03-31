@@ -188,7 +188,7 @@ Recently, we used the bot to list scores from our private Advent of Code 2024 le
 
 ### Minecraft Mod/Server
 Mid last year we soft launched our new modded Minecraft server with [Terralith](https://modrinth.com/mod/terralith) for more interesting terrain generation and [CC: Tweaked](https://modrinth.com/mod/cc-tweaked) i.e updated Computer Craft so we can program with Lua inside the game.
-Shortly after starting the server, we began to further mod the game with changes of our own design. 
+Shortly after starting the server, we began to further mod the game with changes of our own design.
 Currently, our mod just adds explosion proof glass but we welcome suggestions for more features.
 
 If there is interest, we plan to get back into playing during the holidays before semester 1 starts.

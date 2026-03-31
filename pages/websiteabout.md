@@ -4,16 +4,16 @@ pagetitle: About Website
 no-nav-entry: True
 ---
 
-This is a preview of the Programming Club's redesigned website.  
-Designed by Kentaro Watts.  
-Implemented by Joshua Wierenga and Kentaro Watts.  
+This is a preview of the Programming Club's redesigned website.\
+Designed by Kentaro Watts.\
+Implemented by Joshua Wierenga and Kentaro Watts.
 
-Built using [Pandoc](https://pandoc.org/)'s Markdown to HTML converter as a static site generator with images prepared with [ImageMagick](https://imagemagick.org/).  
-The website is [hosted](https://github.com/UTAS-Programming-Club/UTAS-Programming-Club.github.io/tree/pages) on [Github Pages](https://pages.github.com/), with the original source [stored](https://github.com/UTAS-Programming-Club/UTAS-Programming-Club.github.io) on [Github](https://github.com/) as well.  
+Built using [Pandoc](https://pandoc.org/)'s Markdown to HTML converter as a static site generator with images prepared with [ImageMagick](https://imagemagick.org/).\
+The website is [hosted](https://github.com/UTAS-Programming-Club/UTAS-Programming-Club.github.io/tree/pages) on [Github Pages](https://pages.github.com/), with the original source [stored](https://github.com/UTAS-Programming-Club/UTAS-Programming-Club.github.io) on [Github](https://github.com/) as well.\
 This website relies on [Bootstrap 5](https://getbootstrap.com/), licensed under [MIT](https://github.com/twbs/bootstrap/blob/v5.3.3/LICENSE) 
-and various icons from [Bootstrap Icons](https://icons.getbootstrap.com/), also licensed under [MIT](https://github.com/twbs/icons/blob/v1.11.3/LICENSE).  
-Special thanks to Nathaniel for their css only dark mode toggle [code](https://endtimes.dev/no-javascript-dark-mode-toggle/).  
-Using [this AI preventing robots.txt](https://github.com/ai-robots-txt/ai.robots.txt/blob/86d582b/robots.txt)(hopefully it works) by ai.robots.txt on Github under [MIT](https://github.com/ai-robots-txt/ai.robots.txt/blob/86d582b/LICENSE).  
+and various icons from [Bootstrap Icons](https://icons.getbootstrap.com/), also licensed under [MIT](https://github.com/twbs/icons/blob/v1.11.3/LICENSE).\
+Special thanks to Nathaniel for their css only dark mode toggle [code](https://endtimes.dev/no-javascript-dark-mode-toggle/).\
+Using [this AI preventing robots.txt](https://github.com/ai-robots-txt/ai.robots.txt/blob/86d582b/robots.txt)(hopefully it works) by ai.robots.txt on Github under [MIT](https://github.com/ai-robots-txt/ai.robots.txt/blob/86d582b/LICENSE).\
 Using [this placeholder image](https://commons.wikimedia.org/wiki/File:No-Image-Placeholder.svg) by Ranjithsiji under CC-BY-SA-4.0.
 
 Website info:

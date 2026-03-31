@@ -10,9 +10,11 @@ Here are some examples from the last few years that we hope to continue into 202
 
 ### Weekly Meetups
 Every week during semester we run a meetup at the Sandy Bay campus as well as online on Discord where members can chill out after a busy week, discuss goings-on and work together of various club and personal projects. Snacks included!
-We hope to have Launceston meetups in the future, please let us know if you would like to attend or even help out with that!
+We recently ran a Launceston meetup on the 20th of Feburary and hope to have more in the future, please let us know if you would like to attend or even help out with that!
 
-In 2025, our meetups run from 2:15 PM to 4:30 PM on Tuesdays in [Centenary 140](https://maps.utas.edu.au/d/poi/1000554240) and remotely via [Discord Voice Chat](https://discord.com/channels/810048533603680307/816975438332035102).
+In 2026, our meetups run from 1 PM to 3:30 PM on Thursdays and currently move between [Centenary 355](https://maps.utas.edu.au/d/poi/1000554342) and [Engineering 217](https://maps.utas.edu.au/d/poi/1000552975).
+We will send an annoucement on Discord each week with the room.\
+Our meetups can also be joined remotely via [Discord Voice Chat](https://discord.com/channels/810048533603680307/816975438332035102).
 
 [Toggle meetup pictures](#meetupPictures){role="button" data-bs-toggle="collapse" data-bs-target="#meetupPictures" aria-expanded="true" aria-controls="meetupPictures"}
 
@@ -64,9 +66,9 @@ In 2025, our meetups run from 2:15 PM to 4:30 PM on Tuesdays in [Centenary 140](
 :::
 
 ### Game Jams
-We are proud to send Club members to various game jam events across the past few years including the [UTas School of ICT Jam](https://itch.io/jam/utas-jam) in 2022, [Tas Game Makers' TasJam](https://itch.io/jam/tasjam-2024) in 2024 and [Apple Box Studio's Game Jam Tas](https://globalgamejam.org/jam-sites/2025/global-game-jam-tasmania)(part of the Global Game Jam) in early 2025.
-Most recently we ran our own [PCJam25](https://itch.io/jam/utas-pcjam-2025) which had some great submissions.
-Hopefully these will continue for the rest of 2025 and beyond!
+We are proud to have sent Club members to various game jam events including the [UTAS School of ICT Jam](https://itch.io/jam/utas-jam) in 2022, Tas Game Makers' TasJam in [2024](https://itch.io/jam/tasjam-2024) and [2025](https://itch.io/jam/tasjam2025), and Apple Box Studio’s Game Jam Tas(part of the Global Game Jam) in early [2025](https://globalgamejam.org/jam-sites/2025/global-game-jam-tasmania) and [2026](https://globalgamejam.org/jam-sites/2026/tasmania-global-game-jam).\
+In mid 2025 we ran our own [PCJam25](https://itch.io/jam/utas-pcjam-2025) which had some great submissions.\
+Hopefully these will continue for the rest of 2026 and beyond!
 
 [Toggle game jam pictures](#industryPictures){role="button" data-bs-toggle="collapse" data-bs-target="#tasJamPictures" aria-expanded="true" aria-controls="tasJamPictures"}
 
@@ -119,28 +121,29 @@ Hopefully these will continue for the rest of 2025 and beyond!
 
 ### Collaborative Events with MAPS
 We have run combined games and movie nights with the Maths and Physics Society since 2023.\
-The next one is planned for the 15th of April in Week 8, hopefully we well see you there. [Entry](https://campus.hellorubric.com/?eid=34039)(via Rubric) is free for members of either club.
+We hope to keep these collaborations going in 2026 but nothing is currently planned. Entry to these events is free for members of either club.
 
 <!-- TODO: Mentioned involved clubs -->
 <!-- TODO: Link to Rubric sign up page once up -->
 <!-- TODO: Add pictures -->
 ### STEM Balls
 The Programming Club has helped organise the annual STEM ball and many of our members have attended ever since the inaugural ball in 2023.
-The STEM Ball is run by the UTAS clubs in the STEM fields (minus engineering), and is their social highlight of the year.
-We most recently ran one on the 20th of September 2025 and should have pictures available soon.
+The STEM Ball is run by the various UTAS clubs in the STEM fields, and is our social highlight of the year.
+We most recently ran one on the 20th of September 2025 and we expect to be able to release details about the 2026 event later this year.
 
 ### BBQs
 We have held public barbeques on the Sandy Bay campus since 2023 with cheap food available and even discounts for members.
 We cater to as many people as possible by offering both meat and vegan options as well as soft drinks.\
 They are one of the events where the Club engages with the wider student community.
 
-We currently do not have one scheduled for this year but will be helping out with the STEM Ball announcement BBQ on the 21st of May at the Sandy Bay campus, more details later on.
+We currently do not a BBQ scheduled for this year but will be helping out with the STEM Ball announcement BBQ later in the year.
 
 ### Industry Nights
-In 2023 we ran an educational event with former students taking about their experiences finding work in Tasmania and more broardly in Australia.
-There was also the Industry Day session last year as part of the state government's Level Up Tas which serves as similar role but for video game creation specifically which some members attended last year.
+In 2023 we ran an educational event with former students taking about their experiences finding work in Tasmania and more broardly in Australia.\
+While not arranged by us, there was also the 2024 Industry Day session as part of the state government’s Level Up Tasmania which serves as similar role but for video game creation specifically which some members attended.
+The next state Industry Day will be on the 19th of April, after the 2 day public games showcase, see Screen Tasmania's [website](https://www.screen.tas.gov.au/leveluptasmania) for more details.
 
-We hope to run another night later in 2025 in collaboration with the School of ICT.
+We hope to run another night in 2026 in collaboration with the School of ICT.
 
 [Toggle industry night pictures](#industryPictures){role="button" data-bs-toggle="collapse" data-bs-target="#industryPictures" aria-expanded="true" aria-controls="industryPictures"}
 
@@ -185,13 +188,13 @@ We hope to run another night later in 2025 in collaboration with the School of I
 
 ### Movie Nights
 In 2024, the Programming Club hosted a movie night after our AGM where we watched The Terminator.\
-This year, the night will be on the 14th of October at around 6:30 PM in Centenary 140 where we are watching the original Ghostbusters!
-Attendance will be free and we will have free pizza, soft drinks and alcohol available.
+In 2025 we did the same with the original Ghostbusters and in future we plan to host multiple throughout the year.\
+Attendance will be free for members and we will have free pizza, soft drinks and possibly alcohol available.
 
-### UTAS Clubs and Societies Days
-The Programming Club has run stalls at the University's Clubs and Societies days since 2022 and the new Mini Clubs and Societies day since it began in 2024.
+### UTAS Clubs and Societies Days/School of ICT's Connect & Collaborate Expos
+The Programming Club has run stalls at the Semester 1 C&S days since 2022, the Semester 2 Mini C&S days since they began in 2024, and the Connect & Collaborate Expo in Semester 2 2025.\
 We use these events to talk to students about our events and show off the projects that members have worked on in years prior.\
-We should be at the Mini C&S day during Semester 2 in 2025 so hopefully we will see you there!
+We should be at Mini C&S during Semester 2 this year and hopefully future Connect & Collaborate Expos, hope to see you there!
 
 [Toggle C&S pictures](#meetupPictures){role="button" data-bs-toggle="collapse" data-bs-target="#candsPictures" aria-expanded="true" aria-controls="candsPictures"}
 
@@ -245,9 +248,9 @@ We should be at the Mini C&S day during Semester 2 in 2025 so hopefully we will 
 <!-- TODO: Release 2026 SGM minutes, and 2025 AGM and 2026 SGM videos -->
 ### General Meetings
 Our general meetings are held to discuss broader club matters such as significant club decisions and the election of officers.
-All Club members are invited to attend and may vote in proceedings.
 There are two types of general meeting: our annual general meeting which has run every year since 2021;
 and special general meetings, which run whenever there is important business including most recently in both March 2024 and March 2026.
+Everyone is invited to attend these events regardless of membership status but only members may vote in proceedings.
 
 Or next general meeting should be our AGM sometime in October 2026 but we may schedule an SGM before then if there is any important business to discuss.
 
