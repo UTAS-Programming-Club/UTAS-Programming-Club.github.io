@@ -4,13 +4,13 @@ pagetitle: About Website
 no-nav-entry: True
 ---
 
-This is a preview of the Programming Club's redesigned website.\
+This is the 2nd version of the Programming Club's website.\
 Designed by Kentaro Watts.\
 Implemented by Joshua Wierenga and Kentaro Watts.
 
 Built using [Pandoc](https://pandoc.org/)'s Markdown to HTML converter as a static site generator with images prepared with [ImageMagick](https://imagemagick.org/).\
 The website is [hosted](https://github.com/UTAS-Programming-Club/UTAS-Programming-Club.github.io/tree/pages) on [Github Pages](https://pages.github.com/), with the original source [stored](https://github.com/UTAS-Programming-Club/UTAS-Programming-Club.github.io) on [Github](https://github.com/) as well.\
-This website relies on [Bootstrap 5](https://getbootstrap.com/), licensed under [MIT](https://github.com/twbs/bootstrap/blob/v5.3.3/LICENSE) 
+This website relies on [Bootstrap 5](https://getbootstrap.com/), licensed under [MIT](https://github.com/twbs/bootstrap/blob/v5.3.3/LICENSE)
 and various icons from [Bootstrap Icons](https://icons.getbootstrap.com/), also licensed under [MIT](https://github.com/twbs/icons/blob/v1.11.3/LICENSE).\
 Special thanks to Nathaniel for their css only dark mode toggle [code](https://endtimes.dev/no-javascript-dark-mode-toggle/).\
 Using [this AI preventing robots.txt](https://github.com/ai-robots-txt/ai.robots.txt/blob/86d582b/robots.txt)(hopefully it works) by ai.robots.txt on Github under [MIT](https://github.com/ai-robots-txt/ai.robots.txt/blob/86d582b/LICENSE).\
@@ -18,7 +18,7 @@ Using [this placeholder image](https://commons.wikimedia.org/wiki/File:No-Image-
 
 Website info:
 
-* Version: v2.0.0-preview
+* Version: v2.1.0-beta
 * Pandoc version: %PANDOC_VERSION%
 * ImageMagick version: %MAGICK_VERSION%
 <!-- TODO: Move to build.sh so setup.yaml can use the same variable -->
