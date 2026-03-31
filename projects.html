@@ -21,12 +21,24 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous" defer></script>
   <script src="assets/script.js" defer></script>
+  <script src="assets/winxp/tabs.js" type="module" defer></script>
   <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="assets/winxp/combined.min.css">
+  <link rel="stylesheet" href="assets/style-winxp.css">
 </head>
 <body>
   <input type="checkbox" id="dark-mode-toggle" hidden>
   <div id="background" class="h-100 overflow-x-hidden bg-secondary-subtle">
-    <div id="foreground" class="mx-auto my-4 pt-2 pb-1 px-3 bg-body border border-secondary">
+    <div id="foreground" class="mx-auto my-4 pt-2 pb-1 px-3 bg-body border border-secondary window active">
+      <div class="title-bar">
+        <div class="title-bar-text">Programming Club</div>
+        <div class="title-bar-buttons">
+          <button data-minimize=""></button>
+          <button data-maximize=""></button>
+          <button data-close=""></button>
+        </div>
+      </div>
+      <div class="window-body container">
       <header>
         <div class="d-flex align-items-center pt-2">
           <img height="64" class="pe-2" src="assets/logo.svg" alt="Programming Club logo">
@@ -49,16 +61,16 @@
             <div id="navbar-pages" class="navbar-collapse overflow-hidden d-block pt-3">
               <ul class="navbar-nav nav-justified w-100 mb-2 mb-md-0" aria-label="submenu">
                 <li class="nav-item mb-2 px-2">
-                  <a class="nav-link pt-1" href="index.html">Home</a>
+                  <a class="nav-link pt-1 button" href="index.html">Home</a>
                 </li>
                 <li class="nav-item mb-2 px-2">
-                  <a class="nav-link pt-1" aria-current="page" href="#">Projects</a>
+                  <a class="nav-link pt-1 button" aria-current="page" href="#">Projects</a>
                 </li>
                 <li class="nav-item mb-2 px-2">
-                  <a class="nav-link pt-1" href="events.html">Events</a>
+                  <a class="nav-link pt-1 button" href="events.html">Events</a>
                 </li>
                 <li class="nav-item mb-2 px-2">
-                  <a class="nav-link pt-1" href="about.html">About Us</a>
+                  <a class="nav-link pt-1 button" href="about.html">About Us</a>
                 </li>
               </ul>
             </div>
@@ -74,25 +86,21 @@ Organised from the bottom up, these projects are a way to apply skills and conce
 We aim to design projects that are accessible for people of varying skill levels and abilities.</p>
 <p>We only accept contributions to our projects from members so if you are interested but are not one yet, then please visit our Rubric page to become one.
 Additionally, any contributions made to our projects must include a copyright assignment to the Club. We plan to formalise this project in future to make it easy to do for first time contributors.</p>
-<p><a href="#" role="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="true" aria-controls="textAdventureExamples discordBotExamples minecraftExamples">Toggle all example dropdowns</a></p>
+<p><a href="#" class="button" role="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="true" aria-controls="textAdventureExamples discordBotExamples minecraftExamples">Toggle all example dropdowns</a></p>
 <h3 id="untitled-text-adventure"><span>Untitled Text Adventure</span><a class="ms-2" href="#untitled-text-adventure"><svg class="heading-anchor-icon"><title>Link icon</title></svg></a></h3>
 <p>A yet unnamed classic text adventure that started development in early 2024 in C but is currently being rewritten in <a href="https://haxe.org/">Haxe</a>, a blend of Java and Python used mostly for game development which we hope will make the game more approachable to work on.
 Like similar text adventures from the 80s and 90s, the game features password based saving rather than modern save files, this forces us to be creative when introducing new features as to avoid bloating the password and so making it hard to use.</p>
 <p>A key focus of this project is having it be compatible with a wide variety of unusual targets including Discord, our Website and the <a href="https://shop.pimoroni.com/products/picovision">Pimoroni PicoVision</a>, an embedded Raspberry PI RP2040 based computer with an HDMI output.
-We started in C for it’s near universal adoption on both new and old devices going back decades, but it turns out that Haxe fits this niche even better as it can be converted into a number of other languages including C++, JavaScript and Python making it easy to use almost anywhere.
+We started in C for it's near universal adoption on both new and old devices going back decades, but it turns out that Haxe fits this niche even better as it can be converted into a number of other languages including C++, JavaScript and Python making it easy to use almost anywhere.
 Once the rewrite is done, we have plans to develop a map editor and possibly make use on other Tassie made projects like <a href="https://www.yarnspinner.dev/">Yarn Spinner</a> for narrative and progression management since a partial <a href="https://github.com/cxsquared/hxyarn">Haxe port</a> already exists.</p>
-<p><a href="#textAdventureExamples" role="button" data-bs-toggle="collapse" data-bs-target="#textAdventureExamples" aria-expanded="true" aria-controls="textAdventureExamples">Toggle game example screens</a></p>
-<div id="textAdventureExamples" class="carousel slide multi-collapse show">
-<div class="carousel-indicators">
-<button type="button" data-bs-target="#textAdventureExamples" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
-</button>
-<button type="button" data-bs-target="#textAdventureExamples" data-bs-slide-to="1" aria-label="Slide 2">
-</button>
-<button type="button" data-bs-target="#textAdventureExamples" data-bs-slide-to="2" aria-label="Slide 3">
-</button>
-</div>
-<div class="carousel-inner">
-<div class="carousel-item active">
+<a href="#textAdventureExamples" class="button" role="button" data-bs-toggle="collapse" data-bs-target="#textAdventureExamples" aria-expanded="true" aria-controls="textAdventureExamples">Toggle Game Example Screens</a>
+<nav id="textAdventureExamples" class="multi-collapse show slide tabs" aria-label="Game Example Screens">
+  <menu class="pagination" role="tablist">
+    <button class="page-link btn-primary" type="button" class="btn" role="tab" aria-controls="textAdventureExamples1" aria-selected="true">Image 1</button>
+    <button class="page-link btn-primary" type="button" class="btn" role="tab" aria-controls="textAdventureExamples2">Image 2</button>
+    <button class="page-link btn-primary" type="button" class="btn" role="tab" aria-controls="textAdventureExamples3">Image 3</button>
+  </menu>
+<div id="textAdventureExamples1" class="border p-2" role="tabpanel">
 <pre><code>Untitled text adventure game
 ----------------------------
 By the UTAS Programming Club
@@ -104,7 +112,7 @@ Use the numbers below to make a selection.
 2. Load Game
 3. Quit Game</code></pre>
 </div>
-<div class="carousel-item">
+<div id="textAdventureExamples2" class="border p-2" role="tabpanel" hidden="">
 <pre><code>You find yourself surrounded.
 
 You attacked enemy 2 with your sword.
@@ -117,7 +125,7 @@ Your Stamina: ██████████ : 100%
 
 Physical enemy 1 health: ██████████ :  95%
 Physical enemy 2 health: ████       :  33%
- Magical enemy 3 health: ██████████ : 100%
+Magical enemy 3 health: ██████████ : 100%
 
 Combat log:
 ⬤ Enemy 3 did 0 magic damage to you
@@ -136,7 +144,7 @@ Use the numbers below to make a selection.
 4. Check Player Stats
 5. Flee</code></pre>
 </div>
-<div class="carousel-item">
+<div id="textAdventureExamples3" class="border p-2" role="tabpanel" hidden="">
 <pre><code>Player Equipment
 
 Health:                    ██████████ : 100
@@ -167,137 +175,101 @@ Use the numbers below to make a selection.
 7. Swap Equipment 7
 8. Return to Game</code></pre>
 </div>
-</div>
-<button class="carousel-control-prev" type="button" data-bs-target="#textAdventureExamples" data-bs-slide="prev">
-<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-<span class="visually-hidden">Previous</span>
-</button>
-<button class="carousel-control-next" type="button" data-bs-target="#textAdventureExamples" data-bs-slide="next">
-<span class="carousel-control-next-icon" aria-hidden="true"></span>
-<span class="visually-hidden">Next</span>
-</button>
-</div>
+<p></nav></p>
 <p><span class="list-heading">Links:</span></p>
 <ul>
-<li><a href="https://github.com/UTAS-Programming-Club/UntitledTextAdventure">Original game’s source code</a></li>
-<li><a href="https://github.com/UTAS-Programming-Club/UntitledTextAdventure/tree/haxe-rewrite">Haxe rewrite’s source code</a></li>
+<li><a href="https://github.com/UTAS-Programming-Club/UntitledTextAdventure">Original game's source code</a></li>
+<li><a href="https://github.com/UTAS-Programming-Club/UntitledTextAdventure/tree/haxe-rewrite">Haxe rewrite's source code</a></li>
 <li><a href="https://github.com/UTAS-Programming-Club/UntitledTextAdventure/wiki">Some ideas and a partial development history</a></li>
 <li><a href="https://github.com/UTAS-Programming-Club/DiscordBot/blob/main/PCBot/plugins/textadventure.py">Discord bot plugin to use original game</a></li>
 <li><a href="https://github.com/UTAS-Programming-Club/DiscordBot/blob/main/PCBot/plugins/textadventurenew.py">Discord bot plugin to use haxe rewrite</a></li>
 <li><a href="game/webfrontend.html">Web build for haxe rewrite</a>, note that this is on our old website which has some broken links</li>
 </ul>
 <h3 id="discord-bot"><span>Discord Bot</span><a class="ms-2" href="#discord-bot"><svg class="heading-anchor-icon"><title>Link icon</title></svg></a></h3>
-<p>Developed for our Discord server, the Club’s own Discord bot comes with a variety of minigames supporting both singleplayer and multiplayer including tictactoe and minesweeper.
+<p>Developed for our Discord server, the Club's own Discord bot comes with a variety of minigames supporting both singleplayer and multiplayer including tictactoe and minesweeper.
 The bot is written in Python using <a href="https://github.com/hikari-py/hikari">hikari</a>, <a href="https://github.com/hikari-crescent/hikari-crescent">hikari-crescent</a>, and <a href="https://github.com/hypergonial/hikari-miru">hikari-miru</a> to handle communication with Discord, basic user interaction and button menus respectively.
 On top of this, we have developed custom methods of reloading and debugging plugins during development with plans to improve these features even further to allow people to work on the bot simulatiously without risking impacting each other.</p>
 <p>We have previously included partial support for hangman and classic DECtalk based TTS.
 If anyone is interested in these features and would like to help finish support for them or for anything else, then please let us know.
 Recently, we used the bot to list scores from our private Advent of Code 2024 leaderboard to make it easy to compare scores with other members.</p>
-<p><a href="#discordBotExamples" role="button" data-bs-toggle="collapse" data-bs-target="#discordBotExamples" aria-expanded="true" aria-controls="discordBotExamples">Toggle bot example commands</a></p>
-<div id="discordBotExamples" class="carousel slide multi-collapse show">
-<div class="carousel-indicators">
-<button type="button" data-bs-target="#discordBotExamples" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
-</button>
-<button type="button" data-bs-target="#discordBotExamples" data-bs-slide-to="1" aria-label="Slide 2">
-</button>
-<button type="button" data-bs-target="#discordBotExamples" data-bs-slide-to="2" aria-label="Slide 3">
-</button>
-</div>
-<div class="carousel-inner pb-4">
-<div class="carousel-item active">
-<p><picture>
-<source srcset="assets/2023-2024/discord-minesweeper.avif" type="image/avif">
-<source srcset="assets/2023-2024/discord-minesweeper.webp" type="image/webp">
-<img src="assets/2023-2024/discord-minesweeper.png" class="d-block m-auto w-auto" alt="Example of minesweeper commmand">
-</picture></p>
-</div>
-<div class="carousel-item">
-<p><picture>
-<source srcset="assets/2023-2024/discord-hangman.avif" type="image/avif">
-<source srcset="assets/2023-2024/discord-hangman.webp" type="image/webp">
-<img src="assets/2023-2024/discord-hangman.png" class="d-block m-auto w-auto" alt="Example of hangman commmand">
-</picture></p>
-</div>
-<div class="carousel-item">
-<p><picture>
-<source srcset="assets/2024-2025/discord-aoc.avif" type="image/avif">
-<source srcset="assets/2024-2025/discord-aoc.webp" type="image/webp">
-<img src="assets/2024-2025/discord-aoc.png" class="d-block m-auto w-auto" alt="Example of advent of code leaderboard commmand">
-</picture></p>
-</div>
-</div>
-<button class="carousel-control-prev" type="button" data-bs-target="#discordBotExamples" data-bs-slide="prev">
-<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-<span class="visually-hidden">Previous</span>
-</button>
-<button class="carousel-control-next" type="button" data-bs-target="#discordBotExamples" data-bs-slide="next">
-<span class="carousel-control-next-icon" aria-hidden="true"></span>
-<span class="visually-hidden">Next</span>
-</button>
-</div>
+<p><a href="#discordBotExamples" class="button" role="button" data-bs-toggle="collapse" data-bs-target="#discordBotExamples" aria-expanded="true" aria-controls="discordBotExamples">Toggle Bot Examples</a>
+<nav id="discordBotExamples" class="multi-collapse show slide tabs" aria-label="Bot Examples">
+  <menu class="pagination" role="tablist">
+    <button class="page-link btn-primary" type="button" class="btn" role="tab" aria-controls="discordBotExamples1" aria-selected="true">Image 1</button>
+    <button class="page-link btn-primary" type="button" class="btn" role="tab" aria-controls="discordBotExamples2">Image 2</button>
+    <button class="page-link btn-primary" type="button" class="btn" role="tab" aria-controls="discordBotExamples3">Image 3</button>
+  </menu>
+  <div role="tabpanel" id="discordBotExamples1" class="border p-2">
+    <picture>
+      <source srcset="assets/2023-2024/discord-minesweeper.avif" type="image/avif">
+      <source srcset="assets/2023-2024/discord-minesweeper.webp" type="image/webp">
+      <img src="assets/2023-2024/discord-minesweeper.png" class="d-block img-fluid m-auto w-auto" alt="Example of minesweeper commmand">
+    </picture>
+  </div>
+  <div role="tabpanel" id="discordBotExamples2" class="border p-2" hidden>
+    <picture>
+      <source srcset="assets/2023-2024/discord-hangman.avif" type="image/avif">
+      <source srcset="assets/2023-2024/discord-hangman.webp" type="image/webp">
+      <img src="assets/2023-2024/discord-hangman.png" class="d-block img-fluid m-auto w-auto" alt="Example of hangman commmand">
+    </picture>
+  </div>
+  <div role="tabpanel" id="discordBotExamples3" class="border p-2" hidden>
+    <picture>
+      <source srcset="assets/2024-2025/discord-aoc.avif" type="image/avif">
+      <source srcset="assets/2024-2025/discord-aoc.webp" type="image/webp">
+      <img src="assets/2024-2025/discord-aoc.png" class="d-block img-fluid m-auto w-auto" alt="Example of advent of code leaderboard commmand">
+    </picture>
+  </div>
+</nav></p>
 <p><span class="list-heading">Links:</span></p>
 <ul>
-<li><a href="https://github.com/UTAS-Programming-Club/DiscordBot">Our bot’s source code</a></li>
+<li><a href="https://github.com/UTAS-Programming-Club/DiscordBot">Our bot's source code</a></li>
 </ul>
 <h3 id="minecraft-modserver"><span>Minecraft Mod/Server</span><a class="ms-2" href="#minecraft-modserver"><svg class="heading-anchor-icon"><title>Link icon</title></svg></a></h3>
 <p>Mid last year we soft launched our new modded Minecraft server with <a href="https://modrinth.com/mod/terralith">Terralith</a> for more interesting terrain generation and <a href="https://modrinth.com/mod/cc-tweaked">CC: Tweaked</a> i.e updated Computer Craft so we can program with Lua inside the game.
 Shortly after starting the server, we began to further mod the game with changes of our own design.
 Currently, our mod just adds explosion proof glass but we welcome suggestions for more features.</p>
 <p>If there is interest, we plan to get back into playing during the holidays before semester 1 starts.</p>
-<p><a href="#minecraftExamples" role="button" data-bs-toggle="collapse" data-bs-target="#minecraftExamples" aria-expanded="true" aria-controls="minecraftExamples">Toggle server example screenshots</a></p>
-<div id="minecraftExamples" class="carousel slide multi-collapse show">
-<div class="carousel-indicators">
-<button type="button" data-bs-target="#minecraftExamples" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
-</button>
-<button type="button" data-bs-target="#minecraftExamples" data-bs-slide-to="1" aria-label="Slide 2">
-</button>
-<button type="button" data-bs-target="#minecraftExamples" data-bs-slide-to="2" aria-label="Slide 3">
-</button>
-<button type="button" data-bs-target="#minecraftExamples" data-bs-slide-to="3" aria-label="Slide 4">
-</button>
-</div>
-<div class="carousel-inner pb-4">
-<div class="carousel-item active">
-<p><picture>
-<source srcset="assets/2023-2024/minecraft-1.avif" type="image/avif">
-<source srcset="assets/2023-2024/minecraft-1.webp" type="image/webp">
-<img src="assets/2023-2024/minecraft-1.png" class="d-block m-auto w-auto" alt="Example of Terralith terrain on our Minecraft Server">
-</picture></p>
-</div>
-<div class="carousel-item">
-<p><picture>
-<source srcset="assets/2023-2024/minecraft-2.avif" type="image/avif">
-<source srcset="assets/2023-2024/minecraft-2.webp" type="image/webp">
-<img src="assets/2023-2024/minecraft-2.png" class="d-block m-auto w-auto" alt="Example of player bases on our Minecraft Server">
-</picture></p>
-</div>
-<div class="carousel-item">
-<p><picture>
-<source srcset="assets/2023-2024/minecraft-3.avif" type="image/avif">
-<source srcset="assets/2023-2024/minecraft-3.webp" type="image/webp">
-<img src="assets/2023-2024/minecraft-3.png" class="d-block m-auto w-auto" alt="Example of development work on our mod for our Minecraft Server">
-</picture></p>
-</div>
-<div class="carousel-item">
-<p><picture>
-<source srcset="assets/2024-2025/minecraft-highway.avif" type="image/avif">
-<source srcset="assets/2024-2025/minecraft-highway.webp" type="image/webp">
-<img src="assets/2024-2025/minecraft-highway.png" class="d-block m-auto w-auto" alt="Example of modded blocks and player structures on our Minecraft Server">
-</picture></p>
-</div>
-</div>
-<button class="carousel-control-prev" type="button" data-bs-target="#minecraftExamples" data-bs-slide="prev">
-<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-<span class="visually-hidden">Previous</span>
-</button>
-<button class="carousel-control-next" type="button" data-bs-target="#minecraftExamples" data-bs-slide="next">
-<span class="carousel-control-next-icon" aria-hidden="true"></span>
-<span class="visually-hidden">Next</span>
-</button>
-</div>
+<p><a href="#minecraftExamples" class="button" role="button" data-bs-toggle="collapse" data-bs-target="#minecraftExamples" aria-expanded="true" aria-controls="minecraftExamples">Toggle Minecraft Server Example Pictures</a>
+<nav id="minecraftExamples" class="multi-collapse show slide tabs" aria-label="Minecraft Server Example Pictures">
+  <menu class="pagination" role="tablist">
+    <button class="page-link btn-primary" type="button" class="btn" role="tab" aria-controls="minecraftExamples1" aria-selected="true">Image 1</button>
+    <button class="page-link btn-primary" type="button" class="btn" role="tab" aria-controls="minecraftExamples2">Image 2</button>
+    <button class="page-link btn-primary" type="button" class="btn" role="tab" aria-controls="minecraftExamples3">Image 3</button>
+    <button class="page-link btn-primary" type="button" class="btn" role="tab" aria-controls="minecraftExamples4">Image 4</button>
+  </menu>
+  <div role="tabpanel" id="minecraftExamples1" class="border p-2">
+    <picture>
+      <source srcset="assets/2023-2024/minecraft-1.avif" type="image/avif">
+      <source srcset="assets/2023-2024/minecraft-1.webp" type="image/webp">
+      <img src="assets/2023-2024/minecraft-1.png" class="d-block img-fluid m-auto w-auto" alt="Example of Terralith terrain on our Minecraft Server">
+    </picture>
+  </div>
+  <div role="tabpanel" id="minecraftExamples2" class="border p-2" hidden>
+    <picture>
+      <source srcset="assets/2023-2024/minecraft-2.avif" type="image/avif">
+      <source srcset="assets/2023-2024/minecraft-2.webp" type="image/webp">
+      <img src="assets/2023-2024/minecraft-2.png" class="d-block img-fluid m-auto w-auto" alt="Example of player bases on our Minecraft Server">
+    </picture>
+  </div>
+  <div role="tabpanel" id="minecraftExamples3" class="border p-2" hidden>
+    <picture>
+      <source srcset="assets/2023-2024/minecraft-3.avif" type="image/avif">
+      <source srcset="assets/2023-2024/minecraft-3.webp" type="image/webp">
+      <img src="assets/2023-2024/minecraft-3.png" class="d-block img-fluid m-auto w-auto" alt="Example of development work on our mod for our Minecraft Server">
+    </picture>
+  </div>
+  <div role="tabpanel" id="minecraftExamples4" class="border p-2" hidden>
+    <picture>
+      <source srcset="assets/2024-2025/minecraft-highway.avif" type="image/avif">
+      <source srcset="assets/2024-2025/minecraft-highway.webp" type="image/webp">
+      <img src="assets/2024-2025/minecraft-highway.png" class="d-block img-fluid m-auto w-auto" alt="Example of modded blocks and player structures on our Minecraft Server">
+    </picture>
+  </div>
+</nav></p>
 <p><span class="list-heading">Links:</span></p>
 <ul>
-<li><a href="https://github.com/UTAS-Programming-Club/HardenedGlass">Our mod’s source code</a></li>
+<li><a href="https://github.com/UTAS-Programming-Club/HardenedGlass">Our mod's source code</a></li>
 </ul>
 <h3 id="this-website"><span>This Website</span><a class="ms-2" href="#this-website"><svg class="heading-anchor-icon"><title>Link icon</title></svg></a></h3>
 <p>What you are seeing now is a a major redesign of our original website.
@@ -309,8 +281,8 @@ We have plans to add even more content, improve the integration with the text ad
 Let us know what you would like to see!</p>
 <p><span class="list-heading">Links:</span></p>
 <ul>
-<li><a href="https://github.com/UTAS-Programming-Club/UTAS-Programming-Club.github.io/">Our updated website’s source code</a></li>
-<li><a href="https://github.com/UTAS-Programming-Club/UTAS-Programming-Club.github.io/tree/legacy">Our legacy website’s source code</a>, which is still used for the game currently</li>
+<li><a href="https://github.com/UTAS-Programming-Club/UTAS-Programming-Club.github.io/">Our updated website's source code</a></li>
+<li><a href="https://github.com/UTAS-Programming-Club/UTAS-Programming-Club.github.io/tree/legacy">Our legacy website's source code</a>, which is still used for the game currently</li>
 </ul>
       </div>
       <hr>
@@ -324,19 +296,19 @@ Let us know what you would like to see!</p>
             <div id="navbar-socials" class="navbar-collapse overflow-hidden d-block pt-3">
               <ul class="navbar-nav nav-justified w-100 mb-2 mb-md-0">
                 <li class="nav-item mb-2 px-2">
-                  <a class="nav-link pt-1" href="https://memberships.programmingclub.com.au">Rubric Memberships</a>
+                  <a class="nav-link pt-1 button" href="https://memberships.programmingclub.com.au">Rubric Memberships</a>
                 </li>
                 <li class="nav-item mb-2 px-2">
-                  <a class="nav-link pt-1" href="https://discord.com/invite/d6RdH2bfJ8">Discord</a>
+                  <a class="nav-link pt-1 button" href="https://discord.com/invite/d6RdH2bfJ8">Discord</a>
                 </li>
                 <li class="nav-item mb-2 px-2">
-                  <a class="nav-link pt-1" href="https://github.com/UTAS-Programming-Club/">Github</a>
+                  <a class="nav-link pt-1 button" href="https://github.com/UTAS-Programming-Club/">Github</a>
                 </li>
                 <li class="nav-item mb-2 px-2">
-                  <a class="nav-link pt-1" href="https://www.instagram.com/programmingclub.tas/">Instagram</a>
+                  <a class="nav-link pt-1 button" href="https://www.instagram.com/programmingclub.tas/">Instagram</a>
                 </li>
                 <li class="nav-item mb-2 px-2">
-                  <a class="nav-link pt-1" href="https://www.facebook.com/ProgrammingClubTas/">Facebook</a>
+                  <a class="nav-link pt-1 button" href="https://www.facebook.com/ProgrammingClubTas/">Facebook</a>
                 </li>
               </ul>
             </div>
@@ -354,6 +326,7 @@ Let us know what you would like to see!</p>
           </a>
         </div>
       </footer>
+      </div>
     </div>
   </div>
 </body>

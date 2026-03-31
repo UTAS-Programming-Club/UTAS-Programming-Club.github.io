@@ -21,12 +21,24 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous" defer></script>
   <script src="assets/script.js" defer></script>
+  <script src="assets/winxp/tabs.js" type="module" defer></script>
   <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="assets/winxp/combined.min.css">
+  <link rel="stylesheet" href="assets/style-winxp.css">
 </head>
 <body>
   <input type="checkbox" id="dark-mode-toggle" hidden>
   <div id="background" class="h-100 overflow-x-hidden bg-secondary-subtle">
-    <div id="foreground" class="mx-auto my-4 pt-2 pb-1 px-3 bg-body border border-secondary">
+    <div id="foreground" class="mx-auto my-4 pt-2 pb-1 px-3 bg-body border border-secondary window active">
+      <div class="title-bar">
+        <div class="title-bar-text">Programming Club</div>
+        <div class="title-bar-buttons">
+          <button data-minimize=""></button>
+          <button data-maximize=""></button>
+          <button data-close=""></button>
+        </div>
+      </div>
+      <div class="window-body container">
       <header>
         <div class="d-flex align-items-center pt-2">
           <img height="64" class="pe-2" src="assets/logo.svg" alt="Programming Club logo">
@@ -49,16 +61,16 @@
             <div id="navbar-pages" class="navbar-collapse overflow-hidden d-block pt-3">
               <ul class="navbar-nav nav-justified w-100 mb-2 mb-md-0" aria-label="submenu">
                 <li class="nav-item mb-2 px-2">
-                  <a class="nav-link pt-1" href="index.html">Home</a>
+                  <a class="nav-link pt-1 button" href="index.html">Home</a>
                 </li>
                 <li class="nav-item mb-2 px-2">
-                  <a class="nav-link pt-1" href="projects.html">Projects</a>
+                  <a class="nav-link pt-1 button" href="projects.html">Projects</a>
                 </li>
                 <li class="nav-item mb-2 px-2">
-                  <a class="nav-link pt-1" href="events.html">Events</a>
+                  <a class="nav-link pt-1 button" href="events.html">Events</a>
                 </li>
                 <li class="nav-item mb-2 px-2">
-                  <a class="nav-link pt-1" aria-current="page" href="#">About Us</a>
+                  <a class="nav-link pt-1 button" aria-current="page" href="#">About Us</a>
                 </li>
               </ul>
             </div>
@@ -78,7 +90,7 @@
 <img src="assets/2022-2023/meetup-2-cropped.jpg" title="A weekly meetup at the Sandy Bay Campus" class="img-fluid" alt="Club members in a large room with a big screen at a weekly meetup">
 </picture></p>
 <h3 id="committee"><span>Committee</span><a class="ms-2" href="#committee"><svg class="heading-anchor-icon"><title>Link icon</title></svg></a></h3>
-<p>The Club’s affairs are managed by the Committee.</p>
+<p>The Club's affairs are managed by the Committee.</p>
 <p>If you wish to contact a committee member via Discord, please do it via our server unless they give permission to do so privately. However, we would prefer if sensitive matters were handled via email.</p>
 <p>For the 2025-2026 Club year, the Committee is made up by the following people:</p>
 <h4 id="president"><span>President</span><a class="ms-2" href="#president"><svg class="heading-anchor-icon"><title>Link icon</title></svg></a></h4>
@@ -88,7 +100,7 @@ Elected at the 2025 AGM on 14/10/2025.<br>
 Email: <a href="mailto:president@programmingclub.com.au" class="email">president@programmingclub.com.au</a><br>
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/65/No-Image-Placeholder.svg" height="200" alt="Placeholder image for portrait"></p>
 <h4 id="treasurer"><span>Treasurer</span><a class="ms-2" href="#treasurer"><svg class="heading-anchor-icon"><title>Link icon</title></svg></a></h4>
-<p>The Treasurer is responsible for overseeing the Club’s financial activities, keeping accurate records of funds and assets, and preparing and presenting budgets for new or ongoing projects.<br>
+<p>The Treasurer is responsible for overseeing the Club's financial activities, keeping accurate records of funds and assets, and preparing and presenting budgets for new or ongoing projects.<br>
 <strong>Officeholder</strong>: Lachlan McKay<br>
 Elected at 2024 AGM on 11/10/2024.<br>
 Email: <a href="mailto:treasurer@programmingclub.com.au" class="email">treasurer@programmingclub.com.au</a><br>
@@ -98,7 +110,7 @@ Email: <a href="mailto:treasurer@programmingclub.com.au" class="email">treasurer
 <img src="assets/2024-2025/committee-lachlan.jpg" height="200" alt="Portrait of Lachlan McKay">
 </picture></p>
 <h4 id="secretary"><span>Secretary</span><a class="ms-2" href="#secretary"><svg class="heading-anchor-icon"><title>Link icon</title></svg></a></h4>
-<p>The Secretary ensures meetings are effectively organised and minuted, maintains effective membership records, and documents the Club’s communication and correspondence.<br>
+<p>The Secretary ensures meetings are effectively organised and minuted, maintains effective membership records, and documents the Club's communication and correspondence.<br>
 <strong>Officeholder</strong>: Cameron Munro<br>
 Elected to Education Officer at the 2024 SGM on 18/03/2024 and to Secretary at the 2024 AGM on 11/10/2024.<br>
 Email: <a href="mailto:secretary@programmingclub.com.au" class="email">secretary@programmingclub.com.au</a><br>
@@ -108,7 +120,7 @@ Email: <a href="mailto:secretary@programmingclub.com.au" class="email">secretary
 <img src="assets/2023-2024/committee-cameron.jpg" height="200" alt="Portrait of Cameron Munro">
 </picture></p>
 <h4 id="technical-support-officer"><span>Technical Support Officer</span><a class="ms-2" href="#technical-support-officer"><svg class="heading-anchor-icon"><title>Link icon</title></svg></a></h4>
-<p>The Technical Support Officer runs the Club’s projects and meetups, and help members with programming issues and learning to code.<br>
+<p>The Technical Support Officer runs the Club's projects and meetups, and help members with programming issues and learning to code.<br>
 <strong>Officeholder</strong>: Joshua Wierenga<br>
 Elected to Technical Support Officer at the 2023 AGM on 4/10/2023, to Southern Technical Support Officer at the 2024 AGM on 11/10/2024 and back to Technical Support Officer at the 2025 AGM on 14/10/2025.<br>
 Email: <a href="mailto:tech@programmingclub.com.au" class="email">tech@programmingclub.com.au</a><br>
@@ -124,7 +136,7 @@ Elected as a General Member Officer at the 2024 AGM on 11/10/2024 and to Educati
 Email: <a href="mailto:education@programmingclub.com.au" class="email">education@programmingclub.com.au</a><br>
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/65/No-Image-Placeholder.svg" height="200" alt="Placeholder image for portrait"></p>
 <h4 id="general-member-officers"><span>General Member Officers</span><a class="ms-2" href="#general-member-officers"><svg class="heading-anchor-icon"><title>Link icon</title></svg></a></h4>
-<p>General Members have no specific responsibilies but are required to assist with the Club’s activities whenever necessary.</p>
+<p>General Members have no specific responsibilies but are required to assist with the Club's activities whenever necessary.</p>
 <ul>
 <li>Liam Kearney, elected at the 2026 SGM on 29/03/2026</li>
 </ul>
@@ -132,11 +144,11 @@ Email: <a href="mailto:education@programmingclub.com.au" class="email">education
 <p><span class="list-heading">In addition to the positions listed above, we also have some that are currently unfilled:</span></p>
 <ul>
 <li>Northern Education Officers<br>
-The Northern Education Officer would coördinate the Club’s events with UTAS and act as the primary contact(s) for staff, focusing on northern Tasmania.</li>
+The Northern Education Officer would coördinate the Club's events with UTAS and act as the primary contact(s) for staff, focusing on northern Tasmania.</li>
 <li>Northern and Southern Events Officers<br>
-The Event Officers(s) would plan and help run the Club’s events.</li>
+The Event Officers(s) would plan and help run the Club's events.</li>
 <li>Northern and Southern Marketing Officers<br>
-The Northern Marketing Officer would prepare and distribute advertising material, and try to get members to attend the Club’s events.</li>
+The Northern Marketing Officer would prepare and distribute advertising material, and try to get members to attend the Club's events.</li>
 <li>Three General Member Officers</li>
 </ul>
 <p>Members are encouraged to contact us if they are at all interested in running for these positions as we would love some assistance.</p>
@@ -156,19 +168,19 @@ The Northern Marketing Officer would prepare and distribute advertising material
             <div id="navbar-socials" class="navbar-collapse overflow-hidden d-block pt-3">
               <ul class="navbar-nav nav-justified w-100 mb-2 mb-md-0">
                 <li class="nav-item mb-2 px-2">
-                  <a class="nav-link pt-1" href="https://memberships.programmingclub.com.au">Rubric Memberships</a>
+                  <a class="nav-link pt-1 button" href="https://memberships.programmingclub.com.au">Rubric Memberships</a>
                 </li>
                 <li class="nav-item mb-2 px-2">
-                  <a class="nav-link pt-1" href="https://discord.com/invite/d6RdH2bfJ8">Discord</a>
+                  <a class="nav-link pt-1 button" href="https://discord.com/invite/d6RdH2bfJ8">Discord</a>
                 </li>
                 <li class="nav-item mb-2 px-2">
-                  <a class="nav-link pt-1" href="https://github.com/UTAS-Programming-Club/">Github</a>
+                  <a class="nav-link pt-1 button" href="https://github.com/UTAS-Programming-Club/">Github</a>
                 </li>
                 <li class="nav-item mb-2 px-2">
-                  <a class="nav-link pt-1" href="https://www.instagram.com/programmingclub.tas/">Instagram</a>
+                  <a class="nav-link pt-1 button" href="https://www.instagram.com/programmingclub.tas/">Instagram</a>
                 </li>
                 <li class="nav-item mb-2 px-2">
-                  <a class="nav-link pt-1" href="https://www.facebook.com/ProgrammingClubTas/">Facebook</a>
+                  <a class="nav-link pt-1 button" href="https://www.facebook.com/ProgrammingClubTas/">Facebook</a>
                 </li>
               </ul>
             </div>
@@ -186,6 +198,7 @@ The Northern Marketing Officer would prepare and distribute advertising material
           </a>
         </div>
       </footer>
+      </div>
     </div>
   </div>
 </body>

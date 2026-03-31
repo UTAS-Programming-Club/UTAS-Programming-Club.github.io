@@ -1,0 +1,40 @@
+body {
+  font-family: reset;
+  line-height: normal;
+}
+
+#background {
+  --bs-secondary-bg-subtle: var(--desktop-bg);
+}
+
+#foreground {
+  border-top: initial !important;
+  border-left-color: #0734da !important;
+  border-bottom-color: #00138c !important;
+  border-right-color: #00138c !important;
+  box-shadow: inset -1px -1px 0 #001da0,inset -2px -2px 0 #003ddc,inset 1px 0 0 #166aee,inset 2px 0 0 #0855dd;
+  padding: 3px !important;
+}
+
+.window-body {
+  font-family: var(--bs-body-font-family);
+  line-height: var(--bs-body-line-height);
+}
+
+.nav-link {
+  --bs-body-bg: 000;
+  --bs-tertiary-bg: 000;
+}
+
+.page-link {
+  --bs-btn-color: initial;
+  --bs-pagination-color: initial;
+  --bs-pagination-focus-color: initial;
+  --bs-pagination-hover-color: initial;
+  border-radius: 3px 3px 0px 0px !important;
+  margin-top: 10px !important;
+}
+
+.tabs > div {
+  --bs-border-color: #919b9c;
+}
