@@ -109,6 +109,19 @@ p:has(> .list-heading) {
   height: 500px;
 }
 
+/* events.md */
+@media (prefers-color-scheme: light) {
+  #dark-mode-toggle:checked ~ #background #calendar-frame {
+    filter: invert(100%);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  #dark-mode-toggle:not(:checked) ~ #background #calendar-frame {
+    filter: invert(100%);
+  }
+}
+
 /* projects.md */
 .carousel-indicators button {
   background-color: var(--bs-body-color) !important;
