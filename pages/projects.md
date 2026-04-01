@@ -21,9 +21,9 @@ We started in C for it's near universal adoption on both new and old devices goi
 Once the rewrite is done, we have plans to develop a map editor and possibly make use on other Tassie made projects like [Yarn Spinner](https://www.yarnspinner.dev/) for narrative and progression management since a partial [Haxe port](https://github.com/cxsquared/hxyarn) already exists.
 
 %CAROUSELSTART(Game Example Screens, textAdventureExamples)%
-  %CAROUSELBUTTON(Image 1, textAdventureExamples1, aria-selected="true")%
-  %CAROUSELBUTTON(Image 2, textAdventureExamples2)%
-  %CAROUSELBUTTON(Image 3, textAdventureExamples3)%
+  %CAROUSELBUTTON(Screen 1, textAdventureExamples1, aria-selected="true")%
+  %CAROUSELBUTTON(Screen 2, textAdventureExamples2)%
+  %CAROUSELBUTTON(Screen 3, textAdventureExamples3)%
 %CAROUSELMIDDLE%
   <div role="tabpanel" id="textAdventureExamples1" class="border p-2">
     Untitled text adventure game

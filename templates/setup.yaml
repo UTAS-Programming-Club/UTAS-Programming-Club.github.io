@@ -2,11 +2,7 @@
 title-prefix: Programming Club
 lang: en
 dir: ltr
-css-late: [
-  assets/style.css,
-  assets/winxp/combined.min.css,
-  assets/style-winxp.css
-]
+css-late: assets/style.css
 
 author-meta: Programming Club
 description-meta: Join us for weekly club meet-ups, professional development and networking opportunities, ongoing club projects, a thriving Discord community, and more!
