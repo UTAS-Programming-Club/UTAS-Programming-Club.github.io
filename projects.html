@@ -23,22 +23,20 @@
   <script src="assets/script.js" defer></script>
   <script src="assets/winxp/tabs.js" type="module" defer></script>
   <link rel="stylesheet" href="assets/style.css">
-  <link rel="stylesheet" href="assets/winxp/combined.min.css">
-  <link rel="stylesheet" href="assets/style-winxp.css">
 </head>
 <body>
   <input type="checkbox" id="dark-mode-toggle" hidden>
   <div id="background" class="h-100 overflow-x-hidden bg-secondary-subtle">
-    <div id="foreground" class="mx-auto my-4 pt-2 pb-1 px-3 bg-body border border-secondary window active">
-      <div class="title-bar">
+    <div id="foreground" class="mx-auto my-4 pt-2 pb-1 bg-body border border-secondary window active">
+      <!-- TODO: Add setting to re-enable xp theme <div class="title-bar">
         <div class="title-bar-text">Programming Club</div>
         <div class="title-bar-buttons">
           <button data-minimize=""></button>
           <button data-maximize=""></button>
           <button data-close=""></button>
         </div>
-      </div>
-      <div class="window-body container">
+      </div>-->
+      <div class="px-3 window-body">
       <header>
         <div class="d-flex align-items-center pt-2">
           <img height="64" class="pe-2" src="assets/logo.svg" alt="Programming Club logo">
@@ -96,9 +94,9 @@ Once the rewrite is done, we have plans to develop a map editor and possibly mak
 <a href="#textAdventureExamples" class="button" role="button" data-bs-toggle="collapse" data-bs-target="#textAdventureExamples" aria-expanded="true" aria-controls="textAdventureExamples">Toggle Game Example Screens</a>
 <nav id="textAdventureExamples" class="multi-collapse show slide tabs" aria-label="Game Example Screens">
   <menu class="pagination" role="tablist">
-    <button class="page-link btn-primary" type="button" class="btn" role="tab" aria-controls="textAdventureExamples1" aria-selected="true">Image 1</button>
-    <button class="page-link btn-primary" type="button" class="btn" role="tab" aria-controls="textAdventureExamples2">Image 2</button>
-    <button class="page-link btn-primary" type="button" class="btn" role="tab" aria-controls="textAdventureExamples3">Image 3</button>
+    <button class="page-link btn-primary" type="button" class="btn" role="tab" aria-controls="textAdventureExamples1" aria-selected="true">Screen 1</button>
+    <button class="page-link btn-primary" type="button" class="btn" role="tab" aria-controls="textAdventureExamples2">Screen 2</button>
+    <button class="page-link btn-primary" type="button" class="btn" role="tab" aria-controls="textAdventureExamples3">Screen 3</button>
   </menu>
 <div id="textAdventureExamples1" class="border p-2" role="tabpanel">
 <pre><code>Untitled text adventure game
