@@ -131,7 +131,7 @@ Below are some records from previous general meetings:
 | SGM 18/03/2024 | [Info](assets/meetings/20240318-SGM-Info.pdf)     | [Minutes](assets/meetings/20240318-SGM-Minutes.pdf) | Not available                         |
 | AGM 13/10/2024 | [Agenda](assets/meetings/20241013-AGM-Agenda.pdf) | [Minutes](assets/meetings/20241013-AGM-Minutes.pdf) | [Video](https://youtu.be/neCrnwfPbjY) |
 | AGM 14/10/2025 | [Agenda](assets/meetings/20251014-AGM-Agenda.pdf) | [Minutes](assets/meetings/20251014-AGM-Minutes.pdf) | Should be available soon              |
-| SGM 29/03/2026 | [Agenda](assets/meetings/20260329-SGM-Agenda.pdf) | Should be available soon                            | Should be available soon              |
+| SGM 29/03/2026 | [Agenda](assets/meetings/20260329-SGM-Agenda.pdf) | [Minutes](assets/meetings/20260329-SGM-Minutes.pdf) | Should be available soon              |
 :::
 
 ## Calendar {class="pt-2 pb-4"}
