@@ -37,6 +37,22 @@ addEventListener("DOMContentLoaded", (event) => {
   for (let element of jsOnlyElements) {
     element.hidden = false;
   }
+
+  for (let menu of document.getElementsByClassName("nav-tabs")) {
+    const labels = Array.from(menu.getElementsByTagName("label")).reverse();
+    for (let label of labels) {
+      const input = document.getElementById(label.getAttribute("for"));
+      const div = input.ariaControlsElements[0];
+      const title = label.textContent;
+      const classActive = input.checked ? "active" : "";
+
+      label.remove();
+      input.outerHTML = `<button class="nav-link ${classActive}" id="${label.id}" type="button" role="tab" data-bs-toggle="tab" data-bs-target="#${div.id}" aria-controls="${div.id}">${title}</button>`;
+      if (input.checked) {
+        div.classList.add(classActive);
+      }
+    }
+  }
 });
 
 matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
