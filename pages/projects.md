@@ -21,11 +21,11 @@ We started in C for it's near universal adoption on both new and old devices goi
 Once the rewrite is done, we have plans to develop a map editor and possibly make use on other Tassie made projects like [Yarn Spinner](https://www.yarnspinner.dev/) for narrative and progression management since a partial [Haxe port](https://github.com/cxsquared/hxyarn) already exists.
 
 %CAROUSELSTART(Game Example Screens, textAdventureExamples)%
-  %CAROUSELBUTTON(Screen 1, textAdventureExamples1, aria-selected="true")%
-  %CAROUSELBUTTON(Screen 2, textAdventureExamples2)%
-  %CAROUSELBUTTON(Screen 3, textAdventureExamples3)%
+  %CAROUSELBUTTON(Screen 1, textAdventureExamples, 1, checked)%
+  %CAROUSELBUTTON(Screen 2, textAdventureExamples, 2)%
+  %CAROUSELBUTTON(Screen 3, textAdventureExamples, 3)%
 %CAROUSELMIDDLE%
-  <div role="tabpanel" id="textAdventureExamples1" class="border p-2">
+  <div class="tab-pane fade show" id="textAdventureExamplesDiv1" role="tabpanel" aria-labelledby="textAdventureExamples1" tabindex="0">
     Untitled text adventure game
     ----------------------------
     By the UTAS Programming Club
@@ -37,7 +37,7 @@ Once the rewrite is done, we have plans to develop a map editor and possibly mak
     2. Load Game
     3. Quit Game
   </div>
-  <div role="tabpanel" id="textAdventureExamples2" class="border p-2" hidden>
+  <div class="tab-pane fade show" id="textAdventureExamplesDiv2" role="tabpanel" aria-labelledby="textAdventureExamples2" tabindex="0">
     You find yourself surrounded.
 
     You attacked enemy 2 with your sword.
@@ -69,7 +69,7 @@ Once the rewrite is done, we have plans to develop a map editor and possibly mak
     4. Check Player Stats
     5. Flee
   </div>
-  <div role="tabpanel" id="textAdventureExamples3" class="border p-2" hidden>
+  <div class="tab-pane fade show" id="textAdventureExamplesDiv3" role="tabpanel" aria-labelledby="textAdventureExamples4" tabindex="0">
     Player Equipment
 
     Health:                    ██████████ : 100
@@ -121,13 +121,13 @@ If anyone is interested in these features and would like to help finish support 
 Recently, we used the bot to list scores from our private Advent of Code 2024 leaderboard to make it easy to compare scores with other members.
 
 %CAROUSELSTART(Bot Examples, discordBotExamples)%
-  %CAROUSELBUTTON(Image 1, discordBotExamples1, aria-selected="true")%
-  %CAROUSELBUTTON(Image 2, discordBotExamples2)%
-  %CAROUSELBUTTON(Image 3, discordBotExamples3)%
+  %CAROUSELBUTTON(Image 1, discordBotExamples, 1, checked)%
+  %CAROUSELBUTTON(Image 2, discordBotExamples, 2)%
+  %CAROUSELBUTTON(Image 3, discordBotExamples, 3)%
 %CAROUSELMIDDLE%
-  %CAROUSELIMAGE(Example of minesweeper commmand, discordBotExamples1, 2023-2024/discord-minesweeper)%
-  %CAROUSELIMAGE(Example of hangman commmand, discordBotExamples2, 2023-2024/discord-hangman, hidden)%
-  %CAROUSELIMAGE(Example of advent of code leaderboard commmand, discordBotExamples3, 2024-2025/discord-aoc, hidden)%
+  %CAROUSELIMAGE(Example of minesweeper commmand, discordBotExamples, 1, 2023-2024/discord-minesweeper)%
+  %CAROUSELIMAGE(Example of hangman commmand, discordBotExamples, 2, 2023-2024/discord-hangman)%
+  %CAROUSELIMAGE(Example of advent of code leaderboard commmand, discordBotExamples, 3, 2024-2025/discord-aoc)%
 %CAROUSELEND%
 
 [Links:]{class="list-heading"}
@@ -143,15 +143,15 @@ If there is interest, we plan to get back into playing during the holidays befor
 
 <!-- TODO: Get updated bases picture -->
 %CAROUSELSTART(Minecraft Server Example Pictures, minecraftExamples)%
-  %CAROUSELBUTTON(Image 1, minecraftExamples1, aria-selected="true")%
-  %CAROUSELBUTTON(Image 2, minecraftExamples2)%
-  %CAROUSELBUTTON(Image 3, minecraftExamples3)%
-  %CAROUSELBUTTON(Image 4, minecraftExamples4)%
+  %CAROUSELBUTTON(Image 1, minecraftExamples, 1, checked)%
+  %CAROUSELBUTTON(Image 2, minecraftExamples, 2)%
+  %CAROUSELBUTTON(Image 3, minecraftExamples, 3)%
+  %CAROUSELBUTTON(Image 4, minecraftExamples, 4)%
 %CAROUSELMIDDLE%
-  %CAROUSELIMAGE(Example of Terralith terrain on our Minecraft Server, minecraftExamples1, 2023-2024/minecraft-1)%
-  %CAROUSELIMAGE(Example of player bases on our Minecraft Server, minecraftExamples2, 2023-2024/minecraft-2, hidden)%
-  %CAROUSELIMAGE(Example of development work on our mod for our Minecraft Server, minecraftExamples3, 2023-2024/minecraft-3, hidden)%
-  %CAROUSELIMAGE(Example of modded blocks and player structures on our Minecraft Server, minecraftExamples4, 2024-2025/minecraft-highway, hidden)%
+  %CAROUSELIMAGE(Example of Terralith terrain on our Minecraft Server, minecraftExamples, 1, 2023-2024/minecraft-1)%
+  %CAROUSELIMAGE(Example of player bases on our Minecraft Server, minecraftExamples, 2, 2023-2024/minecraft-2)%
+  %CAROUSELIMAGE(Example of development work on our mod for our Minecraft Server, minecraftExamples, 3, 2023-2024/minecraft-3)%
+  %CAROUSELIMAGE(Example of modded blocks and player structures on our Minecraft Server, minecraftExamples, 4, 2024-2025/minecraft-highway)%
 %CAROUSELEND%
 
 [Links:]{class="list-heading"}
