@@ -49,21 +49,21 @@ body, html {
   --bs-breakpoint-toggle: var(--bs-breakpoint-lg);
 }
 
-.nav-link {
+header .nav-link, aside .nav-link {
   line-height: 1rem;
   padding-bottom: 0.05rem;
   border: .1rem solid var(--bs-body-color);
   box-shadow: 2px 2px rgba(var(--bs-tertiary-color-rgb), 0.25);
+
+  &:hover {
+    color: var(--bs-body-bg) !important;
+    background-color: var(--bs-body-color);
+  }
 }
 
 [aria-current="page"] {
     color: var(--bs-tertiary-bg) !important;
     background-color: var(--bs-tertiary-color);
-}
-
-.nav-link:hover {
-    color: var(--bs-body-bg) !important;
-    background-color: var(--bs-body-color);
 }
 
 .heading-anchor-icon {
@@ -123,19 +123,23 @@ p:has(> .list-heading) {
 }
 
 /* events/projects.md */
-.page-link[aria-selected="true"] {
-  color: var(--bs-btn-color);
-  background-color: var(--bs-btn-bg);
+.nav-tabs label {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
-.page-link:first-child {
-  border-top-left-radius: var(--bs-pagination-border-radius);
-  border-bottom-left-radius: var(--bs-pagination-border-radius);
+.nav-tabs input:checked + label {
+  --bs-btn-active-color: var(--bs-nav-tabs-link-active-color);
+  --bs-btn-active-bg: var(--bs-nav-tabs-link-active-bg);
+  --bs-btn-active-border-color: var(--bs-nav-tabs-link-active-border-color);
+  --bs-nav-tabs-link-hover-border-color: var(--bs-nav-tabs-link-active-border-color);
 }
 
-.page-link:last-child {
-  border-top-right-radius: var(--bs-pagination-border-radius);
-  border-bottom-right-radius: var(--bs-pagination-border-radius);
+nav:has(.nav-tabs input:nth-of-type(1):checked) ~ * div:nth-of-type(1),
+nav:has(.nav-tabs input:nth-of-type(2):checked) ~ * div:nth-of-type(2),
+nav:has(.nav-tabs input:nth-of-type(3):checked) ~ * div:nth-of-type(3),
+nav:has(.nav-tabs input:nth-of-type(4):checked) ~ * div:nth-of-type(4) {
+  display: block;
 }
 
 /* websiteabout.md */

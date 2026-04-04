@@ -19,16 +19,16 @@ Our meetups can also be joined remotely via [Discord Voice Chat](https://discord
 
 %CAROUSELSTART(Meetup Pictures, meetupPictures)%
   <!-- TODO: Add prev button, <button type="button" class="btn" aria-label="Previous"><span aria-hidden="true">&laquo;</span></button>-->
-  %CAROUSELBUTTON(Image 1, meetupPictures1, aria-selected="true")%
-  %CAROUSELBUTTON(Image 2, meetupPictures2)%
-  %CAROUSELBUTTON(Image 3, meetupPictures3)%
-  %CAROUSELBUTTON(Image 4, meetupPictures4)%
+  %CAROUSELBUTTON(Image 1, meetupPictures, 1, checked)%
+  %CAROUSELBUTTON(Image 2, meetupPictures, 2)%
+  %CAROUSELBUTTON(Image 3, meetupPictures, 3)%
+  %CAROUSELBUTTON(Image 4, meetupPictures, 4)%
   <!-- TODO: Add next button, <button type="button" class="btn" aria-label="Next"><span aria-hidden="true">&raquo;</span></button>-->
 %CAROUSELMIDDLE%
-  %CAROUSELIMAGE(2024 Meetup, meetupPictures1, 2023-2024/meetup)%
-  %CAROUSELIMAGE(2023 Meetup, meetupPictures2, 2022-2023/meetup-2, hidden)%
-  %CAROUSELIMAGE(2022 Summer Holiday Meetup, meetupPictures3, 2022-2023/holiday-meetup-1, hidden)%
-  %CAROUSELIMAGE(2021 Meetup, meetupPictures4, 2021-2022/first_meetup, hidden)%
+  %CAROUSELIMAGE(2024 Meetup, meetupPictures, 1, 2023-2024/meetup)%
+  %CAROUSELIMAGE(2023 Meetup, meetupPictures, 2, 2022-2023/meetup-2)%
+  %CAROUSELIMAGE(2022 Summer Holiday Meetup, meetupPictures, 3, 2022-2023/holiday-meetup-1)%
+  %CAROUSELIMAGE(2021 Meetup, meetupPictures, 4, 2021-2022/first_meetup)%
 %CAROUSELEND%
 
 ### Game Jams
@@ -37,15 +37,15 @@ In mid 2025 we ran our own [PCJam25](https://itch.io/jam/utas-pcjam-2025) which 
 Hopefully these will continue for the rest of 2026 and beyond!
 
 %CAROUSELSTART(Game Jam Pictures, gameJamPictures)%
-  %CAROUSELBUTTON(Image 1, gameJamPictures1, aria-selected="true")%
-  %CAROUSELBUTTON(Image 2, gameJamPictures2)%
-  %CAROUSELBUTTON(Image 3, gameJamPictures3)%
-  %CAROUSELBUTTON(Image 4, gameJamPictures4)%
+  %CAROUSELBUTTON(Image 1, gameJamPictures, 1, checked)%
+  %CAROUSELBUTTON(Image 2, gameJamPictures, 2)%
+  %CAROUSELBUTTON(Image 3, gameJamPictures, 3)%
+  %CAROUSELBUTTON(Image 4, gameJamPictures, 4)%
 %CAROUSELMIDDLE%
-  %CAROUSELIMAGE(Some participants talking during PCJam25, gameJamPictures1, 2024-2025/pcjam25-1)%
-  %CAROUSELIMAGE(A participant explaining a planned game mechanic during the 2024 TasJam, gameJamPictures2, 2023-2024/tasjam-2, hidden)%
-  %CAROUSELIMAGE(Some participants of the 2024 TasJam working on their games, gameJamPictures3, 2023-2024/tasjam-1, hidden)%
-  %CAROUSELIMAGE(Some participants of the PCJam25 after the event, gameJamPictures4, 2024-2025/pcjam25-2, hidden)%
+  %CAROUSELIMAGE(Some participants talking during PCJam25, gameJamPictures, 1, 2024-2025/pcjam25-1)%
+  %CAROUSELIMAGE(A participant explaining a planned game mechanic during the 2024 TasJam, gameJamPictures, 2, 2023-2024/tasjam-2)%
+  %CAROUSELIMAGE(Some participants of the 2024 TasJam working on their games, gameJamPictures, 3, 2023-2024/tasjam-1)%
+  %CAROUSELIMAGE(Some participants of the PCJam25 after the event, gameJamPictures, 4, 2024-2025/pcjam25-2)%
 %CAROUSELEND%
 
 ### Collaborative Events with MAPS
@@ -75,13 +75,13 @@ The next state Industry Day will be on the 19th of April, after the 2 day public
 We hope to run another night in 2026 in collaboration with the School of ICT.
 
 %CAROUSELSTART(Industry Night Pictures, industryPictures)%
-  %CAROUSELBUTTON(Image 1, industryPictures1, aria-selected="true")%
-  %CAROUSELBUTTON(Image 2, industryPictures2)%
-  %CAROUSELBUTTON(Image 3, industryPictures3)%
+  %CAROUSELBUTTON(Image 1, industryPictures, 1, checked)%
+  %CAROUSELBUTTON(Image 2, industryPictures, 2)%
+  %CAROUSELBUTTON(Image 3, industryPictures, 3)%
 %CAROUSELMIDDLE%
-  %CAROUSELIMAGE(Close up of presenters at Industry Night 2023, industryPictures1, 2022-2023/industry-night-2)%
-  %CAROUSELIMAGE(Crowd and presenters at Industry Night 2023, industryPictures2, 2022-2023/industry-night-1, hidden)%
-  %CAROUSELIMAGE(Networking and discussions after Industry Night 2023, industryPictures3, 2022-2023/industry-night-4, hidden)%
+  %CAROUSELIMAGE(Close up of presenters at Industry Night 2023, industryPictures, 1, 2022-2023/industry-night-2)%
+  %CAROUSELIMAGE(Crowd and presenters at Industry Night 2023, industryPictures, 2, 2022-2023/industry-night-1)%
+  %CAROUSELIMAGE(Networking and discussions after Industry Night 2023, industryPictures, 3, 2022-2023/industry-night-4)%
 %CAROUSELEND%
 
 ### Movie Nights
@@ -95,15 +95,15 @@ We use these events to talk to students about our events and show off the projec
 We should be at Mini C&S during Semester 2 this year and hopefully future Connect & Collaborate Expos, hope to see you there!
 
 %CAROUSELSTART(C&S Pictures, candsPictures)%
-  %CAROUSELBUTTON(Image 1, candsPictures1, aria-selected="true")%
-  %CAROUSELBUTTON(Image 2, candsPictures2)%
-  %CAROUSELBUTTON(Image 3, candsPictures3)%
-  %CAROUSELBUTTON(Image 4, candsPictures4)%
+  %CAROUSELBUTTON(Image 1, candsPictures, 1, checked)%
+  %CAROUSELBUTTON(Image 2, candsPictures, 2)%
+  %CAROUSELBUTTON(Image 3, candsPictures, 3)%
+  %CAROUSELBUTTON(Image 4, candsPictures, 4)%
 %CAROUSELMIDDLE%
-  %CAROUSELIMAGE(Some committee members at C&S 2025, candsPictures1, 2024-2025/c&s)%
-  %CAROUSELIMAGE(Some committee members at Mini C&S 2024, candsPictures2, 2023-2024/mini-c&s, hidden)%
-  %CAROUSELIMAGE(Some committee members of both PC and MAPS at Open Day 2023, candsPictures3, 2022-2023/open-day, hidden)%
-  %CAROUSELIMAGE(Some committee members at C&S 2023, candsPictures4, 2022-2023/c&s-1-cropped, hidden)%
+  %CAROUSELIMAGE(Some committee members at C&S 2025, candsPictures, 1, 2024-2025/c&s)%
+  %CAROUSELIMAGE(Some committee members at Mini C&S 2024, candsPictures, 2, 2023-2024/mini-c&s)%
+  %CAROUSELIMAGE(Some committee members of both PC and MAPS at Open Day 2023, candsPictures, 3, 2022-2023/open-day)%
+  %CAROUSELIMAGE(Some committee members at C&S 2023, candsPictures, 4, 2022-2023/c&s-1-cropped)%
 %CAROUSELEND%
 
 <!-- TODO: Release 2026 SGM minutes, and 2025 AGM and 2026 SGM videos -->
