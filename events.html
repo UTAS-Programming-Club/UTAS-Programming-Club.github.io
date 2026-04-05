@@ -21,14 +21,14 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous" defer></script>
   <script src="assets/script.js" defer></script>
-  <script src="assets/winxp/tabs.js" type="module" defer></script>
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
   <input type="checkbox" id="dark-mode-toggle" hidden>
   <div id="background" class="h-100 overflow-x-hidden bg-secondary-subtle">
     <div id="foreground" class="mx-auto my-4 pt-2 pb-1 bg-body border border-secondary window active">
-      <!-- TODO: Add setting to re-enable xp theme <div class="title-bar">
+      <!-- TODO: Add setting to re-enable xp theme
+      <div class="title-bar">
         <div class="title-bar-text">Programming Club</div>
         <div class="title-bar-buttons">
           <button data-minimize=""></button>
@@ -89,83 +89,95 @@ We recently ran a Launceston meetup on the 20th of Feburary and hope to have mor
 We will send an annoucement on Discord each week with the room.<br>
 Our meetups can also be joined remotely via <a href="https://discord.com/channels/810048533603680307/816975438332035102">Discord Voice Chat</a>.</p>
 <p><a href="#meetupPictures" class="button" role="button" data-bs-toggle="collapse" data-bs-target="#meetupPictures" aria-expanded="true" aria-controls="meetupPictures">Toggle Meetup Pictures</a>
-<nav id="meetupPictures" class="multi-collapse show slide tabs" aria-label="Meetup Pictures">
-  <menu class="pagination" role="tablist">
-    <button class="page-link btn-primary" type="button" class="btn" role="tab" aria-controls="meetupPictures1" aria-selected="true">Image 1</button>
-    <button class="page-link btn-primary" type="button" class="btn" role="tab" aria-controls="meetupPictures2">Image 2</button>
-    <button class="page-link btn-primary" type="button" class="btn" role="tab" aria-controls="meetupPictures3">Image 3</button>
-    <button class="page-link btn-primary" type="button" class="btn" role="tab" aria-controls="meetupPictures4">Image 4</button>
+<div id="meetupPictures" class="multi-collapse show slide tabs" aria-label="Meetup Pictures">
+  <menu class="nav nav-tabs" role="tablist">
+    <input class="btn-check" id="meetupPicturesTab1" name="meetupPictures" type="radio" role="tab" autocomplete="off" aria-controls="meetupPicturesDiv1" checked>
+    <label class="btn btn-outline-primary nav-link tab" id="meetupPictures1" for="meetupPicturesTab1">Image 1</label>
+    <input class="btn-check" id="meetupPicturesTab2" name="meetupPictures" type="radio" role="tab" autocomplete="off" aria-controls="meetupPicturesDiv2">
+    <label class="btn btn-outline-primary nav-link tab" id="meetupPictures2" for="meetupPicturesTab2">Image 2</label>
+    <input class="btn-check" id="meetupPicturesTab3" name="meetupPictures" type="radio" role="tab" autocomplete="off" aria-controls="meetupPicturesDiv3">
+    <label class="btn btn-outline-primary nav-link tab" id="meetupPictures3" for="meetupPicturesTab3">Image 3</label>
+    <input class="btn-check" id="meetupPicturesTab4" name="meetupPictures" type="radio" role="tab" autocomplete="off" aria-controls="meetupPicturesDiv4">
+    <label class="btn btn-outline-primary nav-link tab" id="meetupPictures4" for="meetupPicturesTab4">Image 4</label>
   </menu>
-  <div role="tabpanel" id="meetupPictures1" class="border p-2">
-    <picture>
-      <source srcset="assets/2023-2024/meetup.avif" type="image/avif">
-      <source srcset="assets/2023-2024/meetup.webp" type="image/webp">
-      <img src="assets/2023-2024/meetup.png" class="d-block img-fluid m-auto w-auto" alt="2024 Meetup">
-    </picture>
+  <div class="tab-content border border-top-0 p-2 raised">
+    <div class="tab-pane fade show" id="meetupPicturesDiv1" role="tabpanel" aria-labelledby="meetupPictures1" tabindex="0">
+      <picture>
+        <source srcset="assets/2023-2024/meetup.avif" type="image/avif">
+        <source srcset="assets/2023-2024/meetup.webp" type="image/webp">
+        <img src="assets/2023-2024/meetup.png" class="d-block img-fluid m-auto w-auto" alt="2024 Meetup">
+      </picture>
+    </div>
+    <div class="tab-pane fade show" id="meetupPicturesDiv2" role="tabpanel" aria-labelledby="meetupPictures2" tabindex="0">
+      <picture>
+        <source srcset="assets/2022-2023/meetup-2.avif" type="image/avif">
+        <source srcset="assets/2022-2023/meetup-2.webp" type="image/webp">
+        <img src="assets/2022-2023/meetup-2.png" class="d-block img-fluid m-auto w-auto" alt="2023 Meetup">
+      </picture>
+    </div>
+    <div class="tab-pane fade show" id="meetupPicturesDiv3" role="tabpanel" aria-labelledby="meetupPictures3" tabindex="0">
+      <picture>
+        <source srcset="assets/2022-2023/holiday-meetup-1.avif" type="image/avif">
+        <source srcset="assets/2022-2023/holiday-meetup-1.webp" type="image/webp">
+        <img src="assets/2022-2023/holiday-meetup-1.png" class="d-block img-fluid m-auto w-auto" alt="2022 Summer Holiday Meetup">
+      </picture>
+    </div>
+    <div class="tab-pane fade show" id="meetupPicturesDiv4" role="tabpanel" aria-labelledby="meetupPictures4" tabindex="0">
+      <picture>
+        <source srcset="assets/2021-2022/first_meetup.avif" type="image/avif">
+        <source srcset="assets/2021-2022/first_meetup.webp" type="image/webp">
+        <img src="assets/2021-2022/first_meetup.png" class="d-block img-fluid m-auto w-auto" alt="2021 Meetup">
+      </picture>
+    </div>
   </div>
-  <div role="tabpanel" id="meetupPictures2" class="border p-2" hidden>
-    <picture>
-      <source srcset="assets/2022-2023/meetup-2.avif" type="image/avif">
-      <source srcset="assets/2022-2023/meetup-2.webp" type="image/webp">
-      <img src="assets/2022-2023/meetup-2.png" class="d-block img-fluid m-auto w-auto" alt="2023 Meetup">
-    </picture>
-  </div>
-  <div role="tabpanel" id="meetupPictures3" class="border p-2" hidden>
-    <picture>
-      <source srcset="assets/2022-2023/holiday-meetup-1.avif" type="image/avif">
-      <source srcset="assets/2022-2023/holiday-meetup-1.webp" type="image/webp">
-      <img src="assets/2022-2023/holiday-meetup-1.png" class="d-block img-fluid m-auto w-auto" alt="2022 Summer Holiday Meetup">
-    </picture>
-  </div>
-  <div role="tabpanel" id="meetupPictures4" class="border p-2" hidden>
-    <picture>
-      <source srcset="assets/2021-2022/first_meetup.avif" type="image/avif">
-      <source srcset="assets/2021-2022/first_meetup.webp" type="image/webp">
-      <img src="assets/2021-2022/first_meetup.png" class="d-block img-fluid m-auto w-auto" alt="2021 Meetup">
-    </picture>
-  </div>
-</nav></p>
+</div></p>
 <h3 id="game-jams"><span>Game Jams</span><a class="ms-2" href="#game-jams"><svg class="heading-anchor-icon"><title>Link icon</title></svg></a></h3>
 <p>We are proud to have sent Club members to various game jam events including the <a href="https://itch.io/jam/utas-jam">UTAS School of ICT Jam</a> in 2022, Tas Game Makers' TasJam in <a href="https://itch.io/jam/tasjam-2024">2024</a> and <a href="https://itch.io/jam/tasjam2025">2025</a>, and Apple Box Studio’s Game Jam Tas(part of the Global Game Jam) in early <a href="https://globalgamejam.org/jam-sites/2025/global-game-jam-tasmania">2025</a> and <a href="https://globalgamejam.org/jam-sites/2026/tasmania-global-game-jam">2026</a>.<br>
 In mid 2025 we ran our own <a href="https://itch.io/jam/utas-pcjam-2025">PCJam25</a> which had some great submissions.<br>
 Hopefully these will continue for the rest of 2026 and beyond!</p>
 <p><a href="#gameJamPictures" class="button" role="button" data-bs-toggle="collapse" data-bs-target="#gameJamPictures" aria-expanded="true" aria-controls="gameJamPictures">Toggle Game Jam Pictures</a>
-<nav id="gameJamPictures" class="multi-collapse show slide tabs" aria-label="Game Jam Pictures">
-  <menu class="pagination" role="tablist">
-    <button class="page-link btn-primary" type="button" class="btn" role="tab" aria-controls="gameJamPictures1" aria-selected="true">Image 1</button>
-    <button class="page-link btn-primary" type="button" class="btn" role="tab" aria-controls="gameJamPictures2">Image 2</button>
-    <button class="page-link btn-primary" type="button" class="btn" role="tab" aria-controls="gameJamPictures3">Image 3</button>
-    <button class="page-link btn-primary" type="button" class="btn" role="tab" aria-controls="gameJamPictures4">Image 4</button>
+<div id="gameJamPictures" class="multi-collapse show slide tabs" aria-label="Game Jam Pictures">
+  <menu class="nav nav-tabs" role="tablist">
+    <input class="btn-check" id="gameJamPicturesTab1" name="gameJamPictures" type="radio" role="tab" autocomplete="off" aria-controls="gameJamPicturesDiv1" checked>
+    <label class="btn btn-outline-primary nav-link tab" id="gameJamPictures1" for="gameJamPicturesTab1">Image 1</label>
+    <input class="btn-check" id="gameJamPicturesTab2" name="gameJamPictures" type="radio" role="tab" autocomplete="off" aria-controls="gameJamPicturesDiv2">
+    <label class="btn btn-outline-primary nav-link tab" id="gameJamPictures2" for="gameJamPicturesTab2">Image 2</label>
+    <input class="btn-check" id="gameJamPicturesTab3" name="gameJamPictures" type="radio" role="tab" autocomplete="off" aria-controls="gameJamPicturesDiv3">
+    <label class="btn btn-outline-primary nav-link tab" id="gameJamPictures3" for="gameJamPicturesTab3">Image 3</label>
+    <input class="btn-check" id="gameJamPicturesTab4" name="gameJamPictures" type="radio" role="tab" autocomplete="off" aria-controls="gameJamPicturesDiv4">
+    <label class="btn btn-outline-primary nav-link tab" id="gameJamPictures4" for="gameJamPicturesTab4">Image 4</label>
   </menu>
-  <div role="tabpanel" id="gameJamPictures1" class="border p-2">
-    <picture>
-      <source srcset="assets/2024-2025/pcjam25-1.avif" type="image/avif">
-      <source srcset="assets/2024-2025/pcjam25-1.webp" type="image/webp">
-      <img src="assets/2024-2025/pcjam25-1.png" class="d-block img-fluid m-auto w-auto" alt="Some participants talking during PCJam25">
-    </picture>
+  <div class="tab-content border border-top-0 p-2 raised">
+    <div class="tab-pane fade show" id="gameJamPicturesDiv1" role="tabpanel" aria-labelledby="gameJamPictures1" tabindex="0">
+      <picture>
+        <source srcset="assets/2024-2025/pcjam25-1.avif" type="image/avif">
+        <source srcset="assets/2024-2025/pcjam25-1.webp" type="image/webp">
+        <img src="assets/2024-2025/pcjam25-1.png" class="d-block img-fluid m-auto w-auto" alt="Some participants talking during PCJam25">
+      </picture>
+    </div>
+    <div class="tab-pane fade show" id="gameJamPicturesDiv2" role="tabpanel" aria-labelledby="gameJamPictures2" tabindex="0">
+      <picture>
+        <source srcset="assets/2023-2024/tasjam-2.avif" type="image/avif">
+        <source srcset="assets/2023-2024/tasjam-2.webp" type="image/webp">
+        <img src="assets/2023-2024/tasjam-2.png" class="d-block img-fluid m-auto w-auto" alt="A participant explaining a planned game mechanic during the 2024 TasJam">
+      </picture>
+    </div>
+    <div class="tab-pane fade show" id="gameJamPicturesDiv3" role="tabpanel" aria-labelledby="gameJamPictures3" tabindex="0">
+      <picture>
+        <source srcset="assets/2023-2024/tasjam-1.avif" type="image/avif">
+        <source srcset="assets/2023-2024/tasjam-1.webp" type="image/webp">
+        <img src="assets/2023-2024/tasjam-1.png" class="d-block img-fluid m-auto w-auto" alt="Some participants of the 2024 TasJam working on their games">
+      </picture>
+    </div>
+    <div class="tab-pane fade show" id="gameJamPicturesDiv4" role="tabpanel" aria-labelledby="gameJamPictures4" tabindex="0">
+      <picture>
+        <source srcset="assets/2024-2025/pcjam25-2.avif" type="image/avif">
+        <source srcset="assets/2024-2025/pcjam25-2.webp" type="image/webp">
+        <img src="assets/2024-2025/pcjam25-2.png" class="d-block img-fluid m-auto w-auto" alt="Some participants of the PCJam25 after the event">
+      </picture>
+    </div>
   </div>
-  <div role="tabpanel" id="gameJamPictures2" class="border p-2" hidden>
-    <picture>
-      <source srcset="assets/2023-2024/tasjam-2.avif" type="image/avif">
-      <source srcset="assets/2023-2024/tasjam-2.webp" type="image/webp">
-      <img src="assets/2023-2024/tasjam-2.png" class="d-block img-fluid m-auto w-auto" alt="A participant explaining a planned game mechanic during the 2024 TasJam">
-    </picture>
-  </div>
-  <div role="tabpanel" id="gameJamPictures3" class="border p-2" hidden>
-    <picture>
-      <source srcset="assets/2023-2024/tasjam-1.avif" type="image/avif">
-      <source srcset="assets/2023-2024/tasjam-1.webp" type="image/webp">
-      <img src="assets/2023-2024/tasjam-1.png" class="d-block img-fluid m-auto w-auto" alt="Some participants of the 2024 TasJam working on their games">
-    </picture>
-  </div>
-  <div role="tabpanel" id="gameJamPictures4" class="border p-2" hidden>
-    <picture>
-      <source srcset="assets/2024-2025/pcjam25-2.avif" type="image/avif">
-      <source srcset="assets/2024-2025/pcjam25-2.webp" type="image/webp">
-      <img src="assets/2024-2025/pcjam25-2.png" class="d-block img-fluid m-auto w-auto" alt="Some participants of the PCJam25 after the event">
-    </picture>
-  </div>
-</nav></p>
+</div></p>
 <h3 id="collaborative-events-with-maps"><span>Collaborative Events with MAPS</span><a class="ms-2" href="#collaborative-events-with-maps"><svg class="heading-anchor-icon"><title>Link icon</title></svg></a></h3>
 <p>We have run combined games and movie nights with the Maths and Physics Society since 2023.<br>
 We hope to keep these collaborations going in 2026 but nothing is currently planned. Entry to these events is free for members of either club.</p>
@@ -184,34 +196,39 @@ While not arranged by us, there was also the 2024 Industry Day session as part o
 The next state Industry Day will be on the 19th of April, after the 2 day public games showcase, see Screen Tasmania's <a href="https://www.screen.tas.gov.au/leveluptasmania">website</a> for more details.</p>
 <p>We hope to run another night in 2026 in collaboration with the School of ICT.</p>
 <p><a href="#industryPictures" class="button" role="button" data-bs-toggle="collapse" data-bs-target="#industryPictures" aria-expanded="true" aria-controls="industryPictures">Toggle Industry Night Pictures</a>
-<nav id="industryPictures" class="multi-collapse show slide tabs" aria-label="Industry Night Pictures">
-  <menu class="pagination" role="tablist">
-    <button class="page-link btn-primary" type="button" class="btn" role="tab" aria-controls="industryPictures1" aria-selected="true">Image 1</button>
-    <button class="page-link btn-primary" type="button" class="btn" role="tab" aria-controls="industryPictures2">Image 2</button>
-    <button class="page-link btn-primary" type="button" class="btn" role="tab" aria-controls="industryPictures3">Image 3</button>
+<div id="industryPictures" class="multi-collapse show slide tabs" aria-label="Industry Night Pictures">
+  <menu class="nav nav-tabs" role="tablist">
+    <input class="btn-check" id="industryPicturesTab1" name="industryPictures" type="radio" role="tab" autocomplete="off" aria-controls="industryPicturesDiv1" checked>
+    <label class="btn btn-outline-primary nav-link tab" id="industryPictures1" for="industryPicturesTab1">Image 1</label>
+    <input class="btn-check" id="industryPicturesTab2" name="industryPictures" type="radio" role="tab" autocomplete="off" aria-controls="industryPicturesDiv2">
+    <label class="btn btn-outline-primary nav-link tab" id="industryPictures2" for="industryPicturesTab2">Image 2</label>
+    <input class="btn-check" id="industryPicturesTab3" name="industryPictures" type="radio" role="tab" autocomplete="off" aria-controls="industryPicturesDiv3">
+    <label class="btn btn-outline-primary nav-link tab" id="industryPictures3" for="industryPicturesTab3">Image 3</label>
   </menu>
-  <div role="tabpanel" id="industryPictures1" class="border p-2">
-    <picture>
-      <source srcset="assets/2022-2023/industry-night-2.avif" type="image/avif">
-      <source srcset="assets/2022-2023/industry-night-2.webp" type="image/webp">
-      <img src="assets/2022-2023/industry-night-2.png" class="d-block img-fluid m-auto w-auto" alt="Close up of presenters at Industry Night 2023">
-    </picture>
+  <div class="tab-content border border-top-0 p-2 raised">
+    <div class="tab-pane fade show" id="industryPicturesDiv1" role="tabpanel" aria-labelledby="industryPictures1" tabindex="0">
+      <picture>
+        <source srcset="assets/2022-2023/industry-night-2.avif" type="image/avif">
+        <source srcset="assets/2022-2023/industry-night-2.webp" type="image/webp">
+        <img src="assets/2022-2023/industry-night-2.png" class="d-block img-fluid m-auto w-auto" alt="Close up of presenters at Industry Night 2023">
+      </picture>
+    </div>
+    <div class="tab-pane fade show" id="industryPicturesDiv2" role="tabpanel" aria-labelledby="industryPictures2" tabindex="0">
+      <picture>
+        <source srcset="assets/2022-2023/industry-night-1.avif" type="image/avif">
+        <source srcset="assets/2022-2023/industry-night-1.webp" type="image/webp">
+        <img src="assets/2022-2023/industry-night-1.png" class="d-block img-fluid m-auto w-auto" alt="Crowd and presenters at Industry Night 2023">
+      </picture>
+    </div>
+    <div class="tab-pane fade show" id="industryPicturesDiv3" role="tabpanel" aria-labelledby="industryPictures3" tabindex="0">
+      <picture>
+        <source srcset="assets/2022-2023/industry-night-4.avif" type="image/avif">
+        <source srcset="assets/2022-2023/industry-night-4.webp" type="image/webp">
+        <img src="assets/2022-2023/industry-night-4.png" class="d-block img-fluid m-auto w-auto" alt="Networking and discussions after Industry Night 2023">
+      </picture>
+    </div>
   </div>
-  <div role="tabpanel" id="industryPictures2" class="border p-2" hidden>
-    <picture>
-      <source srcset="assets/2022-2023/industry-night-1.avif" type="image/avif">
-      <source srcset="assets/2022-2023/industry-night-1.webp" type="image/webp">
-      <img src="assets/2022-2023/industry-night-1.png" class="d-block img-fluid m-auto w-auto" alt="Crowd and presenters at Industry Night 2023">
-    </picture>
-  </div>
-  <div role="tabpanel" id="industryPictures3" class="border p-2" hidden>
-    <picture>
-      <source srcset="assets/2022-2023/industry-night-4.avif" type="image/avif">
-      <source srcset="assets/2022-2023/industry-night-4.webp" type="image/webp">
-      <img src="assets/2022-2023/industry-night-4.png" class="d-block img-fluid m-auto w-auto" alt="Networking and discussions after Industry Night 2023">
-    </picture>
-  </div>
-</nav></p>
+</div></p>
 <h3 id="movie-nights"><span>Movie Nights</span><a class="ms-2" href="#movie-nights"><svg class="heading-anchor-icon"><title>Link icon</title></svg></a></h3>
 <p>In 2024, the Programming Club hosted a movie night after our AGM where we watched The Terminator.<br>
 In 2025 we did the same with the original Ghostbusters and in future we plan to host multiple throughout the year.<br>
@@ -221,42 +238,48 @@ Attendance will be free for members and we will have free pizza, soft drinks and
 We use these events to talk to students about our events and show off the projects that members have worked on in years prior.<br>
 We should be at Mini C&amp;S during Semester 2 this year and hopefully future Connect &amp; Collaborate Expos, hope to see you there!</p>
 <p><a href="#candsPictures" class="button" role="button" data-bs-toggle="collapse" data-bs-target="#candsPictures" aria-expanded="true" aria-controls="candsPictures">Toggle C&amp;S Pictures</a>
-<nav id="candsPictures" class="multi-collapse show slide tabs" aria-label="C&amp;S Pictures">
-  <menu class="pagination" role="tablist">
-    <button class="page-link btn-primary" type="button" class="btn" role="tab" aria-controls="candsPictures1" aria-selected="true">Image 1</button>
-    <button class="page-link btn-primary" type="button" class="btn" role="tab" aria-controls="candsPictures2">Image 2</button>
-    <button class="page-link btn-primary" type="button" class="btn" role="tab" aria-controls="candsPictures3">Image 3</button>
-    <button class="page-link btn-primary" type="button" class="btn" role="tab" aria-controls="candsPictures4">Image 4</button>
+<div id="candsPictures" class="multi-collapse show slide tabs" aria-label="C&amp;S Pictures">
+  <menu class="nav nav-tabs" role="tablist">
+    <input class="btn-check" id="candsPicturesTab1" name="candsPictures" type="radio" role="tab" autocomplete="off" aria-controls="candsPicturesDiv1" checked>
+    <label class="btn btn-outline-primary nav-link tab" id="candsPictures1" for="candsPicturesTab1">Image 1</label>
+    <input class="btn-check" id="candsPicturesTab2" name="candsPictures" type="radio" role="tab" autocomplete="off" aria-controls="candsPicturesDiv2">
+    <label class="btn btn-outline-primary nav-link tab" id="candsPictures2" for="candsPicturesTab2">Image 2</label>
+    <input class="btn-check" id="candsPicturesTab3" name="candsPictures" type="radio" role="tab" autocomplete="off" aria-controls="candsPicturesDiv3">
+    <label class="btn btn-outline-primary nav-link tab" id="candsPictures3" for="candsPicturesTab3">Image 3</label>
+    <input class="btn-check" id="candsPicturesTab4" name="candsPictures" type="radio" role="tab" autocomplete="off" aria-controls="candsPicturesDiv4">
+    <label class="btn btn-outline-primary nav-link tab" id="candsPictures4" for="candsPicturesTab4">Image 4</label>
   </menu>
-  <div role="tabpanel" id="candsPictures1" class="border p-2">
-    <picture>
-      <source srcset="assets/2024-2025/c&amp;s.avif" type="image/avif">
-      <source srcset="assets/2024-2025/c&amp;s.webp" type="image/webp">
-      <img src="assets/2024-2025/c&amp;s.png" class="d-block img-fluid m-auto w-auto" alt="Some committee members at C&amp;S 2025">
-    </picture>
+  <div class="tab-content border border-top-0 p-2 raised">
+    <div class="tab-pane fade show" id="candsPicturesDiv1" role="tabpanel" aria-labelledby="candsPictures1" tabindex="0">
+      <picture>
+        <source srcset="assets/2024-2025/c&amp;s.avif" type="image/avif">
+        <source srcset="assets/2024-2025/c&amp;s.webp" type="image/webp">
+        <img src="assets/2024-2025/c&amp;s.png" class="d-block img-fluid m-auto w-auto" alt="Some committee members at C&amp;S 2025">
+      </picture>
+    </div>
+    <div class="tab-pane fade show" id="candsPicturesDiv2" role="tabpanel" aria-labelledby="candsPictures2" tabindex="0">
+      <picture>
+        <source srcset="assets/2023-2024/mini-c&amp;s.avif" type="image/avif">
+        <source srcset="assets/2023-2024/mini-c&amp;s.webp" type="image/webp">
+        <img src="assets/2023-2024/mini-c&amp;s.png" class="d-block img-fluid m-auto w-auto" alt="Some committee members at Mini C&amp;S 2024">
+      </picture>
+    </div>
+    <div class="tab-pane fade show" id="candsPicturesDiv3" role="tabpanel" aria-labelledby="candsPictures3" tabindex="0">
+      <picture>
+        <source srcset="assets/2022-2023/open-day.avif" type="image/avif">
+        <source srcset="assets/2022-2023/open-day.webp" type="image/webp">
+        <img src="assets/2022-2023/open-day.png" class="d-block img-fluid m-auto w-auto" alt="Some committee members of both PC and MAPS at Open Day 2023">
+      </picture>
+    </div>
+    <div class="tab-pane fade show" id="candsPicturesDiv4" role="tabpanel" aria-labelledby="candsPictures4" tabindex="0">
+      <picture>
+        <source srcset="assets/2022-2023/c&amp;s-1-cropped.avif" type="image/avif">
+        <source srcset="assets/2022-2023/c&amp;s-1-cropped.webp" type="image/webp">
+        <img src="assets/2022-2023/c&amp;s-1-cropped.png" class="d-block img-fluid m-auto w-auto" alt="Some committee members at C&amp;S 2023">
+      </picture>
+    </div>
   </div>
-  <div role="tabpanel" id="candsPictures2" class="border p-2" hidden>
-    <picture>
-      <source srcset="assets/2023-2024/mini-c&amp;s.avif" type="image/avif">
-      <source srcset="assets/2023-2024/mini-c&amp;s.webp" type="image/webp">
-      <img src="assets/2023-2024/mini-c&amp;s.png" class="d-block img-fluid m-auto w-auto" alt="Some committee members at Mini C&amp;S 2024">
-    </picture>
-  </div>
-  <div role="tabpanel" id="candsPictures3" class="border p-2" hidden>
-    <picture>
-      <source srcset="assets/2022-2023/open-day.avif" type="image/avif">
-      <source srcset="assets/2022-2023/open-day.webp" type="image/webp">
-      <img src="assets/2022-2023/open-day.png" class="d-block img-fluid m-auto w-auto" alt="Some committee members of both PC and MAPS at Open Day 2023">
-    </picture>
-  </div>
-  <div role="tabpanel" id="candsPictures4" class="border p-2" hidden>
-    <picture>
-      <source srcset="assets/2022-2023/c&amp;s-1-cropped.avif" type="image/avif">
-      <source srcset="assets/2022-2023/c&amp;s-1-cropped.webp" type="image/webp">
-      <img src="assets/2022-2023/c&amp;s-1-cropped.png" class="d-block img-fluid m-auto w-auto" alt="Some committee members at C&amp;S 2023">
-    </picture>
-  </div>
-</nav></p>
+</div></p>
 <h3 id="general-meetings"><span>General Meetings</span><a class="ms-2" href="#general-meetings"><svg class="heading-anchor-icon"><title>Link icon</title></svg></a></h3>
 <p>Our general meetings are held to discuss broader club matters such as significant club decisions and the election of officers.
 There are two types of general meeting: our annual general meeting which has run every year since 2021;

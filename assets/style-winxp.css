@@ -12,7 +12,7 @@ body {
   border-left-color: #0734da !important;
   border-bottom-color: #00138c !important;
   border-right-color: #00138c !important;
-  box-shadow: inset -1px -1px 0 #001da0,inset -2px -2px 0 #003ddc,inset 1px 0 0 #166aee,inset 2px 0 0 #0855dd;
+  box-shadow: inset -1px -1px 0 #001da0, inset -2px -2px 0 #003ddc, inset 1px 0 0 #166aee,inset 2px 0 0 #0855dd;
   padding: 3px !important;
 }
 
@@ -21,20 +21,35 @@ body {
   line-height: var(--bs-body-line-height);
 }
 
+/* TODO: Highlight [aria-current="page"] */
 .nav-link {
-  --bs-body-bg: 000;
-  --bs-tertiary-bg: 000;
+  --bs-body-bg: initial;
+  --bs-nav-link-color: initial;
+  --bs-tertiary-bg: initial;
 }
 
-.page-link {
-  --bs-btn-color: initial;
-  --bs-pagination-color: initial;
-  --bs-pagination-focus-color: initial;
-  --bs-pagination-hover-color: initial;
-  border-radius: 3px 3px 0px 0px !important;
-  margin-top: 10px !important;
+header .nav-link, aside .nav-link {
+  border: 1px solid #003c74 !important;
+  box-shadow: -1px -1px 0 #e2ded4, 1px 1px 0 #fbfaf8, inset -1px -2px 1px #d6d0c5 !important;
 }
 
-.tabs > div {
-  --bs-border-color: #919b9c;
+.button {
+  padding-bottom: 3px !important;
+}
+
+.tabs {
+  margin-top: 20px;
+}
+
+.nav-tabs .nav-link {
+  --bs-nav-link-hover-color: initial;
+  --bs-nav-tabs-border-radius: 3px;
+  --bs-nav-tabs-link-active-border-color: #e68b2c #919b9c #fff;
+  border-color: #91a7b4;
+}
+
+/* TODO: Figure out why margin-top is needed to hide border under buttons and even then it's gap between text is 4 px higher than the example and then is a 1 px border miscolour on the left side when tab one is selected */
+.tab-content {
+  border: 1px solid #919b9c !important;
+  margin-top: -1px;
 }
