@@ -1,4 +1,4 @@
-  <input type="checkbox" id="dark-mode-toggle" hidden>
+  <input type="checkbox" id="dark-mode-toggle" autocomplete="off" hidden>
   <div id="background" class="h-100 overflow-x-hidden bg-secondary-subtle">
     <div id="foreground" class="mx-auto my-4 pt-2 pb-1 bg-body border border-secondary window active">
       <!-- TODO: Add setting to re-enable xp theme
@@ -15,7 +15,7 @@
         <div class="d-flex align-items-center pt-2">
           <img height="64" class="pe-2" src="assets/logo.svg" alt="Programming Club logo">
           <h1 class="me-auto">Programming Club</h1>
-          <label for="dark-mode-toggle" class="btn btn-link mb-2 d-none d-sm-block" tabindex="0" onclick="ToggleDarkMode()" onkeydown="ToggleDarkMode()">
+          <label for="dark-mode-toggle" class="btn btn-link mb-2 d-none d-sm-block" tabindex="0" onclick="ToggleDarkModeClick()" onkeydown="ToggleDarkModeKeyDown(event)">
             <svg class="bi bg-warning light-mode-icon"><title>Sun icon</title></svg>
             <svg class="bi bg-white dark-mode-icon"><title>Moon icon</title></svg>
           </label>
@@ -27,7 +27,7 @@
             <label for="navbar-pages-toggle" class="navbar-toggler mt-2" tabindex="0" aria-haspopup="true" aria-controls="navbar-pages" aria-expanded="false" aria-label="Toggle header navigation with pages">
               <span class="navbar-toggler-icon"></span>
             </label>
-            <label for="dark-mode-toggle" class="btn btn-link mt-2 d-block d-sm-none" tabindex="0" onclick="ToggleDarkMode()" onkeydown="ToggleDarkMode()">
+            <label for="dark-mode-toggle" class="btn btn-link mt-2 d-block d-sm-none" tabindex="0" onclick="ToggleDarkModeClick()" onkeydown="ToggleDarkModeKeyDown(event)">
               <svg class="bi text-bg-warning light-mode-icon"><title>Sun icon</title></svg>
               <svg class="bi bg-white dark-mode-icon"><title>Moon icon</title></svg>
             </label>
