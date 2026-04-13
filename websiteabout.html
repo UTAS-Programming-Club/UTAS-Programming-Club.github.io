@@ -24,7 +24,7 @@
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-  <input type="checkbox" id="dark-mode-toggle" hidden>
+  <input type="checkbox" id="dark-mode-toggle" autocomplete="off" hidden>
   <div id="background" class="h-100 overflow-x-hidden bg-secondary-subtle">
     <div id="foreground" class="mx-auto my-4 pt-2 pb-1 bg-body border border-secondary window active">
       <!-- TODO: Add setting to re-enable xp theme
@@ -41,7 +41,7 @@
         <div class="d-flex align-items-center pt-2">
           <img height="64" class="pe-2" src="assets/logo.svg" alt="Programming Club logo">
           <h1 class="me-auto">Programming Club</h1>
-          <label for="dark-mode-toggle" class="btn btn-link mb-2 d-none d-sm-block" tabindex="0" onclick="ToggleDarkMode()" onkeydown="ToggleDarkMode()">
+          <label for="dark-mode-toggle" class="btn btn-link mb-2 d-none d-sm-block" tabindex="0" onclick="ToggleDarkModeClick()" onkeydown="ToggleDarkModeKeyDown(event)">
             <svg class="bi bg-warning light-mode-icon"><title>Sun icon</title></svg>
             <svg class="bi bg-white dark-mode-icon"><title>Moon icon</title></svg>
           </label>
@@ -52,7 +52,7 @@
             <label for="navbar-pages-toggle" class="navbar-toggler mt-2" tabindex="0" aria-haspopup="true" aria-controls="navbar-pages" aria-expanded="false" aria-label="Toggle header navigation with pages">
               <span class="navbar-toggler-icon"></span>
             </label>
-            <label for="dark-mode-toggle" class="btn btn-link mt-2 d-block d-sm-none" tabindex="0" onclick="ToggleDarkMode()" onkeydown="ToggleDarkMode()">
+            <label for="dark-mode-toggle" class="btn btn-link mt-2 d-block d-sm-none" tabindex="0" onclick="ToggleDarkModeClick()" onkeydown="ToggleDarkModeKeyDown(event)">
               <svg class="bi text-bg-warning light-mode-icon"><title>Sun icon</title></svg>
               <svg class="bi bg-white dark-mode-icon"><title>Moon icon</title></svg>
             </label>
@@ -97,10 +97,10 @@ Using <a href="https://commons.wikimedia.org/wiki/File:No-Image-Placeholder.svg"
 <li>ImageMagick version: 7.1.2-18
 <li>Bootstrap version: v5.3.3</li>
 <li>Bootstrap Icons version: v1.13.3
-<li>Last built: 2026-04-05T17:38:56+10:00</li>
-<li>Git commit: <a href="https://github.com/UTAS-Programming-Club/UTAS-Programming-Club.github.io/commit/d7c3bf73e1df3b3889cb0983187bf795bb52373b">d7c3bf73e1df3b3889cb0983187bf795bb52373b</a></li>
+<li>Last built: 2026-04-13T18:13:22+10:00</li>
+<li>Git commit: <a href="https://github.com/UTAS-Programming-Club/UTAS-Programming-Club.github.io/commit/f3534dfa9c1883f5ec45dc9933db5be3d7f755b6">f3534dfa9c1883f5ec45dc9933db5be3d7f755b6</a></li>
 <li>Git commit author(s): Joshua Wierenga (joshuagit@joshuawierenga.tech)
-<li>Git commit time: 2026-04-05T16:51:47+10:00</li>
+<li>Git commit time: 2026-04-13T18:11:12+10:00</li>
 <li>Git commit branch: <a href="https://github.com/UTAS-Programming-Club/UTAS-Programming-Club.github.io/tree/main">main</a></li>
 </ul>
 <p><span class="js-only" hidden="hidden">None: Using a js based dark mode system with full persistance between pages and browser level support. Try without js to see the differences!</span>
