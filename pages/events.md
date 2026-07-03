@@ -13,9 +13,10 @@ Here are some examples from the last few years that we hope to continue in 2026:
 Every week during semester we run a meetup at the Sandy Bay campus as well as online on Discord where members can chill out after a busy week, discuss goings-on and work together of various club and personal projects. Snacks included!
 We recently ran a Launceston meetup on the 20th of Feburary and hope to have more in the future, please let us know if you would like to attend or even help out with that!
 
+<!-- TODO: Find a way to invite to the server, focus on Events vc but not auto join -->
 In 2026, our meetups run from 1 PM to 3:30 PM on Thursdays and currently move between [Centenary 355](https://maps.utas.edu.au/d/poi/1000554342) and [Engineering 217](https://maps.utas.edu.au/d/poi/1000552975).
 We will send an annoucement on Discord each week with the room.\
-Our meetups can also be joined remotely via [Discord Voice Chat](https://discord.com/channels/810048533603680307/816975438332035102).
+Our meetups can also be joined remotely via [Discord Voice Chat](https://discord.gg/TcbPnJVv5J).
 
 %CAROUSELSTART(Meetup Pictures, meetupPictures)%
   <!-- TODO: Add prev button, <button type="button" class="btn" aria-label="Previous"><span aria-hidden="true">&laquo;</span></button>-->

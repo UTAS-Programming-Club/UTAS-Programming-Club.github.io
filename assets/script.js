@@ -76,7 +76,6 @@ addEventListener('popstate', (event) => {
   UpdateDarkModeState(newDarkState);
 });
 
-
 function ToggleDarkModeClick() {
   const newDarkState = GetDarkState() !== true;
   UpdateDarkModeState(newDarkState);
