@@ -6,7 +6,7 @@
 #let wrap_meeting_date = true // Change to false if meeting is before 9 am
 #let meeting_type = "Committee" // "Annual/Special General"
 #let general_meeting = false
-#let location = "on Discord (Online)" // "in Centenary 140"
+#let location = "on Discord (Online)" // "in Centenary 355"
 
 // Only used for committee meetings
 #let second_last_cm_officer_count = 0
@@ -18,7 +18,7 @@
 
 
 // Import minutes layout
-#import "/2025-2026/Templates/Structure-20260322.typ": *
+#import "/2025-2026/Templates/Structure-20260715.typ": *
 #show: it => minutes(meeting_date, wrap_meeting_date, meeting_type, location, it)
 
 
@@ -31,13 +31,12 @@
 #let current_voting_member_count = 0 // Only used for general meetings
 
 // TODO: Move as required, remove optional_attendance variable(s) if attending
+#amari_full\
 #cameron_full\
 #joshua_full\
 #lachlan_full\
-#luke_full\
-#amari_full\
-#rifat_full\
-#taylor_full #optional_attendance
+#liam_full #optional_attendance\
+#luke_full
 
 == Apologies
 Nil.
@@ -57,9 +56,9 @@ Nil.
 
 = Minutes and Matters Arising
 
-== Amendments for Last #simple_meeting_type(meeting_type) Meeting
+== Amendments for last #simple_meeting_type(meeting_type) Meeting Minutes
 /* TODO: Use this motion if any amendments in minutes
-#motion[that the listed amendments were made in discussion with other committee members and in fact reflect the decisions made during the #get_formatted_date(last_meeting_date) #meeting_type Meeting]*/
+#motion[that the listed amendments were made in discussion with other committee members and in fact reflect the decisions made during the #get_formatted_date(last_meeting_date) #simple_meeting_type(meeting_type) Meeting]*/
 Nil.
 
 == Minutes
